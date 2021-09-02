@@ -29,3 +29,10 @@ collections:
       file: "content/recommendations.md"
       fields:
         - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Recommendations'
+          name: "recommendations"
+          widget: list
+          fields:
+            - { label: "From", name: "from", widget: "text"}
+            - { label: "Quote", name: "quote", widget: "text"}
+            - { label: "Client", name: "client", widget: "string"}

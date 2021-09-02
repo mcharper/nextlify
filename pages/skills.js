@@ -4,7 +4,7 @@ import { attributes, react as SkillsContent } from '../content/skills.md';
 
 export default class Skills extends Component {
   render() {
-    let { title, coreSkills, relatedSkills, softSkills  } = attributes;
+    let { title, coreSkills, relatedSkills } = attributes;
     return (
       <>
         <Head>
