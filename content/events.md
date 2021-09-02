@@ -3,7 +3,7 @@ title: Events
 date: 2021-09-02T16:16:48.761Z
 events:
   - description: catfest
-    location: Leeds
+    location: Manchester
     cost: $300
     eventType: Pageant
   - description: catstock
