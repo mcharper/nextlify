@@ -12,28 +12,8 @@ collections:
       file: "content/home.md"
       fields:
         - { label: "Title", name: "title", widget: "string"}
-        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Availability Date", name: "availabilityDate", widget: "date" }
         - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Cats'
-          name: "cats"
-          widget: list
-          fields:
-            - { label: "Name", name: "name", widget: "string"}
-            - { label: "Description", name: "description", widget: "text"}
-    - label: "Events"
-      name: "events"
-      file: "content/events.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Events'
-          name: "events"
-          widget: list
-          fields:
-            - { label: "Description", name: "description", widget: "text"}
-            - { label: "Location", name: "location", widget: "select", options: ["Leeds", "Bradford", "Manchester"]  }
-            - { label: "Cost", name: "cost", widget: "text"}
     - label: "Skills"
       name: "skills"
       file: "content/skills.md"
@@ -45,5 +25,3 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "text"}
             - { label: "Description", name: "description", widget: "text"}
-
-        

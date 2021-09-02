@@ -4,7 +4,7 @@ import { attributes, react as HomeContent } from '../content/home.md';
 
 export default class Home extends Component {
   render() {
-    let { title, cats } = attributes;
+    let { title, availabilityDate } = attributes;
     return (
       <>
         <Head>
@@ -12,20 +12,10 @@ export default class Home extends Component {
         </Head>
         <article>
           <h1>{title}</h1>
+
+          <p>Available: {new Date(availabilityDate).toLocaleDateString()}</p>
+
           <HomeContent />
-
-          <a href="/events">See upcoming events</a>
-
-          <ul>
-            {cats.map((cat, k) => (
-              <li key={k}>
-                <h2>{cat.name}</h2>
-                <p>{cat.description}</p>
-                {/* <img src={`img/cat${cat.habitat}.jpg`} width="200px" /> */}
-                <p>{cat.name} hangs out mainly in the {cat.habitat}</p>
-              </li>
-            ))}
-          </ul>
         </article>
       </>
     )
