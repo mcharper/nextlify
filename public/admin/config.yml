@@ -32,5 +32,5 @@ collections:
           widget: list
           fields:
             - { label: "Description", name: "description", widget: "text"}
-            - { label: "Location", name: "location", widget: "text"}
+            - { label: "Location", name: "location", widget: "map" }
             - { label: "Cost", name: "cost", widget: "text"}
