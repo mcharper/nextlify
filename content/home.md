@@ -14,6 +14,13 @@ cats:
   - name: Jim
     description: Manx cat
     habitat: shed
+events:
+  - description: catfest
+    location: New Orleans
+    cost: $300
+  - description: catstock
+    location: Catskills
+    cost: $0 
 ---
 Welcome to my awesome page about cats of the internet.
 
