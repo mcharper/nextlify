@@ -33,15 +33,4 @@ collections:
           fields:
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Location", name: "location", widget: "select", options: ["Leeds", "Bradford", "Manchester"]  }
-            - { label: "Event Type", name: "eventType", widget: "relation", collection: "eventTypes", search_fields: ["name"], value_field: ["name"], display_fields: ["name", "category"]  }
             - { label: "Cost", name: "cost", widget: "text"}
-  - name: "eventTypes"
-    label: "Event Types"
-    files:
-    - label: "Event Type List"
-      name: "eventTypes"
-      file: "content/eventTypes.md"
-      fields:
-        - { label: "Name", name: "name", widget: "string"}
-        - { label: "Category", name: "category", widget: "string" }
-
