@@ -7,10 +7,10 @@ cats:
     habitat: kitchen
   - description: Lil Bub is an American celebrity cat known for her unique appearance.
     name: Lil Bub
-    habitat: lounge
+    habitat: kitchen
   - description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
     name: Grumpy cat (Tardar Sauce)
-    habitat: garden
+    habitat: caravan
   - name: Jim
     description: Manx cat
     habitat: shed
