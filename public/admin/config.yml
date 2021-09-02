@@ -24,6 +24,19 @@ collections:
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "text"}
+    - label: "CV"
+      name: "cv"
+      file: "content/cv.md"
+      fields:
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Assignments'
+          name: "assignments"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "text"}
+            - { label: "Organisation", name: "organisation", widget: "text"}
+            - { label: "Start", name: "start", widget: "date"}
+            - { label: "End", name: "end", widget: "date"}
     - label: "Recommendations"
       name: "recommendations"
       file: "content/recommendations.md"
