@@ -20,3 +20,17 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "string"}
             - { label: "Description", name: "description", widget: "text"}
+    - label: "Events"
+      name: "events"
+      file: "content/events.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Events'
+          name: "events"
+          widget: list
+          fields:
+            - { label: "Description", name: "description", widget: "text"}
+            - { label: "Location", name: "location", widget: "text"}
+            - { label: "Cost", name: "cost", widget: "text"}
