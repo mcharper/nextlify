@@ -19,6 +19,7 @@ export default class Home extends Component {
                 <h2>{event.description}</h2>
                 <p>Where: {event.location}</p>
                 <p>Cost: {event.cost}</p>
+                <p>Event type: {event.eventType}</p>
               </li>
             ))}
           </ul>
