@@ -34,3 +34,16 @@ collections:
             - { label: "Description", name: "description", widget: "text"}
             - { label: "Location", name: "location", widget: "select", options: ["Leeds", "Bradford", "Manchester"]  }
             - { label: "Cost", name: "cost", widget: "text"}
+    - label: "Skills"
+      name: "skills"
+      file: "content/skills.md"
+      fields:
+        - { label: "Body", name: "body", widget: "markdown"}
+        - label: 'Core Skills'
+          name: "coreSkills"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "text"}
+            - { label: "Description", name: "description", widget: "text"}
+
+        
