@@ -18,7 +18,7 @@ export default class Home extends Component {
               <li key={k}>
                 <h2>{cat.name}</h2>
                 <p>{cat.description}</p>
-                <p>{cat.name} hangs out mainly {cat.habitat}</p>
+                <p>{cat.name} hangs out mainly in the {cat.habitat}</p>
               </li>
             ))}
           </ul>

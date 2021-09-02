@@ -10,10 +10,10 @@ cats:
     habitat: lounge
   - description: Grumpy cat is an American celebrity cat known for her grumpy appearance.
     name: Grumpy cat (Tardar Sauce)
-    habitat: under sofa
+    habitat: garden
   - name: Jim
     description: Manx cat
-    habitat: in the shed
+    habitat: shed
 ---
 Welcome to my awesome page about cats of the internet.
 
