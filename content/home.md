@@ -18,3 +18,31 @@ cats:
 Welcome to my awesome page about cats of the internet.
 
 This page is built with NextJS, and content is managed in Netlify CMS
+
+
+
+<!--StartFragment-->
+
+|     |                                                                                               |
+| --- | --------------------------------------------------------------------------------------------- |
+|     |                                                                                               |
+|     | <ul class="highlightPanel">                                                                   |
+|     | <li>                                                                                          |
+|     | <label>Available:</label>                                                                     |
+|     | <span>Jan 2022</span>                                                                         |
+|     | </li>                                                                                         |
+|     | <li>                                                                                          |
+|     | <label>In:</label>                                                                            |
+|     | <span><a href="[/territory](https://www.mcharper.com/territory)">Yorkshire / Lancs</a></span> |
+|     | </li>                                                                                         |
+|     | <li>                                                                                          |
+|     | <label></label>                                                                               |
+|     | <span><a href="[/territory](https://www.mcharper.com/territory)">Area Map</a></span>          |
+|     | </li>                                                                                         |
+|     | <li>                                                                                          |
+|     | <label>Email:</label>                                                                         |
+|     | <span>mike@mcharper.com</span>                                                                |
+|     | </li>                                                                                         |
+|     | </ul>                                                                                         |
+
+<!--EndFragment-->
