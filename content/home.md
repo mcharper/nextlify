@@ -1,9 +1,14 @@
 ---
 title: Resumee
 availabilityDate: 2022-01-04
+navigation: 
+- label: Skills
+  link: /skills
+- label: CV
+  link: /cv
+- label: Recommendations
+  link: /recommendations
 ---
-
-[Skills](/skills)
 
 # What I do #
 

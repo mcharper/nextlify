@@ -2,7 +2,7 @@ import Head from "next/head"
 import { Component } from 'react'
 import { attributes, react as SkillsContent } from '../content/skills.md';
 
-export default class Home extends Component {
+export default class Skills extends Component {
   render() {
     let { title, coreSkills, relatedSkills, softSkills  } = attributes;
     return (
@@ -14,32 +14,24 @@ export default class Home extends Component {
           <h1>{title}</h1>
           <SkillsContent />
 
+          <p>Core Skills</p>
           <ul>
             {coreSkills.map((skill, k) => (
               <li key={k}>
-                <h2>{skill.name}</h2>
-                <p>{skill.description}</p>
+                {skill.name}
               </li>
             ))}
           </ul>
 
+          <p>Related Skills</p>
           <ul>
             {relatedSkills.map((skill, k) => (
               <li key={k}>
-                <h2>{skill.name}</h2>
-                <p>{skill.description}</p>
+                {skill.name}
               </li>
             ))}
           </ul>
 
-          <ul>
-            {softSkills.map((skill, k) => (
-              <li key={k}>
-                <h2>{skill.name}</h2>
-                <p>{skill.description}</p>
-              </li>
-            ))}
-          </ul>
 
         </article>
       </>

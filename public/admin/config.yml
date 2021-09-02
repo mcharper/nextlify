@@ -24,4 +24,8 @@ collections:
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "text"}
-            - { label: "Description", name: "description", widget: "text"}
+    - label: "Recommendations"
+      name: "recommendations"
+      file: "content/recommendations.md"
+      fields:
+        - { label: "Body", name: "body", widget: "markdown"}

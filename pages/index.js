@@ -4,7 +4,7 @@ import { attributes, react as HomeContent } from '../content/home.md';
 
 export default class Home extends Component {
   render() {
-    let { title, availabilityDate } = attributes;
+    let { title, navigation, availabilityDate } = attributes;
     return (
       <>
         <Head>
@@ -12,6 +12,12 @@ export default class Home extends Component {
         </Head>
         <article>
           <h1>{title}</h1>
+
+          <ul>
+            {navigation.map((link) => (
+              <a href={link.link}>{link.label} | </a>
+            ))}
+          </ul>
 
           <p>Available: {new Date(availabilityDate).toLocaleDateString()}</p>
 
