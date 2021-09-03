@@ -11,7 +11,6 @@ export default class Cv extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <article>
-          <h1>{title}</h1>
           <CvContent />
 
           <p>Assignments</p>
@@ -22,6 +21,10 @@ export default class Cv extends Component {
                 {a.name}<br />
                 From {new Date(a.start).toLocaleDateString()}
                 to {new Date(a.end).toLocaleDateString()} <br />
+                <ul>Other projects for JLR:
+                  <li>adfds</li>
+                  <li>adfds</li>
+                </ul>
               </li>
             ))}
           </ul>

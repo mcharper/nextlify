@@ -1,0 +1,32 @@
+:root {
+    --clr-primary-500: blue;
+
+    --ff-primary: "Verdana", sans-serif;
+    --ff-accent: "Georgia", serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, div, p {
+    margin: 0
+}
+
+body {
+    font-family: var(--ff-primary);
+    font-weight: 400;
+    font-size: 1.3125rem;
+    line-height: 1.6;
+}
+
+h1, h2, h3 {
+    font-family: var(--ff-accent);
+    font-weight: 900;
+    background-color: var(--primaryColor);
+}
+
+p {
+    padding: 1rem;
+    color: var(--x);
+}

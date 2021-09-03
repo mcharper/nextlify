@@ -1,13 +1,15 @@
 ---
-title: Resumee
+title: Mike Harper profile
+techFocus: 
+    - name: frontEnd
+      description: Front end work
+    - name: react
+      description: React
+    - name: reactTestingLibrary
+      description: React Testing Library
+    - name: typeScript
+      description: TypeScript
 availabilityDate: 2022-01-04
-navigation: 
-- label: Skills
-  link: /skills
-- label: CV
-  link: /cv
-- label: Recommendations
-  link: /recommendations
 ---
 
 # What I do #

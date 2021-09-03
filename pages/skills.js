@@ -4,14 +4,13 @@ import { attributes, react as SkillsContent } from '../content/skills.md';
 
 export default class Skills extends Component {
   render() {
-    let { title, coreSkills, relatedSkills } = attributes;
+    let { coreSkills, relatedSkills } = attributes;
     return (
       <>
         <Head>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
         <article>
-          <h1>{title}</h1>
           <SkillsContent />
 
           <p>Core Skills</p>
