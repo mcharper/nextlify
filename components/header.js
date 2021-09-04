@@ -1,19 +1,25 @@
 import { attributes } from '../content/header.md';
+import styles from './header.module.css';
 
 export default function Header() {
   let { navigation, title, subtitle } = attributes;
 
   return (
-    <>
-      <h1>{title}</h1>
+    <header id={styles.root}>
+      <p>
+        <img width="160" src="/img/logo.png" />
+      </p>
 
-      <h2>{subtitle}</h2>
-
-      <ul>
+      <ul className={styles.navigation}>
         {navigation.map((link) => (
-          <a href={link.link}>{link.label} | </a>
+          <li><a href={link.link}>{link.label}</a></li>
         ))}
-        </ul>
-    </>
-)
+      </ul>
+
+      <div>
+        <h1 className={styles.title}>{title}</h1>
+        <h2 className={styles.subtitle}>{subtitle}</h2>
+      </div>
+    </header>
+  )
 }
