@@ -1,6 +1,6 @@
 ---
-title: Recommendations
-recommendations:
+title: Testimonials
+testimonials:
     - from: Colleague at Havas Lynx
       quote: |
         I worked with Mike for over 2 years whilst he was working with Havas Lynx. Mike is a diligent and unflappable professional that works well in pressurised environments. He is eager to learn new skills and he has good people skills. I feel he would be an asset for any client and he's also a really friendly, laid back person. It was a pleasure working with Mike and I would be happy to do so in the future. 

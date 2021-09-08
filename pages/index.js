@@ -10,7 +10,7 @@ export default class Home extends Component {
     return (
       <div className={"page"}>
         <Head>
-          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+          {/* <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> */}
         </Head>
 
         <div className={"container"}>

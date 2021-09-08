@@ -14,36 +14,51 @@ collections:
         - { label: "Title", name: "title", widget: "string"}
         - { label: "Availability Date", name: "availabilityDate", widget: "date" }
         - { label: "Body", name: "body", widget: "markdown"}
-    - label: "Skills"
-      name: "skills"
-      file: "content/skills.md"
+    - label: "Skillset"
+      name: "skillset"
+      file: "content/skillset.md"
       fields:
         - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Core Skills'
-          name: "coreSkills"
+        - label: 'Front end'
+          name: "frontEnd"
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "text"}
-    - label: "CV"
-      name: "cv"
-      file: "content/cv.md"
+        - label: 'Back end'
+          name: "backEnd"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "text"}
+        - label: 'Dev Ops'
+          name: "devops"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "text"}
+        - label: 'Process'
+          name: "process"
+          widget: list
+          fields:
+            - { label: "Name", name: "name", widget: "text"}
+    - label: "Projects"
+      name: "projects"
+      file: "content/projects.md"
       fields:
         - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Assignments'
-          name: "assignments"
+        - label: 'Projects'
+          name: "projects"
           widget: list
           fields:
             - { label: "Name", name: "name", widget: "text"}
             - { label: "Organisation", name: "organisation", widget: "text"}
             - { label: "Start", name: "start", widget: "date"}
             - { label: "End", name: "end", widget: "date"}
-    - label: "Recommendations"
-      name: "recommendations"
-      file: "content/recommendations.md"
+    - label: "Testimonials"
+      name: "testimonials"
+      file: "content/testimonials.md"
       fields:
         - { label: "Body", name: "body", widget: "markdown"}
-        - label: 'Recommendations'
-          name: "recommendations"
+        - label: 'Testimonials'
+          name: "testimonials"
           widget: list
           fields:
             - { label: "From", name: "from", widget: "text"}

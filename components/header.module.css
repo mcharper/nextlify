@@ -1,40 +1,49 @@
 #root {
-    align-items: center;
+    align-items: flex-start;
     background-color: var(--bg-dark);
-    color: var(--fg-light);
+    color: var(--clr-light);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    padding-inline: 2rem 2rem;
+    justify-content: space-evenly;
+    padding-left: 2rem;
 }
 
-@media (min-width: 70em) {
+#logo {
+    cursor: pointer;
+    height: 6rem;
+    margin-right: -6rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
+}
+
+@media (min-width: 80em) {
     #root {
         flex-direction: row;
+        align-items: flex-end;
     }
 }
 
 .title {
-    font-size: 3rem;
-    color: white;
+    color: var(--clr-lightest);
+    font-size: 2.5rem;
+    margin-bottom: -0.75rem;
     letter-spacing: 0.25rem;
 }
 
 .subtitle {
     font-size: 1.5rem;
-    letter-spacing: 0.25rem;
-    color: silver;
+    letter-spacing: 0.125rem;
+    color: var(--clr-subdued);
 }
 
 .navigation {
-    color: var(--fg-light);
     display: flex;
     flex-direction: column;
+    font-size: 1.25rem;
     list-style-type: none;
 }
 
-@media (min-width: 30em) {
+@media (min-width: 40em) {
     .navigation {
         flex-direction: row;
     }
@@ -45,7 +54,6 @@
 }
 
 .navigation > li > a {
-    color: var(--fg-light);
+    color: var(--clr-light);
     text-decoration: none;
-    text-transform: capitalize;
 }

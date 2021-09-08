@@ -1,13 +1,26 @@
 ---
-title: Skills
-coreSkills:
+title: Skillset
+preamble: |
+  I build web applications using React, TypeScript, C# and ASP.Net Core and other related technologies.
+  Since I discovered React I've been doing mostly front end development, though my background is really full stack.
+frontEnd:
   - name: ReactJS
   - name: TypeScript
-  - name: C#
-  - name: ASP.Net Core
-relatedSkills:
   - name: JavaScript
   - name: HTML / CSS
+backEnd:
+  - name: C#
+  - name: ASP.Net Core
+devops:
+  - name: TFS
+  - name: GitLab
+  - name: GitHub
+process:
+  - name: Scrum
+  - name: Kanban
+  - name: Jira
+  - name: TFS
+  - name: Confluence
 ---
 # Skills and technical interests #
 

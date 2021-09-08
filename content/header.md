@@ -4,10 +4,10 @@ subtitle: IT Contract Developer
 navigation: 
 - label: Home
   link: /
-- label: Skills
-  link: /skills
-- label: CV
-  link: /cv
-- label: Recommendations
-  link: /recommendations
+- label: Projects
+  link: /projects
+- label: Skillset
+  link: /skillset
+- label: Testimonials
+  link: /testimonials
 ---

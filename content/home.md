@@ -1,5 +1,5 @@
 ---
-title: Mike Harper profile
+title: Home
 techFocus: 
     - name: react
       description: React
