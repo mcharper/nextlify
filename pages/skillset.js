@@ -1,10 +1,11 @@
+import { faAudioDescription } from "@fortawesome/free-solid-svg-icons";
 import Head from "next/head"
 import { Component } from 'react'
 import { attributes, react as SkillsetContent } from '../content/skillset.md';
 
 export default class Skillset extends Component {
   render() {
-    let { preamble, frontEnd, backEnd, devops } = attributes;
+    let { preamble, frontEnd, backEnd, devops, process } = attributes;
     return (
       <div className={"page"}>
         <Head>
@@ -22,9 +23,9 @@ export default class Skillset extends Component {
           <div className={"split card"}>
             <div className="card__para">
               <h1>Front end</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto aliquid amet iure? Earum reiciendis aspernatur nostrum excepturi.</p>
-              <ul className={"card__list"}>
-                {frontEnd.map((skill, k) => (
+              <p>{frontEnd.description}</p>
+              <ul className={"skillList"}>
+                {frontEnd.skills.map((skill, k) => (
                   <li key={k}>
                     {skill.name}
                   </li>
@@ -32,16 +33,16 @@ export default class Skillset extends Component {
               </ul>
             </div>
             <div className={"card__para"}>
-              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)"}} src="/img/react-icon.svg" />
+              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)"}} src="/img/FrontEndTech.png" />
             </div>
           </div>
 
           <div className={"split card"}>
             <div className="card__para">
               <h1>Back end</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto aliquid amet iure? Earum reiciendis aspernatur nostrum excepturi.</p>
-              <ul className={"card__list"}>
-                {backEnd.map((skill, k) => (
+              <p>{backEnd.description}</p>
+              <ul className={"skillList"}>
+                {backEnd.skills.map((skill, k) => (
                   <li key={k}>
                     {skill.name}
                   </li>
@@ -56,9 +57,9 @@ export default class Skillset extends Component {
           <div className={"split card"}>
             <div className="card__para">
               <h1>Dev-Ops</h1>
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto aliquid amet iure? Earum reiciendis aspernatur nostrum excepturi.</p>
-              <ul className={"card__list"}>
-                {devops.map((skill, k) => (
+              <p>{devops.description}</p>
+              <ul className={"skillList"}>
+                {devops.skills.map((skill, k) => (
                   <li key={k}>
                     {skill.name}
                   </li>
@@ -67,6 +68,23 @@ export default class Skillset extends Component {
             </div>
             <div className={"card__para"}>
               <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)"}} src="/img/devops-icon.png" />
+            </div>
+          </div>
+
+          <div className={"split card"}>
+            <div className="card__para">
+              <h1>Process</h1>
+              <p>{process.description}</p>
+              <ul className={"skillList"}>
+                {process.skills.map((skill, k) => (
+                  <li key={k}>
+                    {skill.name}
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className={"card__para"}>
+              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)"}} src="/img/kanban-icon.svg" />
             </div>
           </div>
 

@@ -4,18 +4,34 @@ preamble: |
   I build web applications using React, TypeScript, C# and ASP.Net Core and other related technologies.
   Since I discovered React I've been doing mostly front end development, though my background is really full stack.
 frontEnd:
+  description: |
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe illum illo ipsam aspernatur reiciendis vel qui a. Voluptas distinctio fuga deserunt aperiam corrupti quasi architecto sit, dolorem error neque adipisci ullam sint magni inventore iusto itaque expedita reiciendis quisquam quam. At quibusdam possimus voluptatibus nulla molestiae quos saepe dolor rem ducimus tempora fugit, facilis impedit, dolores dolore voluptas vero ad!
+  skills:
   - name: ReactJS
   - name: TypeScript
   - name: JavaScript
   - name: HTML / CSS
 backEnd:
+  description: |
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe illum illo ipsam aspernatur reiciendis vel qui a. Voluptas distinctio fuga deserunt aperiam corrupti quasi architecto sit, dolorem error neque adipisci ullam sint magni inventore iusto itaque expedita reiciendis quisquam quam. At quibusdam possimus voluptatibus nulla molestiae quos saepe dolor rem ducimus tempora fugit, facilis impedit, dolores dolore voluptas vero ad!
+  skills:
   - name: C#
   - name: ASP.Net Core
 devops:
+  description: |
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe illum illo ipsam aspernatur reiciendis vel qui a. Voluptas distinctio fuga deserunt aperiam corrupti quasi architecto sit, dolorem error neque adipisci ullam sint magni inventore iusto itaque expedita reiciendis quisquam quam. At quibusdam possimus voluptatibus nulla molestiae quos saepe dolor rem ducimus tempora fugit, facilis impedit, dolores dolore voluptas vero ad!
+  skills:
   - name: TFS
   - name: GitLab
   - name: GitHub
 process:
+  description: |
+    The team I'm in currently uses JIRA for managing agile work. I first used JIRA in 2014. I've also used TFS
+    and Target Process. I'm used to working in an agile environment, sometimes based on Scrum, sometimes (as at present)
+    on Kanban.
+    
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe illum illo ipsam aspernatur reiciendis vel qui a. Voluptas distinctio fuga deserunt aperiam corrupti quasi architecto sit, dolorem error neque adipisci ullam sint magni inventore iusto itaque expedita reiciendis quisquam quam. At quibusdam possimus voluptatibus nulla molestiae quos saepe dolor rem ducimus tempora fugit, facilis impedit, dolores dolore voluptas vero ad!
+  skills:
   - name: Scrum
   - name: Kanban
   - name: Jira

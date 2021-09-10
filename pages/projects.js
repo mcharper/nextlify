@@ -1,9 +1,10 @@
 import Head from "next/head"
 import { Component } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBuilding, faCalendarPlus, faDoorOpen, faFileContract, faHandHolding, faHome, faHouseUser, faLaptopHouse, faPlusSquare, faUserPlus } from "@fortawesome/free-solid-svg-icons";
+import { faBuilding, faCalendarPlus, faChartPie, faDoorOpen, faFileContract, faFileDownload, faHamburger, faHandHolding, faHome, faHouseUser, faLaptopHouse, faMapPin, faPizzaSlice, faPlusSquare, faTruck, faUserPlus } from "@fortawesome/free-solid-svg-icons";
 
 import { attributes, react as ProjectsContent } from '../content/projects.md';
+import { faLinkedinIn, faServicestack } from "@fortawesome/free-brands-svg-icons";
 
 export default class Projects extends Component {
   render() {
@@ -17,38 +18,40 @@ export default class Projects extends Component {
 
         <div className={"container"}>
 
-          {/* <ProjectsContent /> */}
-
-          <p>{preamble}</p>
-
           {projects.map((project, k) => (
-            <div className={"split card"}>
+            <div className={"split"}>
               <div className="card__para">
                 <h2>{project.name}</h2>
                 <h3>{project.organisation}</h3>
                 <ul className={"gridList"}>
                   <li>
-                    <FontAwesomeIcon icon={faCalendarPlus} className={"icon"} />&nbsp;
-                    {new Date(project.start).toLocaleDateString()}&nbsp;-&nbsp; 
-                    {
-                    project.end === "present" ? 
-                      "Present"
-                    : 
-                      new Date(project.end).toLocaleDateString()
-
-                    }
-                  </li>
-                  <li>
                     <FontAwesomeIcon icon={faFileContract} className={"icon"} />&nbsp;
                     Contract
                   </li>                  
+                  <li>
+                    <FontAwesomeIcon icon={faMapPin} className={"icon"} />&nbsp;
+                    Remote
+                  </li>                  
+                  <li>
+                    <FontAwesomeIcon icon={faCalendarPlus} className={"icon"} />&nbsp;
+                    12m
+                    {/* {new Date(project.start).toLocaleDateString()}&nbsp;-&nbsp; 
+                    {
+                    project.end !== "present" && 
+                      new Date(project.end).toLocaleDateString()
+                    } */}
+                  </li>
                   <li>
                     <FontAwesomeIcon icon={faPlusSquare} className={"icon"} />&nbsp;
                     2 renewals
                   </li>                  
                   <li>
-                    <FontAwesomeIcon icon={faHome} className={"icon"} />&nbsp;
-                    Remote
+                    <FontAwesomeIcon icon={faChartPie} className={"icon"} />&nbsp;
+                    Automotive 
+                  </li>                  
+                  <li>
+                    <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
+                    Front end
                   </li>                  
                 </ul>
 
