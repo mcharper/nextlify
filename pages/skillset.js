@@ -12,15 +12,9 @@ export default class Skillset extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
 
-        <div className={"container"}>
+        <div className={"container_light"}>
 
-          {/* <SkillsetContent /> */}
-
-          <p>
-            {preamble}
-          </p>
-
-          <div className={"split card"}>
+          <div className={"split"}>
             <div className="card__para">
               <h1>Front end</h1>
               <p>{frontEnd.description}</p>
@@ -33,11 +27,11 @@ export default class Skillset extends Component {
               </ul>
             </div>
             <div className={"card__para"}>
-              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)"}} src="/img/FrontEndTech.png" />
+              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)", maxWidth: "400px"}} src="/img/FrontEndTech.png" />
             </div>
           </div>
 
-          <div className={"split card"}>
+          <div className={"split"}>
             <div className="card__para">
               <h1>Back end</h1>
               <p>{backEnd.description}</p>
@@ -50,11 +44,11 @@ export default class Skillset extends Component {
               </ul>
             </div>
             <div className={"card__para"}>
-              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)"}} src="/img/csharp-icon.svg" />
+              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)", maxWidth: "400px"}} src="/img/csharp-icon.svg" />
             </div>
           </div>
 
-          <div className={"split card"}>
+          <div className={"split"}>
             <div className="card__para">
               <h1>Dev-Ops</h1>
               <p>{devops.description}</p>
@@ -64,10 +58,10 @@ export default class Skillset extends Component {
                     {skill.name}
                   </li>
                 ))}
-              </ul>
+              </ul>, 
             </div>
             <div className={"card__para"}>
-              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)"}} src="/img/devops-icon.png" />
+              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)", maxWidth: "400px"}} src="/img/devops-icon.png" />
             </div>
           </div>
 

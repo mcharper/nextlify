@@ -13,7 +13,7 @@ export default class Home extends Component {
           {/* <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> */}
         </Head>
 
-        <div className={"container"}>
+        <div className={"container_light"}>
 
           <div className={"split card"}>
             <div className="card__para">
