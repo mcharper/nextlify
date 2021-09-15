@@ -26,9 +26,9 @@ projects:
     - name: React
     - name: Material Design
     - name: TypeScript
-    - name: React
-    - name: Material Design
-    - name: TypeScript
+    - name: JavaScript
+    - name: JSS
+    - name: Cypress
 
   - name: Highways England Traffic Officer App
     organisation: FMG Ltd
