@@ -60,7 +60,7 @@ collections:
             - { label: "End", name: "end", widget: "date"}
             - { label: "Stack Type", name: "stackType", widget: "select", options: ["Front End", "Back End", "Full Stack"]}
             - { label: "Synopsis", name: "synopsis", widget: "text"}
-            - { label: "Skills", name: "stackType", widget: "select", multiple: true, options: ["React", "TypeScript", "JavaScript", "Material Design", "JSS", "Cypress", "ASP.Net Core", "C#", "SQL Server", "RethinkDB", "Angular", "Web API"]}
+            - { label: "Skills", name: "skills", widget: "select", multiple: true, options: ["React", "TypeScript", "JavaScript", "Material Design", "JSS", "Cypress", "ASP.Net Core", "C#", "SQL Server", "RethinkDB", "Angular", "Web API"]}
     - label: "Testimonials"
       name: "testimonials"
       file: "content/testimonials.md"
