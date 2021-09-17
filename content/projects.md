@@ -29,7 +29,6 @@ projects:
     duration: 12
     organisation: Jaguar Land Rover
     end: 2021-12-31
-    image: img/projects/jlr_icreate.jpg
     renewals: 2
   - skills:
       - name: React
@@ -55,7 +54,6 @@ projects:
     duration: 9
     organisation: FMG Ltd
     end: 2020-12-04
-    image: img/fmg_hetoa.jpg
     renewals: 1
   - skills:
       - name: Angular
@@ -80,7 +78,6 @@ projects:
     duration: 26
     organisation: FMG
     end: 2019-06-30
-    image: img/fmg_ftp.jpg
     renewals: 6
 ---
 Text
