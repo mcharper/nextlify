@@ -61,7 +61,7 @@ export default class Projects extends Component {
                 }
               </ul>
 
-              <img className={"card__img"} src={`/img/projects/${project.image}.jpg`} />
+              <img className={"card__img"} src={`/img/projects/${project.codeName}.jpg`} />
 
               <p>
                 {project.synopsis}

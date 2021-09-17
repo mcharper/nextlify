@@ -5,18 +5,16 @@ preamble: |
   I have details of my experience going further back on my LinkedIn profile.
   For a more traditional CV please contact me.
 projects:
-  - skills:
-      - name: React
-      - name: Material Design
-      - name: TypeScript
-      - name: JavaScript
-      - name: JSS
-      - name: Cypress
-    start: 2021-01-18
-    stackType: Front End
+  - codeName: jlr_icreate
+    name: Engineering Change Management System
+    organisation: Jaguar Land Rover
     sector: Automotive
     city: Manchester
-    name: Engineering Change Management System
+    start: 2021-01-18
+    end: 2021-12-31
+    duration: 12
+    renewals: 2
+    stackType: Front End
     contractType: C
     based: R
     synopsis: >
@@ -26,24 +24,24 @@ projects:
       enhancing a system to manage engineering changes. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
 
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-    duration: 12
-    organisation: Jaguar Land Rover
-    end: 2021-12-31
-    renewals: 2
-  - skills:
+    skills:
       - name: React
-      - name: TypeScript
       - name: Material Design
-      - name: C#
-      - name: ASP.Net Core
-      - name: RethinkDB
+      - name: TypeScript
+      - name: JavaScript
+      - name: JSS
+      - name: Cypress
+  - codeName: fmg_hetoa 
+    name: Highways England Traffic Officer App
+    organisation: FMG Ltd
+    city: Huddersfield
+    based: R
     start: 2020-03-02
+    end: 2020-12-04
+    renewals: 1
     stackType: Full Stack
     sector: Automotive
-    city: Huddersfield
-    name: Highways England Traffic Officer App
     contractType: F
-    based: R
     synopsis: >
       Hired for 6 months (extended to 9) with a co-developer to design and
       develop a vehicle tracking system
@@ -52,21 +50,21 @@ projects:
 
       room monitors to map incidents in real time.
     duration: 9
-    organisation: FMG Ltd
-    end: 2020-12-04
-    renewals: 1
-  - skills:
-      - name: Angular
-      - name: JavaScript
+    skills:
+      - name: React
       - name: TypeScript
+      - name: Material Design
       - name: C#
-      - name: Web API
-      - name: SQL Server
+      - name: ASP.Net Core
+      - name: RethinkDB
+  - codeName: fmg_ftp
+    name: Finance Transformation Project
+    organisation: FMG
     start: 2017-03-01
+    end: 2019-06-30
     stackType: Full Stack
-    sector: Insurance
+    sector: Automotive
     city: Huddersfield
-    name: Finance Transformation
     contractType: C
     based: S
     synopsis: >
@@ -76,8 +74,13 @@ projects:
 
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
     duration: 26
-    organisation: FMG
-    end: 2019-06-30
     renewals: 6
+    skills:
+      - name: Angular
+      - name: JavaScript
+      - name: TypeScript
+      - name: C#
+      - name: Web API
+      - name: SQL Server
 ---
 Text
