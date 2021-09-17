@@ -39,6 +39,7 @@ projects:
       - ASP.Net Core
       - RethinkDB
       - JSS
+      - Web API
     start: 2020-03-02
     stackType: Full Stack
     sector: Automotive
