@@ -25,12 +25,12 @@ projects:
 
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
     skills:
-      - name: React
-      - name: Material Design
-      - name: TypeScript
-      - name: JavaScript
-      - name: JSS
-      - name: Cypress
+      - React
+      - Material Design
+      - TypeScript
+      - JavaScript
+      - JSS
+      - Cypress
   - codeName: fmg_hetoa 
     name: Highways England Traffic Officer App
     organisation: FMG Ltd
@@ -51,12 +51,12 @@ projects:
       room monitors to map incidents in real time.
     duration: 9
     skills:
-      - name: React
-      - name: TypeScript
-      - name: Material Design
-      - name: C#
-      - name: ASP.Net Core
-      - name: RethinkDB
+      - React
+      - TypeScript
+      - Material Design
+      - C#
+      - ASP.Net Core
+      - RethinkDB
   - codeName: fmg_ftp
     name: Finance Transformation Project
     organisation: FMG
@@ -76,11 +76,11 @@ projects:
     duration: 26
     renewals: 6
     skills:
-      - name: Angular
-      - name: JavaScript
-      - name: TypeScript
-      - name: C#
-      - name: Web API
-      - name: SQL Server
+      - Angular
+      - JavaScript
+      - TypeScript
+      - C#
+      - Web API
+      - SQL Server
 ---
 Text

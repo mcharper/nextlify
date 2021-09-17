@@ -70,7 +70,7 @@ export default class Projects extends Component {
               <ul className={"skillList"}>
                 {
                   project.skills.map((skill, k) => (
-                    <li>{skill.name}</li>
+                    <li>{skill}</li>
                   ))
                 }
               </ul>
