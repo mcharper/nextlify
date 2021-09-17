@@ -50,8 +50,17 @@ collections:
           fields:
             - { label: "Name", name: "name", widget: "text"}
             - { label: "Organisation", name: "organisation", widget: "text"}
+            - { label: "Sector", name: "sector", widget: "text"}
+            - { label: "City", name: "city", widget: "text"}
+            - { label: "Based", name: "based", widget: "select", options: ["R", "S", "H"]}
+            - { label: "Contract Type", name: "contractType", widget: "select", options: ["C", "F", "P"]}
+            - { label: "Renewals", name: "renewals", widget: "number"}
+            - { label: "Duration (months)", name: "duration", widget: "number"}
             - { label: "Start", name: "start", widget: "date"}
             - { label: "End", name: "end", widget: "date"}
+            - { label: "Image", name: "image", widget: "image"}
+            - { label: "Stack Type", name: "stackType", widget: "select", options: ["Front End", "Back End", "Full Stack"]}
+            - { label: "Synopsis", name: "synopsis", widget: "text"}
     - label: "Testimonials"
       name: "testimonials"
       file: "content/testimonials.md"
