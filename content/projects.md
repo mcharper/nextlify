@@ -29,7 +29,7 @@ projects:
     duration: 12
     organisation: Jaguar Land Rover
     end: 2021-12-31
-    image: https://nextlify.netlify.app/img/projects/jlr_icreate.jpg
+    image: img/projects/jlr_icreate.jpg
     renewals: 2
   - skills:
       - name: React
