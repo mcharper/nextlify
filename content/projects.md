@@ -66,9 +66,9 @@ projects:
       - name: SQL Server
     start: 2017-03-01
     stackType: Full Stack
-    sector: Automotive
+    sector: Insurance
     city: Huddersfield
-    name: Finance Transformation Project
+    name: Finance Transformation
     contractType: C
     based: S
     synopsis: >
@@ -78,7 +78,7 @@ projects:
 
       Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
     duration: 26
-    organisation: FMG Ltd
+    organisation: FMG
     end: 2019-06-30
     image: img/fmg_ftp.jpg
     renewals: 6
