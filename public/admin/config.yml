@@ -58,7 +58,6 @@ collections:
             - { label: "Duration (months)", name: "duration", widget: "number"}
             - { label: "Start", name: "start", widget: "date"}
             - { label: "End", name: "end", widget: "date"}
-            - { label: "Image", name: "image", widget: "image"}
             - { label: "Stack Type", name: "stackType", widget: "select", options: ["Front End", "Back End", "Full Stack"]}
             - { label: "Synopsis", name: "synopsis", widget: "text"}
     - label: "Testimonials"
