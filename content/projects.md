@@ -23,7 +23,7 @@ projects:
 
       enhancing a system to manage engineering changes. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
 
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit 
     skills:
       - React
       - Material Design
