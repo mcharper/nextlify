@@ -1,10 +1,9 @@
 ---
 title: Skillset
 mainText: >
-  My background is really full stack. But since starting to use React I've found I really enjoy working at the front end and prefer to do that for the time being.
+  My background is full stack. But since starting to use React I've found I really enjoy working at the front end and prefer to do that for the time being. 
 subText: >
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe.
-    Ceteris paribus et cetera.
+    Since 2000 I've focussed on web development, mainly the Microsoft stack. I prefer a polyglot approach to development. I believe different languages suit different problems. The variety also keeps me interested and curious.
 frontEnd:
   description: >
     I've been working on single page apps with a significant JavaScript component since 2000.
@@ -18,11 +17,12 @@ frontEnd:
   - name: HTML / CSS
 backEnd:
   description: |
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe. 
-    Ceteris paribus et cetera. 
+    My background is in the Microsoft web development stack using ASP.Net, C# and SQL Server. I've tended to use
+    Entity Framework as an ORM but have also used NHibernate with Oracle. I've also worked with non-relational databases such as MongoDB and more recently RethinkDB, a real-time database.
   skills:
   - name: C#
   - name: ASP.Net Core
+  - name: RabbitMQ
   - name: SQL Server
 devops:
   description: |

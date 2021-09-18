@@ -19,11 +19,9 @@ projects:
     based: R
     synopsis: >
       Hired at the start of 2021 in a purely front-end role using React to work
-      as part of a team
-
-      enhancing a system to manage engineering changes. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      as part of a team enhancing a system to manage engineering changes. The front end is built
+      using React with hooks in a functional style using both TypeScript and JavaScript. 
+      We use both React Testing Library and Cypress for testing.  
     skills:
       - React
       - Material Design
@@ -43,12 +41,7 @@ projects:
     sector: Automotive
     contractType: F
     synopsis: >
-      Hired for 6 months (extended to 9) with a co-developer to design and
-      develop a vehicle tracking system
-
-      for use by Highways England - a tablet application for roadside use by traffic officers, and a portal for control
-
-      room monitors to map incidents in real time.
+      Hired for 6 months (extended to 9) with a co-developer to design and develop a vehicle tracking system for use by Highways England: a tablet application for roadside use by traffic officers, and a portal for control room monitors to map incidents in real time around the regions. 
     duration: 9
     skills:
       - React
@@ -59,7 +52,7 @@ projects:
       - RethinkDB
   - codeName: fmg_ftp
     name: Finance Transformation Project
-    organisation: FMG
+    organisation: FMG Ltd
     start: 2017-03-01
     end: 2019-06-30
     stackType: Full Stack
@@ -68,11 +61,8 @@ projects:
     contractType: C
     based: S
     synopsis: >
-      New development to streamline finance processes.  Lorem ipsum dolor, sit
-      amet consectetur adipisicing elit. Ullam perferendis repudiandae facilis
-      quos corporis porro assumenda necessitatibus quas eveniet harum.
-
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+      New development to streamline finance processes. This project streamlined internal finance processes
+      to reduce costs and revenue leakage. 
     duration: 26
     renewals: 6
     skills:

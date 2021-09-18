@@ -8,6 +8,7 @@ subText: >
 status:
   description: >
     I am currently in contract working on a project for Jaguar Land Rover until the end of the year.
+    I am based in Huddersfield, West Yorkshire but I have been working remotely since March 2020 and prefer this where possible.
   availabilityDate: 2022-01-04
   currentClient: Jaguar Land Rover
   preferredStackType: frontEnd
