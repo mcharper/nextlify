@@ -7,7 +7,7 @@ testimonials:
       client: FMG
     - from: ECommerce Development Manager
       quote: |
-        We hired Michael for his specialist expertise. He quickly integrated into our values based culture and added value from day one. He fit in so well and mixed well with our people he stayed with us for many years on a contract basis! He naturally developed less experienced people around him too. I valued Michael for his knowledge, recommendations for pushing our boundaries, he was self-managing so I could confidently leave him to development and know he would hit timescales, his attention to detail was great so we got quality of work with limited defects. Michael didn't feel like a typical IT contractor, he was like one of the team that added value all the time and had a huge amount of integrity and work ethic to help us deliver our internal client commitments. He can communicate easily with other developers, tester and indeed clients. Hence I have no hesitation in recommending him!
+        We hired Michael for his specialist expertise. He quickly integrated into our values based culture and added value from day one. He fit in so well and mixed well with our people he stayed with us for many years on a contract basis! He naturally developed less experienced people around him too. I valued Michael for his knowledge, recommendations for pushing our boundaries, he was self-managing so I could confidently leave him to development. ... He can communicate easily with other developers, tester and indeed clients. Hence I have no hesitation in recommending him!
       client: First Direct
     - from: Developer
       quote: |

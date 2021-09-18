@@ -1,87 +1,44 @@
 import { faAudioDescription } from "@fortawesome/free-solid-svg-icons";
 import Head from "next/head"
 import { Component } from 'react'
+import SkillsetCard from '../components/skillsetCard'
+
 import { attributes, react as SkillsetContent } from '../content/skillset.md';
 
 export default class Skillset extends Component {
   render() {
-    let { preamble, frontEnd, backEnd, devops, process } = attributes;
+    let { mainText, subText, frontEnd, backEnd } = attributes;
     return (
       <div className={"page"}>
         <Head>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
 
-        <div className={"container_light"}>
+        <div className={"container_grid"}>
 
-          <div className={"split"}>
-            <div className="card__para">
-              <h1>Front end</h1>
-              <p>{frontEnd.description}</p>
-              <ul className={"skillList"}>
-                {frontEnd.skills.map((skill, k) => (
-                  <li key={k}>
-                    {skill.name}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className={"card__para"}>
-              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)", maxWidth: "400px"}} src="/img/FrontEndTech.png" />
-            </div>
+          <div>
+            <p style={{color: "var(--clr-lightest)", paddingRight: "2rem", margin: "0.5rem"}}>
+              {mainText}
+            </p>
+
+            <p style={{color: "black", paddingRight: "2rem", margin: "0.5rem"}}>
+              {subText}
+            </p>
           </div>
 
-          <div className={"split"}>
-            <div className="card__para">
-              <h1>Back end</h1>
-              <p>{backEnd.description}</p>
-              <ul className={"skillList"}>
-                {backEnd.skills.map((skill, k) => (
-                  <li key={k}>
-                    {skill.name}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className={"card__para"}>
-              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)", maxWidth: "400px"}} src="/img/csharp-icon.svg" />
-            </div>
-          </div>
+          <SkillsetCard 
+            category={"frontEnd"}
+            title={"Front End Skills"}
+            description={frontEnd.description}
+            skills={frontEnd.skills}
+          />
 
-          <div className={"split"}>
-            <div className="card__para">
-              <h1>Dev-Ops</h1>
-              <p>{devops.description}</p>
-              <ul className={"skillList"}>
-                {devops.skills.map((skill, k) => (
-                  <li key={k}>
-                    {skill.name}
-                  </li>
-                ))}
-              </ul>, 
-            </div>
-            <div className={"card__para"}>
-              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)", maxWidth: "400px"}} src="/img/devops-icon.png" />
-            </div>
-          </div>
-
-          <div className={"split card"}>
-            <div className="card__para">
-              <h1>Process</h1>
-              <p>{process.description}</p>
-              <ul className={"skillList"}>
-                {process.skills.map((skill, k) => (
-                  <li key={k}>
-                    {skill.name}
-                  </li>
-                ))}
-              </ul>
-            </div>
-            <div className={"card__para"}>
-              <img className={"card__img"} style={{backgroundColor: "var(--bg-dark)"}} src="/img/kanban-icon.svg" />
-            </div>
-          </div>
-
+          <SkillsetCard 
+            category={"backEnd"}
+            title={"Back End Skills"}
+            description={backEnd.description}
+            skills={backEnd.skills}
+          />          
         </div>
 
       </div>

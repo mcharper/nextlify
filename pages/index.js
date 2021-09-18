@@ -9,7 +9,7 @@ import ProjectCard from '../components/projectCard';
 
 export default class Home extends Component {
   render() {
-    let { skills, availabilityDate } = homeMetadata;
+    let { mainText, subText, postText, availabilityDate, skills } = homeMetadata;
     let { projects } = projectMetadata;
 
     return (
@@ -19,8 +19,16 @@ export default class Home extends Component {
         </Head>
 
         <div className={"container_grid"}>
-          
-          <HomeContent />
+
+          <div>
+            <p style={{color: "var(--clr-lightest)", paddingRight: "2rem", margin: "0.5rem"}}>
+              {mainText}
+            </p>
+
+            <p style={{color: "black", paddingRight: "2rem", margin: "0.5rem"}}>
+              {subText}
+            </p>
+          </div>
 
           <StatusCard 
             skills={skills}

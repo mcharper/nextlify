@@ -1,11 +1,13 @@
 ---
 title: Skillset
-preamble: |
-  I build web applications using React, TypeScript, C# and ASP.Net Core and other related technologies.
-  Since I discovered React I've been doing mostly front end development, though my background is really full stack.
+mainText: >
+  My background is really full stack. But since starting to use React I've found I really enjoy working at the front end and prefer to do that for the time being.
+subText: >
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe.
 frontEnd:
   description: |
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe illum illo ipsam aspernatur reiciendis vel qui a. Voluptas distinctio fuga deserunt aperiam corrupti quasi architecto sit, dolorem error neque adipisci ullam sint magni inventore iusto itaque expedita reiciendis quisquam quam. At quibusdam possimus voluptatibus nulla molestiae quos saepe dolor rem ducimus tempora fugit, facilis impedit, dolores dolore voluptas vero ad!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe.
+    Ceteris paribus et cetera.
   skills:
   - name: ReactJS
   - name: TypeScript
@@ -13,13 +15,15 @@ frontEnd:
   - name: HTML / CSS
 backEnd:
   description: |
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe illum illo ipsam aspernatur reiciendis vel qui a. Voluptas distinctio fuga deserunt aperiam corrupti quasi architecto sit, dolorem error neque adipisci ullam sint magni inventore iusto itaque expedita reiciendis quisquam quam. At quibusdam possimus voluptatibus nulla molestiae quos saepe dolor rem ducimus tempora fugit, facilis impedit, dolores dolore voluptas vero ad!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe. 
+    Ceteris paribus et cetera. 
   skills:
   - name: C#
   - name: ASP.Net Core
+  - name: SQL Server
 devops:
   description: |
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe illum illo ipsam aspernatur reiciendis vel qui a. Voluptas distinctio fuga deserunt aperiam corrupti quasi architecto sit, dolorem error neque adipisci ullam sint magni inventore iusto itaque expedita reiciendis quisquam quam. At quibusdam possimus voluptatibus nulla molestiae quos saepe dolor rem ducimus tempora fugit, facilis impedit, dolores dolore voluptas vero ad!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium.
   skills:
   - name: TFS
   - name: GitLab
