@@ -39,6 +39,11 @@ p {
     padding: 0.25rem 0;
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .page {
     background-color: var(--bg-midtone);
     min-width: 20rem;

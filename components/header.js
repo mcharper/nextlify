@@ -23,15 +23,17 @@ export default function Header() {
       <div id={styles.topBar}>
         <FontAwesomeIcon id={styles.hamburger} icon={faBars} onClick={toggleMenu} />
         <Link href="/">
-          <img id={styles.smallLogo} src="/img/logo.png" />
+            <img id={styles.smallLogo} src="/img/logo.png" />
         </Link>
       </div>
 
       {
-        <div>
-          <h1 id={styles.title}>{title}</h1>
-          <h2 id={styles.subtitle}>{subtitle}</h2>
-        </div>
+        <Link href="/">
+          <a>
+            <h1 id={styles.title}>{title}</h1>
+            <h2 id={styles.subtitle}>{subtitle}</h2>
+          </a>
+        </Link>
       }
 
       {
@@ -48,8 +50,9 @@ export default function Header() {
         </div>
       }
 
-      <img id={styles.largeLogo} src="/img/logo.png" />
-
+      <Link href="/">
+        <img id={styles.largeLogo} src="/img/logo.png" />
+      </Link>
     </header>
   )
 }
