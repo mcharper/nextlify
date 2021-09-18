@@ -4,10 +4,13 @@ mainText: >
   My background is really full stack. But since starting to use React I've found I really enjoy working at the front end and prefer to do that for the time being.
 subText: >
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe.
-frontEnd:
-  description: |
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe.
     Ceteris paribus et cetera.
+frontEnd:
+  description: >
+    I've been working on single page apps with a significant JavaScript component since 2000.
+    I prefer React, having used Angular, AngularJS and Durandl before that. I'm also finding NextJS interesting and 
+    useful on my own projects. Long before those I also used Knockout, Ext.js and JQuery. I am happiest in TypeScript but also fine with JavaScript and its ecosystem and 
+    of course HTML/CSS.
   skills:
   - name: ReactJS
   - name: TypeScript

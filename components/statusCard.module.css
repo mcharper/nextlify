@@ -7,7 +7,6 @@
     font-size: 1rem;
     justify-content: flex-start;
     margin: 0.5rem;
-    max-height: 80vh;
     min-height: 35rem;
     padding: 1rem;
 }
@@ -44,13 +43,18 @@
 
 .gridList {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     grid-auto-flow: dense;
     list-style-type: none;
 }
 
 .gridList li {
     text-align: left;
+}
+
+.calLink {
+    text-decoration: none !important;
+    color: black;
 }
 
 .skillList {
