@@ -1,127 +1,47 @@
 import Head from "next/head"
 import { Component } from 'react'
-import { attributes, react as HomeContent } from '../content/home.md';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCalendarPlus, faCrosshairs, faHourglassHalf, faLock } from "@fortawesome/free-solid-svg-icons";
+
+import { attributes as homeMetadata, react as HomeContent } from '../content/home.md';
+import { attributes as projectMetadata } from '../content/projects.md';
+
+import StatusCard from '../components/statusCard';
+import ProjectCard from '../components/projectCard';
 
 export default class Home extends Component {
   render() {
-    let { techFocus, availabilityDate } = attributes;
+    let { skills, availabilityDate } = homeMetadata;
+    let { projects } = projectMetadata;
+
     return (
       <div className={"page"}>
         <Head>
-          {/* <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script> */}
+          <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
 
-        <div className={"container_light"}>
+        <div className={"container_grid"}>
+          
+          <HomeContent />
 
-          <div className={"split card"}>
-            <div className="card__para">
-              <h1>Quick Update</h1>
+          <StatusCard 
+            skills={skills}
+            availabilityDate={availabilityDate}
+          />
 
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto aliquid amet iure? Earum reiciendis aspernatur nostrum excepturi.</p>
-
-              <p>
-                <FontAwesomeIcon icon={faLock} className={"icon"} /> In contract
-              </p>
-
-              <FontAwesomeIcon icon={faCrosshairs} className={"icon"} /> Current focus
-              
-              <ul className={"card__list"}>
-                {techFocus.map((tech, k) => (
-                  <li key={k}>
-                    {tech.description}
-                  </li>
-                ))}
-              </ul>
-              
-              <p>
-                <FontAwesomeIcon icon={faHourglassHalf} className={"icon"} />&nbsp;
-                Available {new Date(availabilityDate).toLocaleDateString()}&nbsp;
-              </p>
-
-            </div>
-
-            <div className={"card__para"}>
-              <img className={"card__img"} src="/img/react-fragment.jpg" />
-            </div>
-          </div>
-
-          <div className={"split card"}>
-            <div className="card__para">
-              <h1>More Details</h1>
-
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
-
-              Current focus:
-
-              <ul className={"card__list"}>
-                {techFocus.map((tech, k) => (
-                  <li key={k}>
-                    {tech.description}
-                  </li>
-                ))}
-              </ul>
-              <p>Available: {new Date(availabilityDate).toLocaleDateString()}</p>
-            </div>
-
-            <div className={"card__para"}>
-              <img className={"card__img"} src="/img/office.jpg" />
-            </div>
-          </div>
-
-          <div className={"split card"}>
-            <div className="card__para">
-              <h1>Projects</h1>
-
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
-
-              Current focus:
-
-              <ul className={"card__list"}>
-                {techFocus.map((tech, k) => (
-                  <li key={k}>
-                    {tech.description}
-                  </li>
-                ))}
-              </ul>
-              <p>Available: {new Date(availabilityDate).toLocaleDateString()}</p>
-            </div>
-
-            <div className={"card__para"}>
-              <img className={"card__img"} src="/img/laptop.jpg" />
-            </div>
-          </div>
-
-          <div className={"split card"}>
-            <div className="card__para">
-              <h1>About me</h1>
-
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
-
-              Current focus:
-
-              <ul className={"card__list"}>
-                {techFocus.map((tech, k) => (
-                  <li key={k}>
-                    {tech.description}
-                  </li>
-                ))}
-              </ul>
-              <p>Available: {new Date(availabilityDate).toLocaleDateString()}</p>
-            </div>
-
-            <div className={"card__para"}>
-              <img className={"card__img"} src="/img/react-fragment.jpg" />
-            </div>
-          </div>
-
-          <section>
-              <h2>About Me</h2>
-
-              <HomeContent />
-          </section>
-
+          <ProjectCard 
+            codeName={projects[0].codeName}
+            organisation={projects[0].organisation}
+            name={projects[0].name}
+            start={projects[0].start}
+            end={projects[0].end}
+            duration={projects[0].duration}
+            contractType={projects[0].contractType}
+            based={projects[0].based}
+            sector={projects[0].sector}
+            stackType={projects[0].stackType}
+            renewals={projects[0].renewals}
+            skills={projects[0].skills}
+            synopsis={projects[0].synopsis}
+          />      
         </div>
       </div>
     )
