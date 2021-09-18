@@ -1,11 +1,15 @@
 import { useState } from 'react';
 import Link from 'next/link'; 
+import { useRouter } from 'next/router';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+
 import { attributes } from '../content/header.md';
 import styles from './header.module.css';
 
 export default function Header() {
+  const router = useRouter();
+
   let { navigation, title, subtitle } = attributes;
   
   const [menuExpanded, setMenuExpanded] = useState(false);
@@ -35,7 +39,9 @@ export default function Header() {
           <ul className={styles.navigation}>
             {navigation.map((link) => (
               <li>
-                <a href={link.link}>{link.label}</a>
+                <a href={link.link} className={router.pathname == link.link ? styles.active : styles.inactive}>
+                  {link.label}
+                </a>
               </li>
             ))}
           </ul>

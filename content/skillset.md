@@ -8,8 +8,7 @@ frontEnd:
   description: >
     I've been working on single page apps with a significant JavaScript component since 2000.
     I prefer React, having used Angular, AngularJS and Durandl before that. I'm also finding NextJS interesting and 
-    useful on my own projects. Long before those I also used Knockout, Ext.js and JQuery. I am happiest in TypeScript but also fine with JavaScript and its ecosystem and 
-    of course HTML/CSS.
+    useful on my own projects. Long before those I also used Knockout, Ext.js and JQuery. I am happiest in TypeScript but also fine with JavaScript and its ecosystem and of course HTML/CSS.
   skills:
   - name: ReactJS
   - name: TypeScript
@@ -18,7 +17,7 @@ frontEnd:
 backEnd:
   description: |
     My background is in the Microsoft web development stack using ASP.Net, C# and SQL Server. I've tended to use
-    Entity Framework as an ORM but have also used NHibernate with Oracle. I've also worked with non-relational databases such as MongoDB and more recently RethinkDB, a real-time database.
+    Entity Framework as an ORM but have also used NHibernate with Oracle. I've also worked with non-relational databases such as MongoDB and more recently RethinkDB, a real-time database. 
   skills:
   - name: C#
   - name: ASP.Net Core

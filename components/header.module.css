@@ -66,8 +66,19 @@
     margin-inline: 0 3rem;
 }
 
-.navigation > li > a {
+.navigation > li > a.active {
+    background-color: var(--bg-midtone);
+    border: 0.25rem solid var(--bg-midtone);
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
     color: var(--clr-light);
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+    text-decoration: none;
+}
+
+.navigation > li > a.inactive {
+    color: var(--clr-subdued);
+    padding: 0.25rem 0.5rem 0.25rem 0.5rem;
     text-decoration: none;
 }
 

@@ -38,7 +38,8 @@ export default class Skillset extends Component {
             title={"Back End Skills"}
             description={backEnd.description}
             skills={backEnd.skills}
-          />          
+          /> 
+                   
         </div>
 
       </div>

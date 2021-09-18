@@ -29,10 +29,8 @@ export default function StatusCard(props) {
       <ul className={styles.gridList}>
         <li>
           <FontAwesomeIcon icon={faCalendarCheck} className={"icon"} />&nbsp;
-          <ICalendarLink event={event}>
-            <span className={styles.calLink}>
-              {dayjs(props.status.availabilityDate).format('DD MMM YYYY')}
-            </span>
+          <ICalendarLink event={event} className={styles.calLink}>
+            {dayjs(props.status.availabilityDate).format('DD MMM YYYY')}
           </ICalendarLink>
         </li>
         <li>
