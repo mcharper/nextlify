@@ -22,6 +22,17 @@ export default function TestimonialCard(props) {
       <p>
         {props.from} at {props.client}
       </p>
+
+      {
+        props.relatedProjects.length > 0 &&
+        <ul className={styles.projectsList}>Related projects:
+          {
+            props.relatedProjects.map((project, k) => (
+              <li>{project.name}</li>
+            ))
+          }
+        </ul>
+      }
     </div>
   )
 }

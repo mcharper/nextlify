@@ -37,3 +37,14 @@
     font-family: Cambria, Cochin, Georgia, Times, serif;
     font-style: oblique;
 }
+
+.projectsList {
+    list-style-type: square;
+    list-style-position: inside;
+    font-size: small;
+}
+
+.projectsList li {
+    text-align: left;
+    font-size: small;
+}

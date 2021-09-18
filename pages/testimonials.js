@@ -19,14 +19,17 @@ export default class Testimonials extends Component {
       
         <div className={"container_grid"}>
       
-          {testimonials.map((testimonial, k) => (
-            <TestimonialCard 
+          {testimonials.map((testimonial, k) => {
+            const relatedProjects = projects.filter(p => testimonial.relatedProjects.includes(p.codeName));
+
+            return <TestimonialCard 
               title="title"
               quote={testimonial.quote}
               from={testimonial.from}
               client={testimonial.client}
+              relatedProjects={relatedProjects}
             />
-          ))}
+          })}
       
         </div>
       </div>
