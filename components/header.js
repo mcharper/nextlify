@@ -41,9 +41,11 @@ export default function Header() {
           <ul className={styles.navigation}>
             {navigation.map((link) => (
               <li>
-                <a href={link.link} className={router.pathname == link.link ? styles.active : styles.inactive}>
-                  {link.label}
-                </a>
+                <Link href={link.link}>
+                  <a className={router.pathname == link.link ? styles.active : styles.inactive}>
+                    {link.label}
+                  </a>
+                </Link>
               </li>
             ))}
           </ul>

@@ -9,7 +9,7 @@ export default function TestimonialCard(props) {
       <div id={styles.header}>
 
         <h3>
-          <FontAwesomeIcon icon={faUser} style={{fontSize: "3rem"}} className={"icon"} />
+          <FontAwesomeIcon icon={faUser} className={styles.icon} />
         </h3>
       </div>
 

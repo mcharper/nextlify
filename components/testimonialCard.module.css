@@ -21,6 +21,11 @@
     font-weight: normal;
 }
 
+#header > h3 > .icon {
+    color: #30424A;
+    font-size: 3rem;
+}
+
 .quotationMarkLeft {
     color: var(--clr-light);
     margin-left: -1rem;
