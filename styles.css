@@ -64,7 +64,7 @@ a {
 .container_grid {
     width: 98%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
 }
 
 .narrative > p:first-child {
@@ -93,7 +93,7 @@ a {
         margin: auto;
         width: min(95%, 80rem);
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
     }
 
     .split {
