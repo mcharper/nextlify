@@ -50,6 +50,26 @@ projects:
       - C#
       - ASP.Net Core
       - RethinkDB
+  # - codeName: ck_migration
+  #   name: Website Migration
+  #   organisation: Credit Karma Ltd
+  #   start: 2019-10-01
+  #   end: 2019-12-31
+  #   stackType: Full Stack
+  #   sector: Finance
+  #   city: Leeds
+  #   contractType: C
+  #   based: S
+  #   synopsis: >
+  #     Migration 
+  #   duration: 2
+  #   renewals: 0
+  #   skills:
+  #     - React
+  #     - TypeScript
+  #     - C#
+  #     - Web API
+  #     - SQL Server
   - codeName: fmg_ftp
     name: Finance Transformation Project
     organisation: FMG Ltd
