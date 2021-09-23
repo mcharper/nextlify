@@ -1,10 +1,9 @@
 ---
 title: Home
 lead1: >
-  I am a senior developer with many years' experience across a range of sectors. I work at all levels of the stack using JavaScript frameworks combined with ASP.Net Core and C# at the back end. Over the last few years I've worked more at
-  the front end as I enjoy using React and TypeScript.
+  I am a senior full-stack developer with many years' experience across a range of sectors. I work now primarily with React and TypeScript with ASP.Net Core / C#. In the last few years I've come to prefer front end work, as I enjoy using React.
 lead2: >
-  I also do analysis and design, mentoring and regularly run meetings and customer demos. I stay close to development though because I enjoy it. I like the flexibility offered by contracting, and the variety of being involved in new projects and meeting new people. 
+  I stay close to development because I like it. But I also help with analysis and design, mentoring and regularly run meetings and customer demos. I've worked as a contractor for 25 years and like the flexibility and variety it offers. As a result I can adapt quickly to new technologies and projects.
 showcasedProjectCodeName: jlr_icreate 
 showcasedTestimonialClientName: fmg
 status:
@@ -27,7 +26,7 @@ status:
     - SQL Server
 ---
   ## Two ##
-  *Lorem ipsum dolor*, sit amet **consectetur** adipisicing elit. Laboriosam nostrum corporis harum atque officiis. Blanditiis velit est aliquid doloribus! Est ad maiores tempore ipsum repudiandae quos dignissimos animi et eligendi. Eum magni assumenda, in dignissimos ipsa veritatis autem possimus. Quasi illo sint dicta deserunt magni deleniti maiores aperiam vitae id asperiores reprehenderit beatae, consectetur libero sed aliquid vero laborum est, corporis suscipit unde? Sint, pariatur beatae placeat ex nihil quidem. 
+  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nostrum corporis harum atque officiis. Blanditiis velit est aliquid doloribus! Est ad maiores tempore ipsum repudiandae quos dignissimos animi et eligendi. Eum magni assumenda, in dignissimos ipsa veritatis autem possimus. Quasi illo sint dicta deserunt magni deleniti maiores aperiam vitae id asperiores reprehenderit beatae, consectetur libero sed aliquid vero laborum est, corporis suscipit unde? Sint, pariatur beatae placeat ex nihil quidem.
 
   ## Three ##
   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laboriosam nostrum corporis harum atque officiis. Blanditiis velit est aliquid doloribus! Est ad maiores tempore ipsum repudiandae quos dignissimos animi et eligendi. Eum magni assumenda, in dignissimos ipsa veritatis autem possimus. Quasi illo sint dicta deserunt magni deleniti maiores aperiam vitae id asperiores reprehenderit beatae, consectetur libero sed aliquid vero laborum est, corporis suscipit unde? Sint, pariatur beatae placeat ex nihil quidem.

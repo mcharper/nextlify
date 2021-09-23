@@ -33,11 +33,6 @@ export default class Home extends Component {
             <p id={"lead2"}>{lead2}</p>
           </div>
 
-          <StatusCard 
-            description={status.description}
-            status={status}
-          />
-
           <ProjectCard 
             codeName={showCasedProject.codeName}
             organisation={showCasedProject.organisation}
@@ -53,6 +48,11 @@ export default class Home extends Component {
             skills={showCasedProject.skills}
             synopsis={showCasedProject.synopsis}
           />      
+
+          <StatusCard 
+            description={status.description}
+            status={status}
+          />
 
           <div className={"narrative"}>
             <HomeContent />
