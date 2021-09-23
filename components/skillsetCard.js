@@ -10,7 +10,7 @@ export default function SkillsetCard(props) {
 
       <img className={styles.img} src={`/img/${props.category}.png`} />
 
-      <p>
+      <p id={styles.synopsis}>
         {props.description}
       </p>
 

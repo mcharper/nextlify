@@ -6,7 +6,7 @@ import ProjectCard from '../components/projectCard';
 
 export default class Projects extends Component {
   render() {
-    let { projects } = attributes;
+    let { lead1, lead2, projects } = attributes;
 
     return (
       <div className={"page"}>
@@ -14,7 +14,14 @@ export default class Projects extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
 
-        <div className={"container_grid"}>
+        <div className={"grid_sym_six"}>
+
+          <div className={"narrative"}>
+            <h2>Recent Projects</h2>
+          
+            <p id={"lead1"}>{lead1}</p>
+            <p id={"lead2"}>{lead2}</p>
+          </div>
 
           {projects.map((project) => (
               <ProjectCard 

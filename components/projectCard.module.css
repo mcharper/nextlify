@@ -8,7 +8,6 @@
     justify-content: flex-start;
     margin: 0.5rem;
     padding: 1rem;    
-    min-height: 35rem;
 }
 
 #header {
@@ -50,6 +49,10 @@
 
 .gridList li {
     text-align: left;
+}
+
+#synopsis {
+    flex-grow: 1;
 }
 
 .skillList {

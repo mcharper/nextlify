@@ -8,7 +8,7 @@ import { attributes as projectMetadata } from '../content/projects.md';
 export default class Testimonials extends Component {
 
   render() {
-    let { testimonials } = testimonialsMetadata;
+    let { lead1, lead2, testimonials } = testimonialsMetadata;
     let { projects } = projectMetadata;
 
     return (
@@ -17,9 +17,18 @@ export default class Testimonials extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
       
-        <div className={"container_grid"}>
+        <div className={"grid_sym_six"}>
       
-          {testimonials.map((testimonial, k) => {
+          <div className={"narrative"}>
+            <h2>Testimonials</h2>
+  
+            <p id={"lead1"}>{lead1}</p>
+            <p id={"lead2"}>{lead2}</p>
+          </div>
+
+          {testimonials.map((testimonial, index) => {
+            if (index > 4) return;
+
             const relatedProjects = projects.filter(p => testimonial.relatedProjects.includes(p.codeName));
 
             return <TestimonialCard 

@@ -10,8 +10,8 @@ export default function Footer() {
     <footer id={styles.root}>
       <ul className={styles.navigation}>
         <li>
-          <FontAwesomeIcon icon={faCopyright} />
-          <span className={styles.linkText}>
+          <FontAwesomeIcon icon={faCopyright} />&nbsp;
+          <span>
             {new Date().getFullYear()} Mike Harper
           </span>
         </li>

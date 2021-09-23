@@ -1,5 +1,10 @@
 ---
 title: Testimonials
+lead1: >
+  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam ducimus dicta, corporis sunt vel, modi in quis accusantium quam fuga eum perspiciatis, esse cum asperiores officia similique quos natus doloremque incidunt vero. Vitae deleniti tempore laboriosam sunt aut?
+lead2: >
+  Ad dolor id ipsa quis dicta, amet quibusdam rerum vel officia beatae nulla perspiciatis voluptatem quae. Ea debitis animi, tempore voluptates reiciendis, asperiores aut perspiciatis tempora exercitationem.
+
 testimonials:
     - from: IT Development Director
       quote: |

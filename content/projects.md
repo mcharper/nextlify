@@ -1,6 +1,10 @@
 ---
 title: Projects
-preamble: |
+lead1: |
+  Here are some of the projects I've been working on over the last few years. 
+  I have details of my experience going further back on my LinkedIn profile.
+  For a more traditional CV please contact me.
+lead2: |
   Here are some of the projects I've been working on over the last few years. 
   I have details of my experience going further back on my LinkedIn profile.
   For a more traditional CV please contact me.
@@ -50,26 +54,26 @@ projects:
       - C#
       - ASP.Net Core
       - RethinkDB
-  # - codeName: ck_migration
-  #   name: Website Migration
-  #   organisation: Credit Karma Ltd
-  #   start: 2019-10-01
-  #   end: 2019-12-31
-  #   stackType: Full Stack
-  #   sector: Finance
-  #   city: Leeds
-  #   contractType: C
-  #   based: S
-  #   synopsis: >
-  #     Migration 
-  #   duration: 2
-  #   renewals: 0
-  #   skills:
-  #     - React
-  #     - TypeScript
-  #     - C#
-  #     - Web API
-  #     - SQL Server
+  - codeName: ck_migration
+    name: Website Migration
+    organisation: Credit Karma Ltd
+    start: 2019-10-01
+    end: 2019-12-31
+    stackType: Full Stack
+    sector: Finance
+    city: Leeds
+    contractType: C
+    based: S
+    synopsis: >
+      Migration 
+    duration: 2
+    renewals: 0
+    skills:
+      - React
+      - TypeScript
+      - C#
+      - Web API
+      - SQL Server
   - codeName: fmg_ftp
     name: Finance Transformation Project
     organisation: FMG Ltd
@@ -89,6 +93,27 @@ projects:
       - Angular
       - JavaScript
       - TypeScript
+      - C#
+      - Web API
+      - SQL Server
+  - codeName: jet2_pb
+    name: Holiday Provisioning System
+    organisation: Jet2 Ltd
+    start: 2015-03-01
+    end: 2017-02-14
+    stackType: Full Stack
+    sector: Holidays
+    city: Leeds
+    contractType: C
+    based: S
+    synopsis: >
+      X 
+    duration: 20
+    renewals: 0
+    skills:
+      - TypeScript
+      - JavaScript
+      - AngularJS
       - C#
       - Web API
       - SQL Server

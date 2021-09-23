@@ -3,14 +3,21 @@ import { Component } from 'react'
 
 import { attributes as homeMetadata, react as HomeContent } from '../content/home.md';
 import { attributes as projectMetadata } from '../content/projects.md';
+import { attributes as testimonialsMetadata } from '../content/testimonials.md';
 
 import StatusCard from '../components/statusCard';
 import ProjectCard from '../components/projectCard';
+import TestimonialCard from "../components/testimonialCard";
 
 export default class Home extends Component {
   render() {
-    let { mainText, subText, status } = homeMetadata;
+    let { lead1, lead2, status, showcasedProjectCodeName, showcasedTestimonialClientName } = homeMetadata;
     let { projects } = projectMetadata;
+    let { testimonials } = testimonialsMetadata;
+
+    const showCasedProject = projects.filter(p => p.codeName === showcasedProjectCodeName)[0];
+    const showcasedTestimonial = testimonials.filter(t => t.client.toLowerCase() === showcasedTestimonialClientName)[0];
+    const relatedProjects = projects.filter(p => showcasedTestimonial.relatedProjects.includes(p.codeName));
 
     return (
       <div className={"page"}>
@@ -18,11 +25,12 @@ export default class Home extends Component {
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
 
-        <div className={"container_grid"}>
+        <div className={"grid_focus_five"}>
 
           <div className={"narrative"}>
-            <p>{mainText}</p>
-            <p>{subText}</p>
+            <h2>About Me</h2>
+            <p id={"lead1"}>{lead1}</p>
+            <p id={"lead2"}>{lead2}</p>
           </div>
 
           <StatusCard 
@@ -31,21 +39,35 @@ export default class Home extends Component {
           />
 
           <ProjectCard 
-            codeName={projects[0].codeName}
-            organisation={projects[0].organisation}
-            name={projects[0].name}
-            start={projects[0].start}
-            end={projects[0].end}
-            duration={projects[0].duration}
-            contractType={projects[0].contractType}
-            based={projects[0].based}
-            sector={projects[0].sector}
-            stackType={projects[0].stackType}
-            renewals={projects[0].renewals}
-            skills={projects[0].skills}
-            synopsis={projects[0].synopsis}
+            codeName={showCasedProject.codeName}
+            organisation={showCasedProject.organisation}
+            name={showCasedProject.name}
+            start={showCasedProject.start}
+            end={showCasedProject.end}
+            duration={showCasedProject.duration}
+            contractType={showCasedProject.contractType}
+            based={showCasedProject.based}
+            sector={showCasedProject.sector}
+            stackType={showCasedProject.stackType}
+            renewals={showCasedProject.renewals}
+            skills={showCasedProject.skills}
+            synopsis={showCasedProject.synopsis}
           />      
+
+          <div className={"narrative"}>
+            <HomeContent />
+          </div>
+
+          <TestimonialCard 
+              title="title"
+              quote={showcasedTestimonial.quote}
+              from={showcasedTestimonial.from}
+              client={showcasedTestimonial.client}
+              relatedProjects={relatedProjects}
+            />
+
         </div>
+
       </div>
     )
   }

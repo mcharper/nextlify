@@ -18,11 +18,7 @@ export default function TestimonialCard(props) {
           {props.quote}
         <sup><FontAwesomeIcon icon={faQuoteRight} className={styles.quotationMarkRight} /></sup>
       </blockquote>
-
-      <p>
-        {props.from} at {props.client}
-      </p>
-
+{/* 
       {
         props.relatedProjects.length > 0 &&
         <ul className={styles.projectsList}>Related projects:
@@ -32,7 +28,12 @@ export default function TestimonialCard(props) {
             ))
           }
         </ul>
-      }
+      } */}
+
+      <div id={styles.footer}>
+        {props.from}, {props.client}
+      </div>
+
     </div>
   )
 }

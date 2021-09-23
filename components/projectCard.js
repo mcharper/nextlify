@@ -50,7 +50,7 @@ export default function ProjectCard(props) {
 
       <img className={styles.img} src={`/img/projects/${props.codeName}.jpg`} />
 
-      <p>
+      <p id={styles.synopsis}>
         {props.synopsis}
       </p>
 
