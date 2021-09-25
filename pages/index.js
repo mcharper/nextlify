@@ -28,7 +28,7 @@ export default class Home extends Component {
         <div className={"grid_focus_five"}>
 
           <div className={"narrative"}>
-            <h2>About Me</h2>
+            <h2>What I do</h2>
             <p id={"lead1"}>{lead1}</p>
             <p id={"lead2"}>{lead2}</p>
           </div>

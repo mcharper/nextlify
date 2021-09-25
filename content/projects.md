@@ -1,13 +1,12 @@
 ---
 title: Projects
 lead1: |
-  Here are some of the projects I've been working on over the last few years. 
-  I have details of my experience going further back on my LinkedIn profile.
-  For a more traditional CV please contact me.
+  Here are some of the projects I've been working on over the last few years.
+  Most of my work is on web applications for organisations' private use rather than
+  public-facing websites.
 lead2: |
-  Here are some of the projects I've been working on over the last few years. 
-  I have details of my experience going further back on my LinkedIn profile.
-  For a more traditional CV please contact me.
+  You can find about my experience further back on my LinkedIn profile. I can also supply a
+  comprehensive CV in PDF format if required. The best way to contact me for this is via LinkedIn.
 projects:
   - codeName: jlr_icreate
     name: Engineering Change Management System
@@ -58,20 +57,21 @@ projects:
     name: Website Migration
     organisation: Credit Karma Ltd
     start: 2019-10-01
-    end: 2019-12-31
+    end: 2019-11-30
     stackType: Full Stack
     sector: Finance
     city: Leeds
     contractType: C
     based: S
     synopsis: >
-      Migration 
+      Short-term project to modify an existing ASP.Net website (which was due for replacement) to support urgent legislative changes. Subsequently assisted with development of its replacement using React and TypeScript.
     duration: 2
     renewals: 0
     skills:
       - React
       - TypeScript
       - C#
+      - ASP.Net MVC
       - Web API
       - SQL Server
   - codeName: fmg_ftp
@@ -85,8 +85,8 @@ projects:
     contractType: C
     based: S
     synopsis: >
-      New development to streamline finance processes. This project streamlined internal finance processes
-      to reduce costs and revenue leakage. 
+      New development to streamline finance processes to reduce costs and revenue leakage. This involved work using AngularJS (and later Angular) with JavaScript (and later TypeScript). The system integrated via an API with
+      other operational systems, which I also worked on to provide further streamlining of invoices for commercial recoveries.
     duration: 26
     renewals: 6
     skills:
@@ -99,7 +99,7 @@ projects:
   - codeName: jet2_pb
     name: Holiday Provisioning System
     organisation: Jet2 Ltd
-    start: 2015-03-01
+    start: 2015-05-26
     end: 2017-02-14
     stackType: Full Stack
     sector: Holidays
@@ -107,13 +107,15 @@ projects:
     contractType: C
     based: S
     synopsis: >
-      X 
+      With a fellow contractor, successfully redeveloped a system used to manage the provision of accommodation
+      for package holidays operated by Jet2 Holidays. The old system was web-based but modelled around a spreadsheet,
+      the new system used a cleaner approach to simplify workflow.
     duration: 20
-    renewals: 0
+    renewals: 4
     skills:
-      - TypeScript
-      - JavaScript
       - AngularJS
+      - JavaScript
+      - TypeScript
       - C#
       - Web API
       - SQL Server

@@ -6,7 +6,7 @@ navigation:
   link: /
 - label: Projects
   link: /projects
-- label: Skillset
+- label: Skill Set
   link: /skillset
 - label: Testimonials
   link: /testimonials

@@ -1,10 +1,14 @@
 ---
 title: Testimonials
 lead1: >
-  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam ducimus dicta, corporis sunt vel, modi in quis accusantium quam fuga eum perspiciatis, esse cum asperiores officia similique quos natus doloremque incidunt vero. Vitae deleniti tempore laboriosam sunt aut?
+  It's good to get feedback on the work you've done and some of the people I've worked for and with
+  have been kind enough to provide me with testimonials, a selection of which are shown here. There are
+  others on LinkedIn.
 lead2: >
-  Ad dolor id ipsa quis dicta, amet quibusdam rerum vel officia beatae nulla perspiciatis voluptatem quae. Ea debitis animi, tempore voluptates reiciendis, asperiores aut perspiciatis tempora exercitationem.
-
+  As a contractor you don't always get to see how easy your code is to maintain in the longer term.
+  I try to keep in touch with former colleageues and managers to ask about this, as it's
+  important to keep improving your work. I know that First Direct is still using code I wrote 20 years ago,
+  so that's encouraging! 
 testimonials:
     - from: IT Development Director
       quote: |
