@@ -51,6 +51,13 @@
     text-align: left;
 }
 
+#synopsis {
+    flex-grow: 1;
+    padding: 0.5rem;
+    padding-left: 0;
+    text-align: justify;
+}
+
 .calLink {
     text-decoration: none !important;
     color: black;

@@ -56,7 +56,7 @@ export default function StatusCard(props) {
       <img className={styles.img} src={`/img/currentStatus.jpg`} />
 
       <div className={styles.narrative}>
-        <p>{props.status.description}</p>
+        <p id={styles.synopsis}>{props.status.description}</p>
       </div>
 {/* 
       <ul className={styles.skillList}>
