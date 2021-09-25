@@ -33,6 +33,6 @@ status:
   Occasionally I also work for clients on a more flexible basis. This usually involves relatively small projects I can fit around a full-time contract.
 
   ## Where I work ##
-  I'm based in Huddersfield. But I've worked remotely off and on since 2007, and continuously since March 2020, now from a dedicated home office. 
+  I'm a Yorkshireman based in Huddersfield. But I've worked remotely off and on since 2007, and continuously since March 2020, now from a dedicated home office. 
   
-  I am happy to work remotely for clients further afield, including Europe. I speak fluent German (C2 level, representing near-native proficiency), so I would be happy to work remotely for clients in Germany, Austria and Switzerland.
+  I am happy to work remotely for clients further afield, including Europe. I also speak fluent German (C2 level, representing near-native proficiency), so I would be happy to work remotely for clients in Germany, Austria and Switzerland.
