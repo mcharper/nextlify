@@ -47,6 +47,7 @@ a {
 .page {
     background-color: var(--bg-midtone);
     min-width: 20rem;
+    min-height: 90vh;
 }
 
 .grid_focus_three {
