@@ -3,7 +3,7 @@ title: Skillset
 lead1: >
   My background is full stack. But since starting to use React I've found I really enjoy working at the front end and prefer to do that for the time being. 
 lead2: >
-    Since 2000 I've focussed on web development, mainly the Microsoft stack. I prefer a polyglot approach to development. I believe different languages suit different problems. The variety also keeps me interested and curious.
+    Since 2000 I've focused on web development, mainly the Microsoft stack. I prefer a polyglot approach to development. I believe different languages suit different problems. The variety also keeps me interested and curious.
 frontEnd:
   description: >
     I've been working on single page apps with a significant JavaScript component since 2000.

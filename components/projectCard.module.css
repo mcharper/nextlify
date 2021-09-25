@@ -29,8 +29,7 @@
 }
 
 .top_corner {
-    float: right;
-    margin-right: 1rem;
+    display: none;
 }
 
 .img {
@@ -71,3 +70,14 @@
     text-align: center;
 }
 
+
+/* mobile landscape */
+/* @media all and (min-width: 480px) {
+} */
+@media all and (min-width: 480px) {
+    .top_corner {
+        display: inline;
+        float: right;
+        margin-right: 1rem;
+    }
+}
