@@ -2,6 +2,7 @@
 #root {
     align-items: center;
     background-color: var(--bg-light);
+    border: 1px solid var(--bg-dark);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;

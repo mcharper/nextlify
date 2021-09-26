@@ -3,7 +3,7 @@ title: Home
 lead1: >
   I am a senior full-stack developer with many years' experience across a range of sectors. I work now primarily with React  and the Microsoft .Net stack. Since discovering React I've come to prefer front end work.
 lead2: >
-  I stay close to development because I enjoy it. Contracting allows me to keep learning and adopting technology as it improves. But I also help with architectural decisions, analyse, design, mentor, write tests, and regularly run meetings and customer demos. My long experience as contractor means I can adapt to a team quickly and start adding value early on.
+  I stay close to development because I enjoy it. Contracting allows me to keep learning and adopting technology as it improves. But I also help with architectural decisions, analyse, design, mentor, write tests, and regularly run meetings and customer demos. My long experience as a contractor means I can adapt to a team quickly and start adding value early on.
 showcasedProjectCodeName: jlr_icreate 
 showcasedTestimonialClientName: fmg
 status:

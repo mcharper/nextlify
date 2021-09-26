@@ -1,6 +1,7 @@
 
 #root {
     background-color: var(--bg-light);
+    border: 1px solid var(--bg-dark);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -20,8 +21,8 @@
 }
 
 #header > h3 {
-    background-color: #82c2e2;
-    border: 1px solid silver;
+    background-color: #B1D8ED;
+    border: 0.5px solid var(--bg-dark);
     border-radius: 0.25rem;
     color: var(--clr-dark);
     font-size: 1.1rem;
@@ -34,10 +35,9 @@
 }
 
 .img {
-    border: 0.1rem solid var(--clr-subdued);
+    border: 0.5px solid var(--bg-dark);
     border-radius: 0.5rem;
     margin: 0.25rem;
-    width: 98%;
 }
 
 .gridList {

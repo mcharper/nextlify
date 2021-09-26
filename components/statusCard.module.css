@@ -1,6 +1,7 @@
 
 #root {
     background-color: var(--bg-light);
+    border: 1px solid var(--bg-dark);
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
@@ -15,16 +16,18 @@
 }
 
 #header > h2 {
+    font-family: var(--ff-primary);
     font-size: 1.25rem;
     font-weight: normal;
 }
 
 #header > h3 {
-    background-color: #FFFACD;
-    border: 1px solid silver;
+    background-color: #fff59a;
+    border: 0.5px solid var(--bg-dark);
     border-radius: 0.25rem;
     color: var(--clr-dark);
     font-size: 1.1rem;
+    margin: 0.1rem 0.1rem 0.1rem -0.05rem;
     text-align: center;
 }
 
@@ -34,10 +37,9 @@
 }
 
 .img {
-    border: 0.1rem solid var(--clr-subdued);
+    border: 0.5px solid var(--bg-dark);
     border-radius: 0.5rem;
-    margin: 0.25rem 0.25rem 0.25rem -0.25rem;
-    width: 98%;
+    margin: 0.25rem;
 }
 
 .gridList {
