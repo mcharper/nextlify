@@ -6,7 +6,7 @@ lead1: >
   others on LinkedIn.
 lead2: >
   As a contractor you don't always get to see how easy your code is to maintain in the longer term.
-  I try to keep in touch with former colleageues and managers to ask about this, as it's
+  I try to keep in touch with former colleagues and managers to ask about this, as it's
   important to keep improving your work. I know that First Direct is still using code I wrote 20 years ago,
   so that's encouraging! 
 testimonials:
