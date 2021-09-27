@@ -42,6 +42,7 @@
     font-style: oblique;
     font-size: 1.2rem;
     flex-grow: 1;
+    margin: 0.5rem;
     text-align: justify;
 }
 
@@ -60,4 +61,12 @@
     color: var(--bg-dark);
     font-size: 0.8rem;
     font-weight: bold;
+}
+
+  
+/* tablet up */
+@media all and (min-width: 749px) {
+    #quote {
+        margin: 2rem;
+    }
 }

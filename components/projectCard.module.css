@@ -32,7 +32,9 @@
 }
 
 .top_corner {
-    display: block;
+    display: inline;
+    float: right;
+    margin-right: 1rem;
 }
 
 .img {
@@ -73,16 +75,4 @@
     font-size: 0.8rem;
     margin: 0.25rem;
     text-align: center;
-}
-
-
-/* mobile landscape */
-/* @media all and (min-width: 480px) {
-} */
-@media all and (min-width: 480px) {
-    .top_corner {
-        display: inline;
-        float: right;
-        margin-right: 1rem;
-    }
 }
