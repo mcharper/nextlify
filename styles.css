@@ -120,7 +120,7 @@ a {
         margin: auto;
         width: min(95%, 80rem);
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     }
 
     .grid_focus_three > :nth-child(1) {
@@ -130,7 +130,7 @@ a {
     .grid_focus_five {
         width: min(95%, 80rem);
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
     }
 
     .grid_focus_five > :nth-child(4) {
