@@ -1,6 +1,6 @@
-import { useState } from 'react';
-import Link from 'next/link'; 
 import { useRouter } from 'next/router';
+import { useState, useEffect } from 'react';
+import Link from 'next/link'; 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
@@ -10,16 +10,26 @@ import styles from './header.module.css';
 export default function Header() {
   const router = useRouter();
 
-  let { navigation, title, subtitle } = attributes;
-  
+  const [headerExpanded, setHeaderExpanded] = useState(true);
   const [menuExpanded, setMenuExpanded] = useState(false);
+
+  useEffect(() => {
+    const handler = () => {
+      setHeaderExpanded(document.documentElement.scrollTop < 1)
+    };
+
+    window.addEventListener("scroll", handler);
+    return () => window.removeEventListener("scroll", handler);
+  }, []);
+
+  let { navigation, title, subtitle } = attributes;
 
   const toggleMenu = () => {
     setMenuExpanded(!menuExpanded);
   };
 
   return (
-    <header id={styles.root}>
+    <header id={styles.root} className={headerExpanded ? styles.headerExpanded : styles.headerCollapsed}>
       <div id={styles.topBar}>
         <FontAwesomeIcon id={styles.hamburger} icon={faBars} onClick={toggleMenu} />
         <Link href="/">
@@ -52,9 +62,11 @@ export default function Header() {
         </div>
       }
 
-      <Link href="/">
-        <img id={styles.largeLogo} src="/img/logo.png" />
-      </Link>
+      {
+        <Link href="/">
+          <img id={styles.largeLogo} src="/img/logo.png" />
+        </Link>
+      }
     </header>
   )
 }

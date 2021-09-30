@@ -7,6 +7,7 @@
     justify-content: space-evenly;
     min-width: 20rem;
     padding-left: 1rem;
+    width: 100%;
 }
 
 #topBar {
@@ -87,12 +88,26 @@
 
 @media (min-width: 70em) {
     #root {
+        align-items: flex-end;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        align-items: flex-end;
+        position: sticky;
+        top: 0;
     }
 
+    .headerExpanded {
+        height: 95px;
+        transition: height 0.75s;
+        transition-timing-function: ease-out;
+    }
+    
+    .headerCollapsed {
+        height: 0;
+        transition: height 0.75s;
+        transition-timing-function: ease-in;
+    }
+    
     #topBar {
         display: none;
     }
