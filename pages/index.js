@@ -11,7 +11,7 @@ import TestimonialCard from "../components/testimonialCard";
 
 export default class Home extends Component {
   render() {
-    let { lead1, lead2, status, showcasedProjectCodeName, showcasedTestimonialClientName } = homeMetadata;
+    let { leadParagraphs, status, showcasedProjectCodeName, showcasedTestimonialClientName } = homeMetadata;
     let { projects } = projectMetadata;
     let { testimonials } = testimonialsMetadata;
 
@@ -28,9 +28,12 @@ export default class Home extends Component {
         <div className={"grid_focus_five"}>
 
           <div className={"narrative"}>
-            <h2>What I do</h2>
-            <p id={"lead1"}>{lead1}</p>
-            <p id={"lead2"}>{lead2}</p>
+            {leadParagraphs.map((lead) => (
+              <>
+                <h2>{lead.header}</h2>
+                <p>{lead.body}</p>
+              </>
+            ))}
           </div>
 
           <ProjectCard 

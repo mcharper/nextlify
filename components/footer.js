@@ -16,7 +16,7 @@ export default function Footer() {
           </span>
         </li>
         <li>
-          <Link passHref={true} href="http://linkedin.com/in/mcharper">
+          <Link passHref={true} href="https://linkedin.com/in/mcharper">
             <a target="_blank" >
               <FontAwesomeIcon icon={faLinkedinIn} />
               <span className={styles.linkText}>LinkedIn</span>
@@ -24,7 +24,7 @@ export default function Footer() {
           </Link>
         </li>
         <li>
-          <Link passHref={true} href="http://twitter.com/mcharper">
+          <Link passHref={true} href="https://twitter.com/mcharper">
             <a target="_blank" >
               <FontAwesomeIcon icon={faTwitterSquare} />
               <span className={styles.linkText}>Twitter</span>

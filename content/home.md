@@ -1,9 +1,16 @@
 ---
 title: Home
-lead1: >
-  I am a senior full-stack developer with many years' experience across a range of sectors. I work now primarily with React  and the Microsoft .Net stack. Since discovering React I've come to prefer front end work.
-lead2: >
-  I stay close to development because I enjoy it. Contracting allows me to keep learning and adopting technology as it improves. But I also help with architectural decisions, analyse, design, mentor, write tests, and regularly run meetings and customer demos. My long experience as a contractor means I can adapt to a team quickly and start adding value early on.
+leadParagraphs:
+  - header: What's this?
+    body: >
+      A chance for me to elaborate on the traditional CV you might have in your hand, to add some colour and context.
+      Maybe the start of a conversation?
+  - header: Who are you?
+    body: >
+      A versatile full-stack developer with extensive industry experience, currently working with React and TypeScript.
+  - header: What do you do?
+    body: >
+      Development because I enjoy it! Particularly front-end now. But also analysis and design. I'm often entrusted with architectural decisions. I also run meetings, presentations and demos, and mentor sometimes.
 showcasedProjectCodeName: jlr_icreate 
 showcasedTestimonialClientName: fmg
 status:
@@ -25,14 +32,18 @@ status:
     - C#
     - SQL Server
 ---
-  ## How I work ##
-  I've remained a contractor for over 25 years as I like the variety and flexibility it brings. 
+  ## Why should I hire you? ## 
 
-  Typically I work on fixed term contracts which start as 3-6 months but are often extended, some for many years. I work on a time and materials basis (usually a day rate).
+  Do you need a conscientious dev who can add value quickly? Who can fit smoothly into your project team? You might want to look at my <a href="/testimonials">Testimonials</a>. 
 
-  Occasionally I also work for clients on a more flexible basis. This usually involves relatively small projects I can fit around a full-time contract.
+  If now isn’t the right time you could subscribe to my <a href="https://twitter.com/mcharper" target="blank">Twitter</a> account for updates.
 
-  ## Where I work ##
-  I'm a Yorkshireman based in Huddersfield. But I've worked remotely off and on since 2007, and continuously since March 2020, now from a dedicated home office. 
-  
-  I am happy to work remotely for clients further afield, including Europe. I also speak fluent German (C2 level, representing near-native proficiency), so I would be happy to work remotely for clients in Germany, Austria and Switzerland.
+  ## Do you only do contract work? ## 
+
+  Yes. I've been a contractor for over 25 years. I like the variety and flexibility. Typically I work on a day rate basis.
+
+  ## Where are you based? ## 
+
+  It hardly seems to matter nowadays, does it? Anyway it's Huddersfield, West Yorkshire. I've worked remotely off and on since 2007, exclusively so since March 2020 from a dedicated home office.
+
+  By the way, are you based in Germany, Austria or Switzerland? I also speak fluent German (C2 qualified - near-native proficiency) and am always happy to use it at work. 

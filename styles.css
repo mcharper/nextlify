@@ -3,6 +3,7 @@
     --bg-highlight: #FFFFF9;
     --bg-light: whitesmoke;
     --bg-midtone: #9bb3bd;
+    --bg-medium-dark: #44545c;
     --bg-dark: #30424A;
 
     --clr-lightest: white;
@@ -79,15 +80,8 @@ a {
 }
 
 .narrative h2, h3, h4 {
-    color: var(--bg-dark);
-}
-
-#lead1 {
-    color: black;
-}
-
-#lead2 {
-    color: black;
+    font-size: 2rem;
+    color: var(--bg-medium-dark);
 }
 
 .bg-light {
