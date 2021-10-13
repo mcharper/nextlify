@@ -8,7 +8,7 @@
     justify-content: center;
     min-width: 20rem;
     min-height: 5rem;
-    padding-inline: 2rem 2rem;
+    padding: 0 2rem 0 2rem;
 }
 
 /* @media (min-width: 200em) {
@@ -33,7 +33,7 @@
 }
 
 .navigation > li  {
-    margin-inline: 0 3rem;
+    margin: 0 3rem 0 0;
 }
 
 .navigation > li > a {
