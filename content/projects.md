@@ -9,7 +9,7 @@ lead2: |
   comprehensive CV in PDF format if required. The best way to contact me for this is via LinkedIn.
 projects:
   - codeName: jlr_icreate
-    name: Engineering Change Management System
+    name: Engineering Changes System
     organisation: Jaguar Land Rover
     sector: Automotive
     city: Manchester
@@ -33,7 +33,7 @@ projects:
       - JSS
       - Cypress
   - codeName: fmg_hetoa 
-    name: Highways England Traffic Officer App
+    name: Highways England App
     organisation: FMG Ltd
     city: Huddersfield
     based: R
@@ -75,7 +75,7 @@ projects:
       - Web API
       - SQL Server
   - codeName: fmg_ftp
-    name: Finance Transformation Project
+    name: Finance Transformation
     organisation: FMG Ltd
     start: 2017-03-01
     end: 2019-06-30

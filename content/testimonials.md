@@ -19,7 +19,7 @@ testimonials:
         - fmg_ftp
     - from: ECommerce Development Manager
       quote: |
-        We hired Michael for his specialist expertise. He quickly integrated into our values based culture and added value from day one. He fit in so well and mixed well with our people he stayed with us for many years on a contract basis! He naturally developed less experienced people around him too. I valued Michael for his knowledge, recommendations for pushing our boundaries, he was self-managing so I could confidently leave him to development. ... He can communicate easily with other developers, tester and indeed clients. Hence I have no hesitation in recommending him!
+        We hired Michael for his specialist expertise. He quickly integrated into our values based culture and added value from day one. He fit in so well and mixed well with our people he stayed with us for many years on a contract basis! He naturally developed less experienced people around him too. I valued Michael for his knowledge, recommendations for pushing our boundaries ... He can communicate easily with other developers, testers and indeed clients. Hence I have no hesitation in recommending him!
       client: First Direct
       relatedProjects:
         - fd_intranet
@@ -31,8 +31,8 @@ testimonials:
         - hl_cprm
     - from: Development Team Lead
       quote: |
-        Mike spends the time to make sure that his applications are thoroughly tested, and work in the most sensible and resource friendly fashion. He has great attention to detail, and is very meticulous. Mike also manages to produce code that is very sympathetic to existing coding practices and dovetails nicely into the existing codebase. 
-        I cannot speak highly enough of Mike, he has been an excellent addition to the team and has helped the business by providing a crucial and robust piece of software at a time of exponential growth. I would not hesitate in taking Mike on again for future work. ... 
+        Mike spends the time to make sure that his applications are thoroughly tested ... He has great attention to detail, and is very meticulous. Mike also manages to produce code that is very sympathetic to existing coding practices and dovetails nicely into the existing codebase 
+        ... he has helped the business by providing a crucial and robust piece of software at a time of exponential growth. I would not hesitate in taking Mike on again for future work. ... 
       client: InHealth Group
       relatedProjects:
         - ih_wave2
