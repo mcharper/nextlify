@@ -10,13 +10,14 @@ leadParagraphs:
       A versatile full-stack developer with extensive industry experience, currently working with React and TypeScript.
   - header: What do you do?
     body: >
-      Development because I enjoy it! Particularly front-end now. But also analysis and design. I'm often entrusted with architectural decisions. I also run meetings, presentations and demos, and mentor sometimes.
+      Development because I enjoy it! Particularly front-end now. But also analysis, design, helping choose technologies, running meetings, presentations, demos, mentoring ...
 showcasedProjectCodeName: jlr_icreate 
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    I am currently in contract working on a project for Jaguar Land Rover until the end of the year.
-    I am based in Huddersfield, West Yorkshire but I have been working remotely since March 2020 and prefer this where possible.
+    My ideal next contract would involve React and TypeScript / JavaScript combined with some C# and ASP.Net Core.
+    (I'm enjoying front end work more now). I've got used to working remotely so would prefer that.
+  contractEndDate: 2021-12-31
   availabilityDate: 2022-01-04
   currentClient: Jaguar Land Rover
   preferredStackType: frontEnd
@@ -27,10 +28,8 @@ status:
   skills: 
     - React
     - TypeScript
-    - JavaScript
-    - ASP.Net Core
     - C#
-    - SQL Server
+    - ASP.Net Core
 ---
   ## Why should I hire you? ## 
 

@@ -7,14 +7,14 @@ import { attributes, react as SkillsetContent } from '../content/skillset.md';
 
 export default class Skillset extends Component {
   render() {
-    let { lead1, lead2, frontEnd, backEnd } = attributes;
+    let { lead1, lead2, frontEnd, backEnd, tools, process, soft } = attributes;
     return (
       <div className={"page"}>
         <Head>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         </Head>
 
-        <div className={"grid_focus_three"}>
+        <div className={"grid_sym_six"}>
 
           <div className={"narrative"}>
             <h2>My Skill Set</h2>
@@ -25,18 +25,39 @@ export default class Skillset extends Component {
 
           <SkillsetCard 
             category={"frontEnd"}
-            title={"Front End Skills"}
+            title={"Front End"}
             description={frontEnd.description}
             skills={frontEnd.skills}
           />
 
           <SkillsetCard 
             category={"backEnd"}
-            title={"Back End Skills"}
+            title={"Back End"}
             description={backEnd.description}
             skills={backEnd.skills}
           /> 
-                   
+
+          <SkillsetCard 
+            category={"tools"}
+            title={"Tooling and DevOps Related"}
+            description={tools.description}
+            skills={tools.skills}
+          /> 
+
+           <SkillsetCard 
+            category={"process"}
+            title={"Project and Process Related"}
+            description={process.description}
+            skills={process.skills}
+          /> 
+
+         <SkillsetCard 
+            category={"soft"}
+            title={"Soft Skills"}
+            description={soft.description}
+            skills={soft.skills}
+          /> 
+
         </div>
 
       </div>

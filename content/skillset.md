@@ -1,48 +1,68 @@
 ---
 title: Skillset
 lead1: >
-  My background is full stack. But since starting to use React I've found I really enjoy working at the front end and prefer to do that for the time being. 
+  Since starting to use React I've found I really enjoy working at the front end and I am focused on that for the time being.
+
 lead2: >
-    Since 2000 I've focused on web development, mainly the Microsoft stack. I prefer a polyglot approach to development. I believe different languages suit different problems. The variety also keeps me interested and curious.
+  I've had a long career in development though. Since 2000 I've focused on web applications. My background is full stack.
+  The variety of languages and technologies involved and their constant evolution keeps me interested and curious, and allows me to continually improve what I can offer users.
 frontEnd:
   description: >
-    I've been working on single page apps with a significant JavaScript component since 2000.
-    I prefer React, having used Angular, AngularJS and Durandl before that. I'm also finding NextJS interesting and 
-    useful on my own projects. Long before those I also used Knockout, Ext.js and JQuery. I am happiest in TypeScript but also fine with JavaScript and its ecosystem and of course HTML/CSS.
+    I started developing for the web in 2000. I've been using JavaScript to write SPAs since I discovered AJAX!
+    Since then I've used JQuery, Ext JS, Durandl, AngularJS, and now React, my preferred framework. I'm experimenting with NextJS - this site is built on it. Since 2019 I've mostly used TypeScript - I really like it.
   skills:
   - name: ReactJS
   - name: TypeScript
   - name: JavaScript
-  - name: HTML / CSS
+  - name: Mobile
+  - name: HTML 5
+  - name: CSS 3
 backEnd:
   description: |
-    My background is in the Microsoft web development stack using ASP.Net, C# and SQL Server. I've tended to use
-    Entity Framework as an ORM but have also used NHibernate with Oracle. I've also worked with non-relational databases such as MongoDB and more recently RethinkDB, a real-time database. 
+    My web development work started out with classic ASP, leading to ASP.Net Core using C#. I've used SQL Server since about 2000 but also worked with MongoDB and more recently RethinkDB, a real-time database. I've mainly used Entity Framework as an ORM but also NHibernate and Dapper.
   skills:
   - name: C#
   - name: ASP.Net Core
-  - name: RabbitMQ
+  - name: EF
   - name: SQL Server
-devops:
+  - name: RethinkDB
+  - name: MongoDB
+tools:
   description: |
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium.
+    I develop mostly on Windows but am happy right now in Linux (I was originally from a Unix background).
+    I edit in VSCode and Visual Studio, with Git for source control (GitHub, GitLab, BitBucket), and at present GitLab for CI and deployment though I have more experience with TFS and Octopus Deploy. My Cloud experience comprises exploring Azure for the most part. I have light exposure to Kubernetes using Minikube.
   skills:
-  - name: TFS
-  - name: GitLab
-  - name: GitHub
+  - name: Windows
+  - name: Linux
+  - name: VSCode
+  - name: Git
+  - name: Azure DevOps
+  - name: Octopus
 process:
   description: |
-    The team I'm in currently uses JIRA for managing agile work. I first used JIRA in 2014. I've also used TFS
-    and Target Process. I'm used to working in an agile environment, sometimes based on Scrum, sometimes (as at present)
-    on Kanban.
-    
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio debitis animi nostrum cupiditate iure facilis ut officiis earum voluptas corporis fugit culpa quasi enim illo tempore accusantium, ipsa a sequi beatae? Sed sapiente temporibus sit et assumenda ab quos eveniet iusto, voluptates reprehenderit optio eius incidunt esse veritatis saepe illum illo ipsam aspernatur reiciendis vel qui a. Voluptas distinctio fuga deserunt aperiam corrupti quasi architecto sit, dolorem error neque adipisci ullam sint magni inventore iusto itaque expedita reiciendis quisquam quam. At quibusdam possimus voluptatibus nulla molestiae quos saepe dolor rem ducimus tempora fugit, facilis impedit, dolores dolore voluptas vero ad!
+    I'm used to working in an agile environment, sometimes based on Scrum, sometimes Kanban.
+    By the time I join a project the client has already chosen a tool to manage it so I'm familiar with a few. 
+    I've used TFS (now Azure DevOps) off and on since 2012. I'm using Jira at the moment, which I first used 
+    in 2014. I've also worked with Target Process and Trello.
   skills:
+  - name: Agile
+  - name: TDD
   - name: Scrum
   - name: Kanban
   - name: Jira
-  - name: TFS
-  - name: Confluence
+  - name: Azure DevOps
+soft:
+  description: |
+    People say they value my ability to fit in and make a positive contribution that complements 
+    their team's work. If I do suggest improvements I do so constructively. I'm pragmatic. I enjoy collaborating, pair programming, mentoring, presenting and (perhaps unusually) documenting! I am used to working in  
+    international teams and enjoy this.
+  skills:
+  - name: Collaboration
+  - name: Presenting
+  - name: Communication
+  - name: Mentoring
+  - name: English
+  - name: German
 ---
 # Skills and technical interests #
 

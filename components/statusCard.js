@@ -16,39 +16,59 @@ export default function StatusCard(props) {
 
   return (
     <div id={styles.root}>
+      
       <div id={styles.header}>
         <h2>
-          In Contract
+          In contract until
           <span className={styles.top_corner}>
-            Available {dayjs(props.status.availabilityDate).format('D MMM YYYY')}
+            {dayjs(props.status.contractEndDate).format('D MMM YY')}
           </span>
         </h2>
-        <h3>Latest Availability Update</h3>
+        <h3>Availability</h3>
       </div>
 
       <ul className={styles.gridList}>
         <li>
           <FontAwesomeIcon icon={faCalendarCheck} className={"icon"} />&nbsp;
           <ICalendarLink event={event} className={styles.calLink}>
-            {dayjs(props.status.availabilityDate).format('DD MMM YYYY')}
+            {dayjs(props.status.availabilityDate).format('D MMM YY')}
           </ICalendarLink>
         </li>
         <li>
           <FontAwesomeIcon icon={faMapPin} className={"icon"} />&nbsp;
-          Prefer remote
+          {
+            <span>Yorks / remote</span>
+          }
         </li>                  
-        <li>
+        {/* <li>
           <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
           Prefer&nbsp;
           {
             props.status.preferredStackType === "frontEnd" ? "front end" : "back end" 
           } 
+        </li>                   */}
+        <li>
+          <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
+          {
+            props.status.skills[0] 
+          } 
         </li>                  
         <li>
           <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
-          Prefer&nbsp;
           {
-            props.status.preferredSkills[0] 
+            props.status.skills[1] 
+          } 
+        </li>                  
+        <li>
+          <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
+          {
+            props.status.skills[2] 
+          } 
+        </li>                  
+        <li>
+          <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
+          {
+            props.status.skills[3] 
           } 
         </li>                  
       </ul>

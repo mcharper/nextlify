@@ -68,7 +68,6 @@ export default class Home extends Component {
               client={showcasedTestimonial.client}
               relatedProjects={relatedProjects}
             />
-
         </div>
 
       </div>
