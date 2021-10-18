@@ -1,4 +1,8 @@
 :root {
+    --scheme-main: #30424A;
+    --analogous1: #51566b;
+    --analogous2: #5B4B43;
+
     --bg-primary: #C0D6DF;
     --bg-highlight: #FFFFF9;
     --bg-light: whitesmoke;

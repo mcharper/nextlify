@@ -22,10 +22,10 @@
 }
 
 #header > h3 {
-    background-color: #fff59a;
+    background-color: var(--analogous1);
     border: 0.5px solid var(--bg-dark);
     border-radius: 0.25rem;
-    color: var(--clr-dark);
+    color: var(--clr-lightest);
     font-size: 1.2rem;
     margin: 0.1rem 0.1rem 0.1rem -0.05rem;
     text-align: center;
