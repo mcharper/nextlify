@@ -27,7 +27,7 @@ export default function ProjectCard(props) {
         </h2>
         <h3>
           {props.name}
-          <Link href={`/projects/${props.codeName}`}>&gt;</Link>
+          {/* <Link href={`/projects/${props.codeName}`}>&gt;</Link> */}
         </h3>
       </div>
 
