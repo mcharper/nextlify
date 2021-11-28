@@ -31,14 +31,6 @@ export default function Footer() {
             </a>
           </Link>
         </li>
-        <li>
-          <Link passHref={true} href="https://github.com/mcharper">
-            <a target="_blank" >
-              <FontAwesomeIcon icon={faGithub} />
-              <span className={styles.linkText}>Github</span>
-            </a>
-          </Link>
-        </li>
       </ul>
     </footer>
   )
