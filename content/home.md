@@ -11,38 +11,39 @@ leadParagraphs:
   - header: What do you do?
     body: >
       Development because I enjoy it! Particularly front-end now. But also analysis, design, helping choose technologies, running meetings, presentations, demos, mentoring ...
-showcasedProjectCodeName: jlr_icreate 
+showcasedProjectCodeName: jlr_icreate
 showcasedTestimonialClientName: fmg
 status:
   description: >
     My ideal next contract would involve React and TypeScript / JavaScript combined with some C# and ASP.Net Core.
     (I'm enjoying front end work more now). I've got used to working remotely so would prefer that.
-  contractEndDate: 2021-12-31
-  availabilityDate: 2022-01-04
-  currentClient: Jaguar Land Rover
+  contractEndDate: 2022-04-11
+  availabilityDate: 2022-05-01
+  currentClient: Agora DCM
   preferredStackType: frontEnd
   preferredSkills:
     - React
     - TypeScript
     - JavaScript
-  skills: 
+  skills:
     - React
     - TypeScript
     - C#
     - ASP.Net Core
 ---
-  ## Why should I hire you? ## 
 
-  Do you need a conscientious dev who can add value quickly? Who can fit smoothly into your project team? You might want to look at my <a href="/testimonials">Testimonials</a>. 
+## Why should I hire you?
 
-  If now isn’t the right time you could subscribe to my <a href="https://twitter.com/mcharper" target="blank">Twitter</a> account for updates.
+Do you need a conscientious dev who can add value quickly? Who can fit smoothly into your project team? You might want to look at my <a href="/testimonials">Testimonials</a>.
 
-  ## Do you only do contract work? ## 
+If now isn’t the right time you could subscribe to my <a href="https://twitter.com/mcharper" target="blank">Twitter</a> account for updates.
 
-  Yes. I've been a contractor for over 25 years. I like the variety and flexibility. Typically I work on a day rate basis.
+## Do you only do contract work?
 
-  ## Where are you based? ## 
+Yes. I've been a contractor for over 25 years. I like the variety and flexibility. Typically I work on a day rate basis.
 
-  It hardly seems to matter nowadays, does it? Anyway it's Huddersfield, West Yorkshire. I've worked remotely off and on since 2007, exclusively so since March 2020 from a dedicated home office.
+## Where are you based?
 
-  By the way, are you based in Germany, Austria or Switzerland? I also speak fluent German (C2 qualified - near-native proficiency) and am always happy to use it at work. 
+It hardly seems to matter nowadays, does it? Anyway it's Huddersfield, West Yorkshire. I've worked remotely off and on since 2007, exclusively so since March 2020 from a dedicated home office.
+
+By the way, are you based in Germany, Austria or Switzerland? I also speak fluent German (C2 qualified - near-native proficiency) and am always happy to use it at work.
