@@ -11,66 +11,67 @@ frontEnd:
     I started developing for the web in 2000. I've been using JavaScript to write SPAs since I discovered AJAX!
     Since then I've used JQuery, Ext JS, Durandl, AngularJS, and now React, my preferred framework. I'm experimenting with NextJS - this site is built on it. Since 2019 I've mostly used TypeScript - I really like it.
   skills:
-  - name: ReactJS
-  - name: TypeScript
-  - name: JavaScript
-  - name: Mobile
-  - name: HTML 5
-  - name: CSS 3
+    - name: ReactJS
+    - name: TypeScript
+    - name: JavaScript
+    - name: Mobile
+    - name: HTML 5
+    - name: CSS 3
 backEnd:
   description: |
     My web development work started out with classic ASP, leading to ASP.Net Core using C#. I've used SQL Server since about 2000 but also worked with MongoDB and more recently RethinkDB, a real-time database. I've mainly used Entity Framework as an ORM but also NHibernate and Dapper.
   skills:
-  - name: C#
-  - name: ASP.Net Core
-  - name: EF
-  - name: SQL Server
-  - name: RethinkDB
-  - name: MongoDB
+    - name: C#
+    - name: ASP.Net Core
+    - name: EF
+    - name: SQL Server
+    - name: RethinkDB
+    - name: MongoDB
 tools:
   description: |
     I develop mostly on Windows but am happy right now in Linux (I was originally from a Unix background).
     I edit in VSCode and Visual Studio, with Git for source control (GitHub, GitLab, BitBucket), and at present GitLab for CI and deployment though I have more experience with TFS and Octopus Deploy. My Cloud experience comprises exploring Azure for the most part. I have light exposure to Kubernetes using Minikube.
   skills:
-  - name: Windows
-  - name: Linux
-  - name: VSCode
-  - name: Git
-  - name: Azure DevOps
-  - name: Octopus
+    - name: Windows
+    - name: Linux
+    - name: VSCode
+    - name: Git
+    - name: Azure DevOps
+    - name: Octopus
 process:
   description: |
     I'm used to working in an agile environment, sometimes based on Scrum, sometimes Kanban.
     By the time I join a project the client has already chosen a tool to manage it so I'm familiar with a few. 
-    I've used TFS (now Azure DevOps) off and on since 2012. I'm using Jira at the moment, which I first used 
-    in 2014. I've also worked with Target Process and Trello.
+    I've used TFS (now Azure DevOps) off and on since 2012, Jira on and off since 2014. I'm using Shortcut now.
+    I've also worked with Target Process and Trello.
   skills:
-  - name: Agile
-  - name: TDD
-  - name: Scrum
-  - name: Kanban
-  - name: Jira
-  - name: Azure DevOps
+    - name: Agile
+    - name: TDD
+    - name: Scrum
+    - name: Kanban
+    - name: Jira
+    - name: Azure DevOps
 soft:
   description: |
     People say they value my ability to fit in and make a positive contribution that complements 
     their team's work. If I do suggest improvements I do so constructively. I'm pragmatic. I enjoy collaborating, pair programming, mentoring, presenting and (perhaps unusually) documenting! I am used to working in  
     international teams and enjoy this.
   skills:
-  - name: Collaboration
-  - name: Presenting
-  - name: Communication
-  - name: Mentoring
-  - name: English
-  - name: German
+    - name: Collaboration
+    - name: Presenting
+    - name: Communication
+    - name: Mentoring
+    - name: English
+    - name: German
 ---
-# Skills and technical interests #
+
+# Skills and technical interests
 
 I build web applications using React, TypeScript, C# and ASP.Net Core and other related technologies.
 
 I use TFS currently for story and ticket management but have also used JIRA and Target Process. All the projects I have worked on in recent years have taken an agile / scrum approach in one form or another. Clients usually already have an approach which works for them.
 
-Regarding techniques, I try to apply SOLID principles where appropriate. I understand Object Oriented Design of course but other paradigms are also finding a place, particularly Functional Programming, and I am open to these. 
+Regarding techniques, I try to apply SOLID principles where appropriate. I understand Object Oriented Design of course but other paradigms are also finding a place, particularly Functional Programming, and I am open to these.
 
 I use a TDD approach where possible because I believe it results in better-designed, more robust, and more adaptable software.
 
@@ -79,4 +80,3 @@ In terms of development tools, I use Visual Studio and VSCode commercially. I al
 I’ve done a lot of physical database design of relational databases. In my last contract I used RethinkDB because of its real time capabilities allowing data to be pushed to observers. Over the last few years I've also used MongoDB for some projects. More recently I've become interested in Graph databases such as Neo4J, which requires a different way of thinking but which looks very useful for certain kinds of problem, such as discovering relationships in datasets.
 
 You can see some of the code I write in my spare time on GitHub.
-
