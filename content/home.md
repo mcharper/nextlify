@@ -11,7 +11,7 @@ leadParagraphs:
   - header: What do you do?
     body: >
       Development because I enjoy it! Particularly front-end now. But also analysis, design, helping choose technologies, running meetings, presentations, demos, mentoring ...
-showcasedProjectCodeName: jlr_icreate
+showcasedProjectCodeName: agr_jeff
 showcasedTestimonialClientName: fmg
 status:
   description: >
