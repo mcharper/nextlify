@@ -8,6 +8,27 @@ lead2: |
   You can find about my experience further back on my LinkedIn profile. I can also supply a
   comprehensive CV in PDF format if required. The best way to contact me for this is via LinkedIn.
 projects:
+  - codeName: agr_jeff
+    name: Bond Issuance System
+    organisation: Agora DCM
+    sector: Finance
+    city: London
+    start: 2022-01-10
+    end: 2022-04-10
+    duration: 3
+    renewals: 0
+    stackType: Front End
+    contractType: C
+    based: R
+    synopsis: >
+      Front-end role using React and TypeScript to help build a system for managing the issuance of fixed-income instruments.  
+    skills:
+      - React
+      - Material Design
+      - TypeScript
+      - JavaScript
+      - JSS
+      - Cypress
   - codeName: jlr_icreate
     name: Engineering Changes System
     organisation: Jaguar Land Rover
