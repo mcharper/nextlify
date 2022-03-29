@@ -21,14 +21,13 @@ projects:
     contractType: C
     based: R
     synopsis: >
-      Front-end role using React and TypeScript to help build a system for managing the issuance of fixed-income instruments.  
+      Front-end role using React and TypeScript to help build a system for managing the issuance of fixed-income instruments. 
     skills:
       - React
       - Material Design
       - TypeScript
-      - JavaScript
       - JSS
-      - Cypress
+      - Linux
   - codeName: jlr_icreate
     name: Engineering Changes System
     organisation: Jaguar Land Rover
@@ -51,8 +50,8 @@ projects:
       - Material Design
       - TypeScript
       - JavaScript
-      - JSS
       - Cypress
+      - Linux
   - codeName: fmg_hetoa 
     name: Highways England App
     organisation: FMG Ltd
