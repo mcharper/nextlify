@@ -17,8 +17,8 @@ status:
   description: >
     My ideal next contract would involve React and TypeScript / JavaScript combined with some C# and ASP.Net Core.
     (I'm enjoying front end work more now). I've got used to working remotely so would prefer that.
-  contractEndDate: 2022-04-11
-  availabilityDate: 2022-05-01
+  contractEndDate: 2022-07-15
+  availabilityDate: 2022-07-25
   currentClient: Agora DCM
   preferredStackType: frontEnd
   preferredSkills:
