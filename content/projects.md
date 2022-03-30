@@ -14,9 +14,9 @@ projects:
     sector: Finance
     city: London
     start: 2022-01-10
-    end: 2022-04-10
-    duration: 3
-    renewals: 0
+    end: 2022-07-15
+    duration: 6
+    renewals: 1
     stackType: Front End
     contractType: C
     based: R
