@@ -43,8 +43,7 @@ projects:
     synopsis: >
       Hired at the start of 2021 in a purely front-end role using React to work
       as part of a team enhancing a system to manage engineering changes. The front end is built
-      using React with hooks in a functional style using both TypeScript and JavaScript. 
-      We use both React Testing Library and Cypress for testing.  
+      using React with hooks in a functional style using both TypeScript and JavaScript, tested using React Testing Library and Cypress.  
     skills:
       - React
       - Material Design
