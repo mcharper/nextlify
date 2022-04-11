@@ -5,15 +5,15 @@ import styles from './testimonialCard.module.css';
 
 export default function TestimonialCard(props) {
   return (
-    <div id={styles.root}>
-      <div id={styles.header}>
+    <div className={styles.root}>
+      <div className={styles.header}>
 
         <h3 title='Testimonial icon'>
           <FontAwesomeIcon icon={faUser} className={styles.icon} />
         </h3>
       </div>
 
-      <blockquote id={styles.quote}>
+      <blockquote className={styles.quote}>
         <sup><FontAwesomeIcon icon={faQuoteLeft} className={styles.quotationMarkLeft} /></sup>
           {props.quote}
         <sup><FontAwesomeIcon icon={faQuoteRight} className={styles.quotationMarkRight} /></sup>
@@ -30,7 +30,7 @@ export default function TestimonialCard(props) {
         </ul>
       } */}
 
-      <div id={styles.footer}>
+      <div className={styles.footer}>
         {props.from}, {props.client}
       </div>
 

@@ -1,4 +1,4 @@
-#root {
+.root {
   align-items: center;
   background-color: var(--bg-light);
   box-shadow: -8px 8px 6px rgba(68, 84, 92, 0.2);
@@ -11,16 +11,16 @@
   padding: 1rem;
 }
 
-#header {
+.header {
   margin-top: 1.5rem;
 }
 
-#header > h2 {
+.header > h2 {
   font-size: 1.25rem;
   font-weight: normal;
 }
 
-#header > h3 > .icon {
+.header > h3 > .icon {
   color: var(--analogous1);
   font-size: 3rem;
 }
@@ -36,7 +36,7 @@
   margin-left: 0.25rem;
 }
 
-#quote {
+.quote {
   font-family: Cambria, Cochin, Georgia, Times, serif;
   font-style: oblique;
   font-size: 1.2rem;
@@ -56,7 +56,7 @@
   font-size: small;
 }
 
-#footer {
+.footer {
   color: var(--bg-dark);
   font-size: 0.8rem;
   font-weight: bold;
@@ -64,7 +64,7 @@
 
 /* tablet up */
 @media all and (min-width: 749px) {
-  #quote {
+  .quote {
     margin: 2rem;
   }
 }

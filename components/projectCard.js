@@ -16,8 +16,8 @@ import styles from "./projectCard.module.css";
 
 export default function ProjectCard(props) {
   return (
-    <div id={styles.root}>
-      <div id={styles.header}>
+    <div className={styles.root}>
+      <div className={styles.header}>
         <h2>
           {`${props.organisation}`}
           <span className={styles.top_corner}>
@@ -74,7 +74,7 @@ export default function ProjectCard(props) {
 
       <img className={styles.img} src={`/img/projects/${props.codeName}.jpg` } alt={`image relating ${props.name} project`} />
 
-      <p id={styles.synopsis}>{props.synopsis}</p>
+      <p className={styles.synopsis}>{props.synopsis}</p>
 
       <ul className={styles.skillList}>
         {props.skills.map((skill, k) => (

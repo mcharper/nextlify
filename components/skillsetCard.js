@@ -3,14 +3,14 @@ import styles from './skillsetCard.module.css';
 
 export default function SkillsetCard(props) {
   return (
-    <div id={styles.root}>
-      <div id={styles.header}>
+    <div className={styles.root}>
+      <div className={styles.header}>
         <h3>{props.title}</h3>
       </div>
 
       <img className={styles.img} src={`/img/${props.category}.png`} alt={`image relating ${props.category} skills`} />
 
-      <p id={styles.synopsis}>
+      <p className={styles.synopsis}>
         {props.description}
       </p>
 
