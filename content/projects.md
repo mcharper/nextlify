@@ -21,7 +21,7 @@ projects:
     contractType: C
     based: R
     synopsis: >
-      Front-end role using React and TypeScript to help build a system for managing the issuance of fixed-income instruments. 
+      Front-end role using React and TypeScript to help build a system for managing the issuance of fixed-income instruments, based on Digital Ledger Technology. 
     skills:
       - React
       - Material Design
