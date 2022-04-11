@@ -8,7 +8,7 @@ export default function TestimonialCard(props) {
     <div id={styles.root}>
       <div id={styles.header}>
 
-        <h3>
+        <h3 title='Testimonial icon'>
           <FontAwesomeIcon icon={faUser} className={styles.icon} />
         </h3>
       </div>
