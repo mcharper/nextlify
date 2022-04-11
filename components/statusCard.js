@@ -30,9 +30,7 @@ export default function StatusCard(props) {
       <ul className={styles.gridList}>
         <li>
           <FontAwesomeIcon icon={faCalendarCheck} className={"icon"} />&nbsp;
-          <ICalendarLink event={event} className={styles.calLink}>
-            {dayjs(props.status.availabilityDate).format('D MMM YY')}
-          </ICalendarLink>
+          {dayjs(props.status.availabilityDate).format('D MMM YY')}
         </li>
         <li>
           <FontAwesomeIcon icon={faMapPin} className={"icon"} />&nbsp;
@@ -77,6 +75,12 @@ export default function StatusCard(props) {
 
       <div className={styles.narrative}>
         <p id={styles.synopsis}>{props.status.description}</p>
+
+        <p>Timing not right? &nbsp;
+          <ICalendarLink event={event} className={styles.calLink}>
+              Add to Calendar
+          </ICalendarLink>
+        </p>
       </div>
 {/* 
       <ul className={styles.skillList}>

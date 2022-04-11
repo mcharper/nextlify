@@ -61,8 +61,12 @@
 }
 
 .calLink {
-  text-decoration: none !important;
+  border: 1px solid orange;
+  background-color: #FFF9ED;
+  border-radius: 0.25rem;
   color: black;
+  padding: 5px;
+  text-decoration: none !important;
 }
 
 .skillList {
