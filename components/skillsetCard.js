@@ -8,7 +8,7 @@ export default function SkillsetCard(props) {
         <h3>{props.title}</h3>
       </div>
 
-      <img className={styles.img} src={`/img/${props.category}.png`} />
+      <img className={styles.img} src={`/img/${props.category}.png`} alt={`image relating ${props.category} skills`} />
 
       <p id={styles.synopsis}>
         {props.description}

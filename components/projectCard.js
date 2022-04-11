@@ -72,7 +72,7 @@ export default function ProjectCard(props) {
         )}
       </ul>
 
-      <img className={styles.img} src={`/img/projects/${props.codeName}.jpg`} />
+      <img className={styles.img} src={`/img/projects/${props.codeName}.jpg` } alt={`image relating ${props.name} project`} />
 
       <p id={styles.synopsis}>{props.synopsis}</p>
 

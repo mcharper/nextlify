@@ -33,7 +33,7 @@ export default function Header() {
       <div id={styles.topBar}>
         <FontAwesomeIcon id={styles.hamburger} icon={faBars} onClick={toggleMenu} />
         <Link href="/">
-            <img id={styles.smallLogo} src="/img/logo.png" />
+            <img id={styles.smallLogo} src="/img/logo.png" alt="Small McHarper logo" />
         </Link>
       </div>
 
@@ -64,7 +64,7 @@ export default function Header() {
 
       {
         <Link href="/">
-          <img id={styles.largeLogo} src="/img/logo.png" alt="Large mcharper logo" />
+          <img id={styles.largeLogo} src="/img/logo.png" alt="Large McHarper logo" />
         </Link>
       }
     </header>
