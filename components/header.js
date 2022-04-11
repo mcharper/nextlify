@@ -64,7 +64,7 @@ export default function Header() {
 
       {
         <Link href="/">
-          <img id={styles.largeLogo} src="/img/logo.png" />
+          <img id={styles.largeLogo} src="/img/logo.png" alt="Large mcharper logo" />
         </Link>
       }
     </header>
