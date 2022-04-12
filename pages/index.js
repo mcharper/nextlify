@@ -36,6 +36,11 @@ export default class Home extends Component {
             ))}
           </div>
 
+          <StatusCard 
+            description={status.description}
+            status={status}
+          />
+
           <ProjectCard 
             codeName={showCasedProject.codeName}
             organisation={showCasedProject.organisation}
@@ -51,11 +56,6 @@ export default class Home extends Component {
             skills={showCasedProject.skills}
             synopsis={showCasedProject.synopsis}
           />      
-
-          <StatusCard 
-            description={status.description}
-            status={status}
-          />
 
           <div className={"narrative"}>
             <HomeContent />

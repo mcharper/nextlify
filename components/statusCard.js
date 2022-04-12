@@ -75,12 +75,6 @@ export default function StatusCard(props) {
 
       <div className={styles.narrative}>
         <p id={styles.synopsis}>{props.status.description}</p>
-
-        <p>Timing not right? &nbsp;
-          <ICalendarLink event={event} className={styles.calLink}>
-              Add to Calendar
-          </ICalendarLink>
-        </p>
       </div>
 {/* 
       <ul className={styles.skillList}>

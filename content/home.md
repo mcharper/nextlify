@@ -15,10 +15,11 @@ showcasedProjectCodeName: agr_jeff
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    My ideal next contract would involve React and TypeScript / JavaScript combined with some C# and ASP.Net Core.
-    (I'm enjoying front end work more now). I've got used to working remotely so would prefer that.
+    I'm working remotely at the moment for Agora Digital Capital Markets on a Bond Issuance System (see project card). 
+    I'm using React and TypeScript, as I have been since early 2020. I'm sticking with front-end focused work for now 
+    as I really enjoy it.
   contractEndDate: 2022-07-15
-  availabilityDate: 2022-07-25
+  availabilityDate: 2022-07-16
   currentClient: Agora DCM
   preferredStackType: frontEnd
   preferredSkills:
