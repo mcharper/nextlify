@@ -48,9 +48,9 @@ export default function Header() {
 
       {
         <div className={menuExpanded ? styles.menuExpanded : styles.menuCollapsed}>
-          <ul className={styles.navigation}>
+          <ul className={styles.navigation} role="menubar">
             {navigation.map((link) => (
-              <li>
+              <li role="menuitem">
                 <Link href={link.link}>
                   <a className={router.pathname == link.link ? styles.active : styles.inactive}>
                     {link.label}
