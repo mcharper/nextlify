@@ -2,7 +2,7 @@ import dayjs from "dayjs";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faCalendarPlus,
+  faHourglass,
   faChartPie,
   faFileContract,
   faHamburger,
@@ -47,7 +47,7 @@ export default function ProjectCard(props) {
           {props.based === "R" ? "Remote" : "On Site"}
         </li>
         <li>
-          <FontAwesomeIcon icon={faCalendarPlus} className={"icon"} />
+          <FontAwesomeIcon icon={faHourglass} className={"icon"} />
           &nbsp;
           {props.duration > 12
             ? `${Math.floor(props.duration / 12)}y ${props.duration % 12}m`
