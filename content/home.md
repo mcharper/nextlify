@@ -18,8 +18,8 @@ status:
     I'm working remotely at the moment for Agora Digital Capital Markets on a Bond Issuance System (see project card). 
     I'm using React and TypeScript, as I have been since early 2020. I'm sticking with front-end focused work for now 
     as I really enjoy it.
-  contractEndDate: 2022-10-14
-  availabilityDate: 2022-10-17
+  contractEndDate: 2022-01-22
+  availabilityDate: 2023-01-23
   currentClient: Agora DCM
   preferredStackType: frontEnd
   preferredSkills:
