@@ -15,8 +15,8 @@ projects:
     city: London
     start: 2022-01-10
     end: 2022-10-14
-    duration: 9
-    renewals: 2
+    duration: 12
+    renewals: 3
     stackType: Front End
     contractType: C
     based: R
