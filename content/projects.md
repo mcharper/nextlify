@@ -14,7 +14,7 @@ projects:
     sector: Finance
     city: London
     start: 2022-01-10
-    end: 2022-10-14
+    end: 2023-01-22
     duration: 12
     renewals: 3
     stackType: Front End
