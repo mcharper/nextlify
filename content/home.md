@@ -19,7 +19,7 @@ status:
     I'm using React and TypeScript, as I have been since early 2020. I'm sticking with front-end focused work for now 
     as I really enjoy it.
   contractEndDate: 2023-01-22
-  availabilityDate: 2023-01-23
+  availabilityDate: 2023-02-06
   currentClient: Agora DCM
   preferredStackType: frontEnd
   preferredSkills:
