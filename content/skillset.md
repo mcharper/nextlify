@@ -30,7 +30,7 @@ backEnd:
 tools:
   description: |
     I develop mostly on Windows but am happy right now in Linux (I was originally from a Unix background).
-    I edit in VSCode and Visual Studio, with Git for source control (GitHub, GitLab, BitBucket), and at present GitLab for CI and deployment though I have more experience with TFS and Octopus Deploy. My Cloud experience comprises exploring Azure for the most part. I have light exposure to Kubernetes using Minikube.
+    I edit in VSCode and Visual Studio, with Git for source control (GitHub, GitLab, BitBucket), and at present GitLab for CI and deployment though I have more experience with TFS and Octopus Deploy. My Cloud experience comprises exploring Azure for the most part. I have exposure to Docker and Kubernetes using Minikube.
   skills:
     - name: Windows
     - name: Linux
@@ -69,7 +69,7 @@ soft:
 
 I build web applications using React, TypeScript, C# and ASP.Net Core and other related technologies.
 
-I use TFS currently for story and ticket management but have also used JIRA and Target Process. All the projects I have worked on in recent years have taken an agile / scrum approach in one form or another. Clients usually already have an approach which works for them.
+I've been using Shortcut recently for story and ticket management but have also used TFS, JIRA and Target Process. All the projects I have worked on in recent years have taken an agile / scrum approach in one form or another. Clients usually already have an approach which works for them.
 
 Regarding techniques, I try to apply SOLID principles where appropriate. I understand Object Oriented Design of course but other paradigms are also finding a place, particularly Functional Programming, and I am open to these.
 
