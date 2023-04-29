@@ -8,7 +8,7 @@ lead2: |
   You can find about my experience further back on my LinkedIn profile. I can also supply a
   comprehensive CV in PDF format if required. The best way to contact me for this is via LinkedIn.
 projects:
-  - codeName: zest_msp
+  - codeName: zest_abc
     name: Web Application Development
     organisation: Zest Eco Ltd
     start: 2023-04-03
