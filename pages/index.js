@@ -30,6 +30,7 @@ export default class Home extends Component {
           <div className={"narrative"}>
             {leadParagraphs.map((lead) => (
               <>
+                <img src="img/mikeworking.jpg" />
                 <h2>{lead.header}</h2>
                 <p>{lead.body}</p>
               </>
