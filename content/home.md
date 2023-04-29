@@ -1,13 +1,13 @@
 ---
 title: Home
 leadParagraphs:
+  - header: Who are you?
+    body: >
+      A versatile full-stack developer with extensive industry experience, currently working with React and TypeScript.
   - header: What's this?
     body: >
       A chance for me to elaborate on the traditional CV you might have in your hand, to add some colour and context.
       Maybe the start of a conversation?
-  - header: Who are you?
-    body: >
-      A versatile full-stack developer with extensive industry experience, currently working with React and TypeScript.
   - header: What do you do?
     body: >
       Development because I enjoy it! Particularly front-end now. But also analysis, design, helping choose technologies, running meetings, presentations, demos, mentoring ...
