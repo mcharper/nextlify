@@ -17,7 +17,7 @@ projects:
     sector: Automotive
     city: Leeds
     contractType: C
-    based: H
+    based: R
     synopsis: >
       Project to develop web applications using React and TypeScript for internal use.
     duration: 6
