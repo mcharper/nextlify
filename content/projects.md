@@ -8,6 +8,26 @@ lead2: |
   You can find about my experience further back on my LinkedIn profile. I can also supply a
   comprehensive CV in PDF format if required. The best way to contact me for this is via LinkedIn.
 projects:
+  - codeName: zest_msp
+    name: Web Application Development
+    organisation: Zest Eco Ltd
+    start: 2023-04-03
+    end: 2023-10-03
+    stackType: Full Stack
+    sector: Automotive
+    city: Leeds
+    contractType: C
+    based: H
+    synopsis: >
+      Project to develop web applications using React and TypeScript for internal use.
+    duration: 6
+    renewals: 0
+    skills:
+      - React
+      - TypeScript
+      - HTML/CSS
+      - AWS
+      - Azure DevOps
   - codeName: agr_jeff
     name: Bond Issuance System
     organisation: Agora DCM
@@ -72,27 +92,6 @@ projects:
       - C#
       - ASP.Net Core
       - RethinkDB
-  - codeName: ck_migration
-    name: Website Migration
-    organisation: Credit Karma Ltd
-    start: 2019-10-01
-    end: 2019-11-30
-    stackType: Full Stack
-    sector: Finance
-    city: Leeds
-    contractType: C
-    based: S
-    synopsis: >
-      Short-term project to modify an existing ASP.Net website (which was due for replacement) to support urgent legislative changes. Subsequently assisted with development of its replacement using React and TypeScript.
-    duration: 2
-    renewals: 0
-    skills:
-      - React
-      - TypeScript
-      - C#
-      - ASP.Net MVC
-      - Web API
-      - SQL Server
   - codeName: fmg_ftp
     name: Finance Transformation
     organisation: FMG Ltd
