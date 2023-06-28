@@ -15,9 +15,7 @@ showcasedProjectCodeName: zest_abc
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    I'm working remotely at the moment for Zest Eco Ltd on various projects. 
-    I'm using React and TypeScript, as I have been since early 2020. I'm sticking with front-end focused work for now 
-    as I really enjoy it.
+    I'm taking a break for a few weeks at the moment. But when I am working nowadays it's mainly with React and TypeScript. I'm sticking with front-end focused work for now as I really enjoy it.
   contractEndDate: 2023-06-06
   availabilityDate: 2023-07-01
   currentClient: N/A
