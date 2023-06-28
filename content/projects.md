@@ -12,7 +12,7 @@ projects:
     name: Web Application Development
     organisation: Zest Eco Ltd
     start: 2023-04-03
-    end: 2023-10-03
+    end: 2023-06-06
     stackType: Full Stack
     sector: Automotive
     city: Leeds
@@ -20,7 +20,7 @@ projects:
     based: R
     synopsis: >
       Project to develop web applications using React and TypeScript for internal use.
-    duration: 6
+    duration: 2
     renewals: 0
     skills:
       - React
