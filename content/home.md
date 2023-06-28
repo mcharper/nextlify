@@ -18,9 +18,9 @@ status:
     I'm working remotely at the moment for Zest Eco Ltd on various projects. 
     I'm using React and TypeScript, as I have been since early 2020. I'm sticking with front-end focused work for now 
     as I really enjoy it.
-  contractEndDate: 2023-10-03
-  availabilityDate: 2023-10-09
-  currentClient: Zest Eco
+  contractEndDate: 2023-06-06
+  availabilityDate: 2023-07-01
+  currentClient: N/A
   preferredStackType: frontEnd
   preferredSkills:
     - React
@@ -29,8 +29,8 @@ status:
   skills:
     - React
     - TypeScript
-    - C#
-    - ASP.Net Core
+    - Redux
+    - CSS
 ---
 
 ## Why should I hire you?
