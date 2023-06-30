@@ -19,7 +19,7 @@ projects:
     contractType: C
     based: R
     synopsis: >
-      Project to develop web applications using React and TypeScript for internal use.
+      Working in a senior capacity to kick-start design and development of a web application to manage Electric Vehicle data using React and TypeScript, OpenAPI tooling, AWS and Azure Dev Ops.
     duration: 2
     renewals: 0
     skills:
