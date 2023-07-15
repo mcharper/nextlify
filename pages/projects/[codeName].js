@@ -1,8 +1,10 @@
 import ProjectCard from "../../components/projectCard";
 import TestimonialCard from "../../components/testimonialCard";
 
+import { useContext } from 'react'
+import { LanguageContext } from "../../LanguageContext";
+
 import { attributes as projectMetadata } from "../../content/projects.md";
-import { attributes as testimonialsMetadata } from "../../content/testimonials.md";
 
 export async function getStaticPaths() {
   let { projects } = projectMetadata;
@@ -16,31 +18,32 @@ export async function getStaticPaths() {
 
 // params will contain the id for each generated page.
 export async function getStaticProps({ params }) {
-  let { projects } = projectMetadata;
-
   return {
     props: {
-      project: projects.filter((p) => p.codeName === params.codeName)[0],
+      codeName: params.codeName
     },
   };
 }
 
-export default function project({ project }) {
-  let { testimonials } = testimonialsMetadata;
+export default function project({ codeName }) {
+  const languageContext = useContext(LanguageContext);
 
+  const projectDetails = languageContext.projects.metadata.projects.filter(p => p.codeName === codeName)[0];
+
+  const { testimonials } = languageContext.testimonials.metadata;
   const showcasedTestimonial = testimonials.filter((t) =>
-    t.relatedProjects.includes(project.codeName.toLowerCase())
+    t.relatedProjects.includes(codeName.toLowerCase())
   )[0];
 
   return (
     <div className={"page"}>
       <div className={"grid_focus_two"}>
         <div>
-          <h2>{project.name}</h2>
+          <h2>{projectDetails.name}</h2>
 
-          <h3>{project.organisation}</h3>
+          <h3>{projectDetails.organisation}</h3>
 
-          <p>{project.synopsis}</p>
+          <p>{projectDetails.synopsis}</p>
 
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -52,19 +55,19 @@ export default function project({ project }) {
 
         <div>
           <ProjectCard
-            codeName={project.codeName}
-            organisation={project.organisation}
-            name={project.name}
-            start={project.start}
-            end={project.end}
-            duration={project.duration}
-            contractType={project.contractType}
-            based={project.based}
-            sector={project.sector}
-            stackType={project.stackType}
-            renewals={project.renewals}
-            skills={project.skills}
-            synopsis={project.synopsis}
+            codeName={projectDetails.codeName}
+            organisation={projectDetails.organisation}
+            name={projectDetails.name}
+            start={projectDetails.start}
+            end={projectDetails.end}
+            duration={projectDetails.duration}
+            contractType={projectDetails.contractType}
+            based={projectDetails.based}
+            sector={projectDetails.sector}
+            stackType={projectDetails.stackType}
+            renewals={projectDetails.renewals}
+            skills={projectDetails.skills}
+            synopsis={projectDetails.synopsis}
           />
 
           {showcasedTestimonial && (

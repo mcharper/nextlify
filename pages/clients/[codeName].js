@@ -1,12 +1,11 @@
+import { useContext } from 'react'
+import { LanguageContext } from "../../LanguageContext";
 import ProjectCard from "../../components/projectCard";
-
-import { attributes as projectMetadata } from "../../content/projects.md";
+import { attributes as clientMetadata } from "../../content/en-GB/clients.md";
 
 export async function getStaticPaths() {
-  let clientNames = ["jlr", "fmg", "ck"];
-
-  const paths = clientNames.map((clientName) => ({
-    params: { clientName: clientName },
+  const paths = clientMetadata.clients.map((client) => ({
+    params: { codeName: client.codeName },
   }));
 
   return { paths, fallback: false };
@@ -14,31 +13,23 @@ export async function getStaticPaths() {
 
 // params will contain the id for each generated page.
 export async function getStaticProps({ params }) {
-  let clients = [
-    { clientName: "jlr", description: "Jaguar Land Rover" },
-    { clientName: "ck", description: "Credit Karma" },
-    { clientName: "fmg", description: "FMG" },
-  ];
-
   return {
     props: {
-      client: clients.filter((c) => c.clientName === params.clientName)[0],
+      client: clientMetadata.clients.filter((c) => c.codeName === params.codeName)[0],
     },
   };
 }
 
 export default function client({ client }) {
-  let { projects } = projectMetadata;
+  const languageContext = useContext(LanguageContext);
 
-  const showcasedProjects = projects.filter((p) =>
-    p.codeName.startsWith("fmg")
-  );
+  const showcasedProjects = languageContext.projects.metadata.projects.filter(p => p.codeName.startsWith(client.codeName));
 
   return (
     <div className={"page"}>
       <div className={"grid_focus_two"}>
         <div>
-          <h2>{client.clientName}</h2>
+          <h2>{client.organisation}</h2>
           <p>{client.description}</p>
 
           <p>

@@ -1,13 +1,18 @@
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
-import Link from 'next/link'; 
+import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-import { attributes } from '../content/header.md';
 import styles from './header.module.css';
 
+import { useContext } from 'react'
+import { LanguageContext } from "../LanguageContext";
+
 export default function Header() {
+  const languageContext = useContext(LanguageContext);
+  let { navigation, title, subtitle } = languageContext.header.metadata;
+
   const router = useRouter();
 
   const [headerExpanded, setHeaderExpanded] = useState(true);
@@ -22,8 +27,6 @@ export default function Header() {
     return () => window.removeEventListener("scroll", handler);
   }, []);
 
-  let { navigation, title, subtitle } = attributes;
-
   const toggleMenu = () => {
     setMenuExpanded(!menuExpanded);
   };
@@ -33,7 +36,7 @@ export default function Header() {
       <div id={styles.topBar}>
         <FontAwesomeIcon id={styles.hamburger} icon={faBars} onClick={toggleMenu} />
         <Link href="/">
-            <img id={styles.smallLogo} src="/img/logo.png" alt="Small McHarper logo" />
+          <img id={styles.smallLogo} src="/img/logo.png" alt="Small McHarper logo" />
         </Link>
       </div>
 
