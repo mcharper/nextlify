@@ -1,15 +1,14 @@
 ---
-title: Projects
+title: Projekte
 lead1: |
-  Hier are some of the projects I've been working on over the last few years.
-  Most of my work is on web applications for organisations' private use rather than
-  public-facing websites.
+  Hier finden Sie eine Auswahl von den Projekten, mit denen ich mich in den letzten paar Jahren beschäftigt habe.
+  Ich arbeite üblicherweise mit Webapplikationen für betriebsinterne Nutzung, seltener mit öffentlich zugänglichen Websites.
 lead2: |
-  You can find about my experience further back on my LinkedIn profile. I can also supply a
-  comprehensive CV in PDF format if required. The best way to contact me for this is via LinkedIn.
+  Weitere Einzelheiten meiner vorhergehende Erfahrung finden Sie in meinem LinkedIn Profil. Ich kann auch einen
+  detaillierten Lebenslauf bei Bedarf in PDF Format mitteilen. Sie erreichen mich am besten über LinkedIn.
 projects:
   - codeName: zest_abc
-    name: Web Application Development
+    name: Webapplikation Entwicklung
     organisation: Zest Eco Ltd
     start: 2023-04-03
     end: 2023-06-06
@@ -19,7 +18,7 @@ projects:
     contractType: C
     based: R
     synopsis: >
-      Arbeit in a senior capacity to kick-start design and development of a web application to manage Electric Vehicle data using React and TypeScript, OpenAPI tooling, AWS and Azure Dev Ops.
+      Eine leitende Position, um die Konzeption und Entwicklung einer Web Applikation anzuschieben. Das System sorgt für die Verwaltung von Kunden mit Electrofahrzeugen, die das Netzwerk von Ladestellen benutzen, und wurde mit React, TypeScript, OpenAPI, AWS und Azure Dev Ops realisiert.
     duration: 2
     renewals: 0
     skills:
@@ -29,7 +28,7 @@ projects:
       - AWS
       - Azure DevOps
   - codeName: agr_jeff
-    name: Bond Issuance System
+    name: System für Anleiheemission
     organisation: Agora DCM
     sector: Finance
     city: London
@@ -41,7 +40,8 @@ projects:
     contractType: C
     based: R
     synopsis: >
-      Front-end role using React and TypeScript to help build a system for managing the issuance of fixed-income instruments, based on Digital Ledger Technology. 
+      Frontend Mitarbeit mit React und TypeScript, bei der Entwicklung eines Systems für Anleiheemission, das 
+      auf eine Grundlage von Digital Ledger Technology gebaut ist. 
     skills:
       - React
       - Material Design
@@ -49,7 +49,7 @@ projects:
       - JSS
       - Linux
   - codeName: jlr_icreate
-    name: Engineering Changes System
+    name: System zur Verwaltung Konstruktionsdaten
     organisation: Jaguar Land Rover
     sector: Automotive
     city: Manchester
@@ -61,9 +61,7 @@ projects:
     contractType: C
     based: R
     synopsis: >
-      Hired at the start of 2021 in a purely front-end role using React to work
-      as part of a team enhancing a system to manage engineering changes. The front end is built
-      using React with hooks in a functional style using both TypeScript and JavaScript, tested using React Testing Library and Cypress.  
+      Anfang 2021 wurde ich von dieser renommierten Firma in einer Frontend Rolle mit React beauftragt. Das Projekt war ein existierendes System für das Verwalten von Konstruktionsdaten. Ich war Mitglied des Teams, das das System erweiteren sollte. Wir haben React mit Hooks in funktionalen Stil angewandt, mit TypeScript und JavaScript. Wir haben zum Testen des Systems React Testing Library und Cypress eingesetzt.
     skills:
       - React
       - Material Design
@@ -83,7 +81,7 @@ projects:
     sector: Automotive
     contractType: F
     synopsis: >
-      Hired for 6 months (extended to 9) with a co-developer to design and develop a vehicle tracking system for use by Highways England: a tablet application for roadside use by traffic officers, and a portal for control room monitors to map incidents in real time around the regions. 
+      Ein Vertrag von 6 Monaten (verlängert auf 9), indem ich und mein Kollege ein System ganz auf neu gebaut haben.  Das war eine Fahrzeugsverfolgungssystem für Highways England, ein wichtiger Kunde des Firmas. Das System besteht aus einem Frontend, das über ein Tablet lauft, was für Verkehrspolizist:innen gemeint war, und ein Portal für die Verkehrsleitzentrale, die aktuelle Unfälle auf einer Landkarte schildert. 
     duration: 9
     skills:
       - React
@@ -93,7 +91,7 @@ projects:
       - ASP.Net Core
       - RethinkDB
   - codeName: fmg_ftp
-    name: Finance Transformation
+    name: Finanztransformation
     organisation: FMG Ltd
     start: 2017-03-01
     end: 2019-06-30
@@ -103,8 +101,7 @@ projects:
     contractType: C
     based: S
     synopsis: >
-      New development to streamline finance processes to reduce costs and revenue leakage. This involved work using AngularJS (and later Angular) with JavaScript (and later TypeScript). The system integrated via an API with
-      other operational systems, which I also worked on to provide further streamlining of invoices for commercial recoveries.
+      Eine neue Webapplikation, die interne Finanzprozesse rationalisieren sollte, um Kosten und Umsatzverlust zu senken. Zu diesem Zweck benutzte ich AngularJS (und später Angular) mit JavaScript (später TypeScript). Ich habe das System durch eine API mit anderen betrieblichen Systemen integriert. Ich habe auch an diesen anderen Systemen gearbeitet, um die Produktion von Rechnungen zu optimieren.
     duration: 26
     renewals: 6
     skills:

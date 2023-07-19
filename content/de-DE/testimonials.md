@@ -12,7 +12,7 @@ lead2: >
 testimonials:
     - from: IT Development Director
       quote: |
-        Mike hatte previously worked at FMG as a contract developer on a transformation project. The quality and professionalism of Mike meant that we extended him several times after this initial project was completed to work on other projects. Due to his previous excellent work, I didn't hesitate to ask Mike back to help deliver a large high profile project with dates that couldn't slip earlier this year. I would not hesitate to recommend or use Mike again. He will be an asset to any development team. 
+        Mike had worked previously at FMG as a contract developer on a transformation project. The quality and professionalism of Mike meant that we extended him several times after this initial project was completed to work on other projects. Due to his previous excellent work, I didn't hesitate to ask Mike back to help deliver a large high profile project with dates that couldn't slip earlier this year. I would not hesitate to recommend or use Mike again. He will be an asset to any development team. 
       client: FMG
       relatedProjects:
         - fmg_hetoa

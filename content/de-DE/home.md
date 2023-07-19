@@ -1,21 +1,20 @@
 ---
 title: Home
 leadParagraphs:
-  - header: Wer bin ich?
+  - header: Wer sind Sie?
     body: >
-      Entwickler, im Moment arbeite ich mit React and TypeScript.
-  - header: What's this?
+      Ein vielseitiger Full Stack Entwickler mit umfangreicher beruflichen Erfahrung, der zurzeit sich mit React und TypeScript beschäftigt.
+  - header: Wozu diese Website?
     body: >
-      A chance for me to elaborate on the traditional CV you might have in your hand, to add some colour and context.
-      Maybe the start of a conversation?
-  - header: What do you do?
+      Diese Website sorgt mir eine Gelegenheit, mehr Kontext zu vermitteln, als im traditionellen Lebenslauf möglich ist. Vielleicht der Anfang eines produktiven Austausches?
+  - header: Was tun Sie denn, eigentlich?
     body: >
-      Development because I enjoy it! Particularly front-end now. But also analysis, design, helping choose technologies, running meetings, presentations, demos, mentoring ...
+      Ich bleibe Entwickler weil es mir gefällt, ganz einfach! Besonders am Frontend, aber auch Analyse, Konzeption, das Wählen von passenden Techniken, Besprechungsleitung, Präsentation, Demos vorführen, Mentoring ...
 showcasedProjectCodeName: zest_abc
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    Im Moment mache ich fast gar nichts.
+    Im Moment mache ich für einige Wochen Pause. Aber normalerweise umfasst meine Arbeit hauptsächlich React und TypeScript. Ich bleibe zur Zeit im Frontend Bereich, weil sie mir gut gefällt.
   contractEndDate: 2023-06-06
   availabilityDate: 2023-07-01
   currentClient: N/A
@@ -31,18 +30,18 @@ status:
     - CSS
 ---
 
-## Warum sollten wir Ihnen engagieren?
+## &bdquo;Warum sollten wir Ihnen engagieren?&ldquo;
 
-Do you need a conscientious dev who can add value quickly? Who can fit smoothly into your project team? You might want to look at my <a href="/testimonials">Testimonials</a>.
+Brauchen Sie einen gewissenhaften Entwickler, der vom Anfang Mehrwert bringen kann? Der sich leicht in Ihr Team anpassen kann? Bitte schauen Sie meine <a href="./testimonials">Zeugnisse</a> an!.
 
-If now isn’t the right time you could subscribe to my <a href="https://twitter.com/mcharper" target="blank">Twitter</a> account for updates.
+Wenn dieser nicht genau der richtige Zeitpunkt ist, könnte Sie mir auf <a href="https://twitter.com/mcharper" target="blank">Twitter</a> folgen, wo ich ab und zu Nachrichten über meine Verfügbarkeit poste.
 
-## Do you only do contract work?
+## Machen Sie nur Vertragsarbeit?
 
-Yes. I've been a contractor for over 25 years. I like the variety and flexibility. Typically I work on a day rate basis.
+Ja. Ich arbeite als IT Contractor seit 25 Jahren. Die Vielfalt der Arbeit, und die Flexibilität gefallen mir. Ich arbeite normalerweise auf Basis eines Tagessatzes.
 
-## Where are you based?
+## Wo sind Sie?
 
-It hardly seems to matter nowadays, does it? Anyway it's Huddersfield, West Yorkshire. I've worked remotely off and on since 2007, exclusively so since March 2020 from a dedicated home office.
+Ist das heute noch wichtig? Also, mein Sitz ist im Huddersfield, West Yorkshire. Seit 2007 arbeite ich oft von zu Hause aus, seit März 2020 ausschließlich so.
 
-By the way, are you based in Germany, Austria or Switzerland? I also speak fluent German (C2 qualified - near-native proficiency) and am always happy to use it at work.
+Sind Sie im deutschen Sprachraum ansässig? Ich kann auch fließend Deutsch (C2 - annähernd muttersprachliche Kenntnisse). Es würde mich freuen, ab und zu mal die Gelegenheit meine Sprachkenntnisse bei der Arbeit anzuwenden.
