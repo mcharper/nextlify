@@ -30,7 +30,9 @@ backEnd:
 tools:
   description: |
     I develop mostly on Windows but am happy right now in Linux (I was originally from a Unix background).
-    I edit in VSCode and Visual Studio, with Git for source control (GitHub, GitLab, BitBucket), and at present GitLab for CI and deployment though I have more experience with TFS and Octopus Deploy. My Cloud experience comprises exploring Azure for the most part. I have exposure to Docker and Kubernetes using Minikube.
+    I edit in VSCode and Visual Studio, with Git for source control (GitHub, GitLab, BitBucket), 
+    and various CI and release management systems, for example Gitlab, TFS, Azure DevOps, Octopus Deploy.
+    Cloud-wise I worked briefly with AWS recently, and have experimented with Azure. I have exposure to Docker and Kubernetes.
   skills:
     - name: Windows
     - name: Linux

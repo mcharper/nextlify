@@ -14,7 +14,7 @@ showcasedProjectCodeName: zest_abc
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    Im Moment mache ich für einige Wochen Pause. Aber normalerweise umfasst meine Arbeit hauptsächlich React und TypeScript. Ich bleibe zur Zeit im Frontend Bereich, weil sie mir gut gefällt.
+    Im Moment mache ich für einige Wochen Pause. Aber normalerweise umfasst meine Arbeit hauptsächlich React und TypeScript. Ich bleibe zur Zeit im Frontend Bereich, weil es mir gut gefällt.
   contractEndDate: 2023-06-06
   availabilityDate: 2023-07-01
   currentClient: N/A
@@ -32,7 +32,7 @@ status:
 
 ## &bdquo;Warum sollten wir Ihnen engagieren?&ldquo;
 
-Brauchen Sie einen gewissenhaften Entwickler, der vom Anfang Mehrwert bringen kann? Der sich leicht in Ihr Team anpassen kann? Bitte schauen Sie meine <a href="./testimonials">Zeugnisse</a> an!.
+Brauchen Sie einen gewissenhaften Entwickler, der vom Anfang Mehrwert bringen kann? Der sich leicht in Ihr Team anpassen kann? Bitte schauen Sie meine <a href="./testimonials">Zeugnisse</a> an!
 
 Wenn dieser nicht genau der richtige Zeitpunkt ist, könnte Sie mir auf <a href="https://twitter.com/mcharper" target="blank">Twitter</a> folgen, wo ich ab und zu Nachrichten über meine Verfügbarkeit poste.
 

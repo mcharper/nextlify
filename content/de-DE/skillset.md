@@ -1,15 +1,16 @@
 ---
 title: Skillset
 lead1: >
-  Seitdem ich ... starting to use React I've found I really enjoy working at the front end and I am focused on that for the time being.
+  Seitdem ich mit React angefangen habe, arbeite ich lieber mit dem Front End.
 
 lead2: >
-  I've had a long career in development though. Since 2000 I've focused on web applications. My background is full stack.
-  The variety of languages and technologies involved and their constant evolution keeps me interested and curious, and allows me to continually improve what I can offer users.
+  Ich bin aber bei der Entwicklung schon lange beteiligt. Seit 2000 beschäftige ich mich schwerpunktmäẞig mit Web Applikationen. Mein Hintergrund is Full Stack. Die Vielfalt der damit verbundenen Sprachen und Techniken, und ihre koninuierende Weiterentwicklung hält mein Interesse wach, und weckt bei mir immer Neugier. Neue Techniken ermöglichen auch bessere Lösungen für die Benutzer meiner Software.
 frontEnd:
   description: >
-    I started developing for the web in 2000. I've been using JavaScript to write SPAs since I discovered AJAX!
-    Since then I've used JQuery, Ext JS, Durandl, AngularJS, and now React, my preferred framework. I'm experimenting with NextJS - this site is built on it. Since 2019 I've mostly used TypeScript - I really like it.
+    Ich fing mit der Web Entwicklung 2000 an. Seitdem ich AJAX entdeckt habe, handelt es sich hauptsächlich um SPAs.
+    Nachher JQuery, Ext.JS, Durandl, AngularJS, und jetzt React, mein Lieblingsframework (strenggenommen kein Framework sondern eine Programmbibliothek!). Ich probiere im Moment auch NextJS, worauf diese Website läuft.
+    Svelte hat neulich auch mein Interesse erregt. Seit 2019 programmiere ich überwiegend mit TypeScript, 
+    was mir sehr gefällt.
   skills:
     - name: ReactJS
     - name: TypeScript
@@ -19,7 +20,7 @@ frontEnd:
     - name: CSS 3
 backEnd:
   description: |
-    My web development work started out with classic ASP, leading to ASP.Net Core using C#. I've used SQL Server since about 2000 but also worked with MongoDB and more recently RethinkDB, a real-time database. I've mainly used Entity Framework as an ORM but also NHibernate and Dapper.
+    Meine Einführung in der Welt der Web Entwicklung fing mit Klassische ASP an, dannach mit ASP.Net Core mit C#. Meine Erfahrung mit SQL Server reicht bis zu 2000 zurück. Ich habe aber auch mit NoSQL Datenbanken wie MongoDB und RethinkDB gearbeitet. Als ORM habe ich vorwiegend Entity Framework angewandt aber auch gelegentlich NHibernate oder Dapper.
   skills:
     - name: C#
     - name: ASP.Net Core
@@ -29,8 +30,7 @@ backEnd:
     - name: MongoDB
 tools:
   description: |
-    I develop mostly on Windows but am happy right now in Linux (I was originally from a Unix background).
-    I edit in VSCode and Visual Studio, with Git for source control (GitHub, GitLab, BitBucket), and at present GitLab for CI and deployment though I have more experience with TFS and Octopus Deploy. My Cloud experience comprises exploring Azure for the most part. I have exposure to Docker and Kubernetes using Minikube.
+    Ich arbeite in Windows oder Linux (mein Hintergrund ist in Unix). Als Texteditor gebrauche ich VSCode oder Visual Studio. Git (GitHub, GitLab, BitBucket) für Quellcodeverwaltung, und mehere Systeme für CI and Releasemanagement zB Gitlab, TFS, Azure DevOps, Octopus Deploy. Bezüglich der Cloud habe ich neulich kurz mit AWS bearbeitet, auch mit Azure experimentiert. Ich bin mit Docker und Kubernetes auch vertraut.
   skills:
     - name: Windows
     - name: Linux
@@ -40,12 +40,12 @@ tools:
     - name: Octopus
 process:
   description: |
-    I'm used to working in an agile environment, sometimes based on Scrum, sometimes Kanban.
-    By the time I join a project the client has already chosen a tool to manage it so I'm familiar with a few. 
-    I've used TFS (now Azure DevOps) off and on since 2012, Jira on and off since 2014. I'm using Shortcut now.
-    I've also worked with Target Process and Trello.
+    Ich bin daran gewöhnt, agil zu arbeiten, mal Scrum, mal Kanban. Bis zu meiner Ankunft in ein Projektteam hat 
+    der Kunde normalerweise die Methode und Werkzeuge des Projektmanagements schon festgelegt. Aus dem Grund sind
+    mir mehrere bekannt. Ich habe TFS / Azure DevOps ab und zu seit 2012 benutzt, Jira mehrmals seit 2014, Shortcut,
+    Target Process, sogar Trello.
   skills:
-    - name: Agile
+    - name: Agil
     - name: TDD
     - name: Scrum
     - name: Kanban
@@ -53,30 +53,12 @@ process:
     - name: Azure DevOps
 soft:
   description: |
-    People say they value my ability to fit in and make a positive contribution that complements 
-    their team's work. If I do suggest improvements I do so constructively. I'm pragmatic. I enjoy collaborating, pair programming, mentoring, presenting and (perhaps unusually) documenting! I am used to working in  
-    international teams and enjoy this.
+    Mir wird gesagt, dass meine Teamfähigkeit hochgeschätzt wird, und dass ich dazu einen positiven Betrag bringe, der die Arbeit des Teams ergänzen. Wenn ich überhaupt Anregungen gebe, sind sie konstruktiv formuliert. Ich bin pragmatisch. Mitarbeit, Paarprogrammierung, Mentoring, Presentätion und (vielleicht auẞergewöhnlich) Dokumentation gefallen mir. Ich habe oft in multinationalen Teams gearbeitet, eine solche Umgebung gefällt mir auch.  
   skills:
-    - name: Collaboration
-    - name: Presenting
-    - name: Communication
+    - name: Mitarbeit
+    - name: Präsentation
+    - name: Kommunication
     - name: Mentoring
-    - name: English
-    - name: German
+    - name: Englisch
+    - name: Deutsch
 ---
-
-# Skills and technical interests
-
-I build web applications using React, TypeScript, C# and ASP.Net Core and other related technologies.
-
-I've been using Shortcut recently for story and ticket management but have also used TFS, JIRA and Target Process. All the projects I have worked on in recent years have taken an agile / scrum approach in one form or another. Clients usually already have an approach which works for them.
-
-Regarding techniques, I try to apply SOLID principles where appropriate. I understand Object Oriented Design of course but other paradigms are also finding a place, particularly Functional Programming, and I am open to these.
-
-I use a TDD approach where possible because I believe it results in better-designed, more robust, and more adaptable software.
-
-In terms of development tools, I use Visual Studio and VSCode commercially. I also use Resharper which I find very helpful. I use npm for managing front-end build processes and package management. I've been using Git for source control since about 2014, using Git bash, GitKraken, SourceTree and other tools. I've also used Subversion, TFS and other source code control systems.
-
-I’ve done a lot of physical database design of relational databases. In my last contract I used RethinkDB because of its real time capabilities allowing data to be pushed to observers. Over the last few years I've also used MongoDB for some projects. More recently I've become interested in Graph databases such as Neo4J, which requires a different way of thinking but which looks very useful for certain kinds of problem, such as discovering relationships in datasets.
-
-You can see some of the code I write in my spare time on GitHub.
