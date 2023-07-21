@@ -2,11 +2,10 @@
 title: Zeugnisse
 lead1: >
   Feedback von Kunden und Mitarbeitern ist wertvoll, und manche sind so freundlich gewesen, Zeugnisse
-  zu schreiben, darunter diese Auswahl in Originalsprache. Anderen finden Sie auf LinkedIn.
+  zu schreiben, darunter diese Auslese in Originalsprache. Eine breitere Auswahl finden Sie auf LinkedIn.
 lead2: >
-  Als Contractor ist man oft nicht zu der Zeitpunkt dabei, wo sein Code gepflegt, ändert oder erweitert werden muss. 
-  Ich versuche mit vorherigen Kollegen in Kontakt zu bleiben, damit ich von möglichen Problemen höre, was für die
-  Verbesserung seine Fähigkeiten wichtig ist. Ich weiẞ zum Beispiel, dass First Direct meinen Code von 20 Jahren her noch in Betrieb hat, was für mich ermutigend ist.
+  Als Contractor ist man oft nicht zu der Zeitpunkt dabei, wo sein Code gepflegt, geändert oder erweitert wird. 
+  Ich versuche mit vorherigen Kollegen in Kontakt zu bleiben, damit ich weiẞ, wie meine Software seine Aufgabe auf Dauer verrichtet, was für die Verbesserung seine Fähigkeiten wichtig ist. Ich weiẞ zum Beispiel, dass First Direct meinen Code von mehr als 20 Jahren her noch in Betrieb hat, was für mich ermutigend ist!
 testimonials:
     - from: IT Development Director
       quote: |

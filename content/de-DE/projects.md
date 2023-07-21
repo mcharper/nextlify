@@ -8,7 +8,7 @@ lead2: |
   detaillierten Lebenslauf bei Bedarf in PDF Format mitteilen. Sie erreichen mich am besten über LinkedIn.
 projects:
   - codeName: zest_abc
-    name: Webapplikation Entwicklung
+    name: Entwicklung einer Webapplikation
     organisation: Zest Eco Ltd
     start: 2023-04-03
     end: 2023-06-06

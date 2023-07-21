@@ -10,6 +10,8 @@ import { attributes as headerMetadataEnGB, react as headerContentEnGB } from '..
 import { attributes as headerMetadataDeDE, react as headerContentDeDE } from '../content/de-DE/header.md'
 import { attributes as homeMetadataEnGB, react as homeContentEnGB } from '../content/en-GB/home.md'
 import { attributes as homeMetadataDeDE, react as homeContentDeDE } from '../content/de-DE/home.md'
+import { attributes as statusCardMetadataEnGB, react as statusCardContentEnGB } from '../content/en-GB/statusCard.md'
+import { attributes as statusCardMetadataDeDE, react as statusCardContentDeDE } from '../content/de-DE/statusCard.md'
 import { attributes as projectMetadataEnGB, react as projectContentEnGB } from '../content/en-GB/projects.md';
 import { attributes as projectMetadataDeDE, react as projectContentDeDE } from '../content/de-DE/projects.md';
 import { attributes as skillsetMetadataEnGB, react as skillsetContentEnGB } from '../content/en-GB/skillset.md';
@@ -32,6 +34,10 @@ export default function MyApp({ Component, pageProps }) {
         home: {
             metadata: language === "en-GB" ? homeMetadataEnGB : homeMetadataDeDE,
             content: language === "en-GB" ? homeContentEnGB : homeContentDeDE
+        },
+        statusCard: {
+            metadata: language === "en-GB" ? statusCardMetadataEnGB : statusCardMetadataDeDE,
+            content: language === "en-GB" ? statusCardContentEnGB : statusCardContentDeDE
         },
         projects: {
             metadata: language === "en-GB" ? projectMetadataEnGB : projectMetadataDeDE,

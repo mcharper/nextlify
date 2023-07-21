@@ -1,5 +1,5 @@
 ---
-title: Skillset
+title: Kompetenzen
 lead1: >
   Seitdem ich mit React angefangen habe, arbeite ich lieber mit dem Front End.
 

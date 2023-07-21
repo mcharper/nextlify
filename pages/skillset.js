@@ -8,7 +8,7 @@ import SkillsetCard from '../components/skillsetCard'
 export default function Skillset() {
   const languageContext = useContext(LanguageContext);
 
-  let { lead1, lead2, frontEnd, backEnd, tools, process, soft } = languageContext.skillset.metadata;
+  let { title, lead1, lead2, frontEnd, backEnd, tools, process, soft } = languageContext.skillset.metadata;
 
   return (
     <div className={"page"}>
@@ -19,7 +19,7 @@ export default function Skillset() {
       <div className={"grid_sym_six"}>
 
         <div className={"narrative"}>
-          <h2>My Skill Set</h2>
+          <h2>{title}</h2>
 
           <p id={"lead1"}>{lead1}</p>
           <p id={"lead2"}>{lead2}</p>

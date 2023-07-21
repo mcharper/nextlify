@@ -2,12 +2,12 @@
 title: Mike Harper
 subtitle: IT Contract Entwickler
 navigation: 
-- label: Home
+- label: Start
   link: /
-- label: Projects
+- label: Projekte
   link: /projects
-- label: Skill Set
+- label: Kompetenzen
   link: /skillset
-- label: Testimonials
+- label: Zeugnisse
   link: /testimonials
 ---

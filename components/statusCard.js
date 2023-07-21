@@ -1,4 +1,7 @@
+import { useContext } from 'react'
+import { LanguageContext } from "../LanguageContext";
 import dayjs from 'dayjs'
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarCheck, faCalendarPlus, faChartPie, faFileContract, faHamburger, faMapPin, faPlusSquare } from "@fortawesome/free-solid-svg-icons";
 import ICalendarLink from "react-icalendar-link";
@@ -6,6 +9,10 @@ import ICalendarLink from "react-icalendar-link";
 import styles from './statusCard.module.css';
 
 export default function StatusCard(props) {
+  const languageContext = useContext(LanguageContext);
+
+  let { availability, inContractUntil } = languageContext.statusCard.metadata;
+
   const event = {
     title: "Mike Harper Available",
     description: "Mike Harper (IT contract developer) may be available from today",
@@ -16,15 +23,15 @@ export default function StatusCard(props) {
 
   return (
     <div id={styles.root}>
-      
+
       <div id={styles.header}>
         <h2>
-          In contract until
+          {inContractUntil}
           <span className={styles.top_corner}>
             {dayjs(props.status.contractEndDate).format('D MMM YY')}
           </span>
         </h2>
-        <h3>Availability</h3>
+        <h3>{availability}</h3>
       </div>
 
       <ul className={styles.gridList}>
@@ -37,7 +44,7 @@ export default function StatusCard(props) {
           {
             <span>Yorks / remote</span>
           }
-        </li>                  
+        </li>
         {/* <li>
           <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
           Prefer&nbsp;
@@ -48,27 +55,27 @@ export default function StatusCard(props) {
         <li>
           <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
           {
-            props.status.skills[0] 
-          } 
-        </li>                  
+            props.status.skills[0]
+          }
+        </li>
         <li>
           <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
           {
-            props.status.skills[1] 
-          } 
-        </li>                  
+            props.status.skills[1]
+          }
+        </li>
         <li>
           <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
           {
-            props.status.skills[2] 
-          } 
-        </li>                  
+            props.status.skills[2]
+          }
+        </li>
         <li>
           <FontAwesomeIcon icon={faHamburger} className={"icon"} />&nbsp;
           {
-            props.status.skills[3] 
-          } 
-        </li>                  
+            props.status.skills[3]
+          }
+        </li>
       </ul>
 
       <img className={styles.img} src={`/img/currentStatus.jpg`} alt="image relating to current status" />
@@ -76,7 +83,7 @@ export default function StatusCard(props) {
       <div className={styles.narrative}>
         <p id={styles.synopsis}>{props.status.description}</p>
       </div>
-{/* 
+      {/* 
       <ul className={styles.skillList}>
         {
           props.status.skills.map((skill, k) => (

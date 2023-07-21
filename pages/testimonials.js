@@ -7,7 +7,7 @@ import TestimonialCard from "../components/testimonialCard";
 export default function Testimonials() {
   const languageContext = useContext(LanguageContext);
 
-  let { lead1, lead2, testimonials } = languageContext.testimonials.metadata;
+  let { title, lead1, lead2, testimonials } = languageContext.testimonials.metadata;
   let { projects } = languageContext.projects.metadata;
 
   return (
@@ -19,7 +19,7 @@ export default function Testimonials() {
       <div className={"grid_sym_six"}>
 
         <div className={"narrative"}>
-          <h2>Testimonials</h2>
+          <h2>{title}</h2>
 
           <p id={"lead1"}>{lead1}</p>
           <p id={"lead2"}>{lead2}</p>

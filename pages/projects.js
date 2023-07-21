@@ -7,7 +7,7 @@ import ProjectCard from '../components/projectCard';
 export default function Projects() {
   const languageContext = useContext(LanguageContext);
 
-  let { lead1, lead2, projects } = languageContext.projects.metadata;
+  let { title, lead1, lead2, projects } = languageContext.projects.metadata;
 
   return (
     <div className={"page"}>
@@ -18,7 +18,7 @@ export default function Projects() {
       <div className={"grid_sym_six"}>
 
         <div className={"narrative"}>
-          <h2>Recent Projects</h2>
+          <h2>{title}</h2>
 
           <p id={"lead1"}>{lead1}</p>
           <p id={"lead2"}>{lead2}</p>
