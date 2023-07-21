@@ -1,14 +1,12 @@
 ---
-title: Testimonials
+title: Zeugnisse
 lead1: >
-  It's good to get feedback on the work you've done and some of the people I've worked for and with
-  have been kind enough to provide me with testimonials, a selection of which are shown here. There are
-  others on LinkedIn.
+  Feedback von Kunden und Mitarbeitern ist wertvoll, und manche sind so freundlich gewesen, Zeugnisse
+  zu schreiben, darunter diese Auswahl in Originalsprache. Anderen finden Sie auf LinkedIn.
 lead2: >
-  As a contractor you don't always get to see how easy your code is to maintain in the longer term.
-  I try to keep in touch with former colleagues and managers to ask about this, as it's
-  important to keep improving your work. I know that First Direct is still using code I wrote 20 years ago,
-  so that's encouraging! 
+  Als Contractor ist man oft nicht zu der Zeitpunkt dabei, wo sein Code gepflegt, ändert oder erweitert werden muss. 
+  Ich versuche mit vorherigen Kollegen in Kontakt zu bleiben, damit ich von möglichen Problemen höre, was für die
+  Verbesserung seine Fähigkeiten wichtig ist. Ich weiẞ zum Beispiel, dass First Direct meinen Code von 20 Jahren her noch in Betrieb hat, was für mich ermutigend ist.
 testimonials:
     - from: IT Development Director
       quote: |

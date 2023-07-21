@@ -4,7 +4,7 @@ lead1: >
   Seitdem ich mit React angefangen habe, arbeite ich lieber mit dem Front End.
 
 lead2: >
-  Ich bin aber bei der Entwicklung schon lange beteiligt. Seit 2000 beschäftige ich mich schwerpunktmäẞig mit Web Applikationen. Mein Hintergrund is Full Stack. Die Vielfalt der damit verbundenen Sprachen und Techniken, und ihre koninuierende Weiterentwicklung hält mein Interesse wach, und weckt bei mir immer Neugier. Neue Techniken ermöglichen auch bessere Lösungen für die Benutzer meiner Software.
+  Ich bin aber bei der Entwicklung schon lange beteiligt. Seit 2000 beschäftige ich mich schwerpunktmäẞig mit Web Applikationen. Mein Hintergrund is Full Stack. Die Vielfalt der damit verbundenen Sprachen und Techniken, und ihre kontinuierende Weiterentwicklung hält mein Interesse wach, und weckt bei mir immer Neugier. Neue Techniken ermöglichen auch bessere Lösungen für die Benutzer meiner Software.
 frontEnd:
   description: >
     Ich fing mit der Web Entwicklung 2000 an. Seitdem ich AJAX entdeckt habe, handelt es sich hauptsächlich um SPAs.
