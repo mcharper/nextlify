@@ -20,7 +20,7 @@ frontEnd:
     - name: CSS 3
 backEnd:
   description: |
-    Meine Einführung in der Welt der Web Entwicklung fing mit Klassische ASP an, dannach mit ASP.Net Core mit C#. Meine Erfahrung mit SQL Server reicht bis zu 2000 zurück. Ich habe aber auch mit NoSQL Datenbanken wie MongoDB und RethinkDB gearbeitet. Als ORM habe ich vorwiegend Entity Framework angewandt aber auch gelegentlich NHibernate oder Dapper.
+    Meine Einführung in der Welt der Web Entwicklung fing mit Classic ASP an, dannach mit ASP.Net Core mit C#. Meine Erfahrung mit SQL Server reicht bis zu 2000 zurück. Ich habe aber auch mit NoSQL Datenbanken wie MongoDB und RethinkDB gearbeitet. Als ORM habe ich vorwiegend Entity Framework angewandt aber auch gelegentlich NHibernate oder Dapper.
   skills:
     - name: C#
     - name: ASP.Net Core

@@ -26,6 +26,8 @@ config.autoAddCss = false
 export default function MyApp({ Component, pageProps }) {
     const [language, setLanguage] = useState("en-GB");
 
+    const toggleLanguage = () => setLanguage(language === 'en-GB' ? 'de-DE' : 'en-GB');
+
     const contentModel = {
         language: language,
         header: {
@@ -65,13 +67,7 @@ export default function MyApp({ Component, pageProps }) {
             </Head>
             <LanguageContext.Provider value={contentModel}>
                 <Layout>
-                    <select onChange={(event) => setLanguage(event.target.value)}>
-                        <option value="en-GB">English</option>
-                        <option value="de-DE">German</option>
-                    </select>
-
-                    <p>{language}</p>
-
+                    <button onClick={() => toggleLanguage()} style={{ width: '10em', height: '3em', opacity: 0.005, float: 'right' }}>&nbsp;</button>
                     <Component {...pageProps} />
                 </Layout>
             </LanguageContext.Provider>
