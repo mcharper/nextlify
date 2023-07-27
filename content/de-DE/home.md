@@ -6,10 +6,10 @@ leadParagraphs:
       Ich bin ein vielseitiger Full Stack Entwickler mit umfangreicher beruflichen Erfahrung, der zurzeit sich mit React und TypeScript beschäftigt.
   - header: Über diese Website
     body: >
-      Diese Website sorgt mir eine Gelegenheit, mehr Kontext zu vermitteln, als im traditionellen Lebenslauf möglich ist. Vielleicht der Anfang eines produktiven Austausches?
+      Diese Website bietet mir die Gelegenheit, mehr Kontext zu vermitteln, als im traditionellen Lebenslauf möglich ist. Vielleicht der Anfang eines produktiven Austausches?
   - header: Dienstleistungsangebot
     body: >
-      Ich bleibe Entwickler weil es mir gefällt, ganz einfach! Besonders am Frontend, aber auch Analyse, Konzeption, das Wählen von passenden Techniken, Besprechungsleitung, Präsentation, Demos vorführen, Mentoring ...
+      Ich bin Entwickler weil es mir gefällt, ganz einfach! Besonders am Frontend, aber auch Analyse, Konzeption, das Wählen von passenden Techniken, Besprechungsleitung, Präsentation, Demos vorführen, Mentoring ...
 showcasedProjectCodeName: zest_abc
 showcasedTestimonialClientName: fmg
 status:

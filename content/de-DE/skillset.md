@@ -40,7 +40,7 @@ tools:
     - name: Octopus
 process:
   description: |
-    Ich bin daran gewöhnt, agil zu arbeiten, mal Scrum, mal Kanban. Bis zu meiner Ankunft in ein Projektteam hat 
+    Ich bin daran gewöhnt, agil zu arbeiten, mal Scrum, mal Kanban. Bis zu meiner Ankunft in einem Projektteam hat 
     der Kunde normalerweise die Methode und Werkzeuge des Projektmanagements schon festgelegt. Aus dem Grund sind
     mir mehrere bekannt. Ich habe TFS / Azure DevOps ab und zu seit 2012 benutzt, Jira mehrmals seit 2014, Shortcut,
     Target Process, sogar Trello.
@@ -53,7 +53,7 @@ process:
     - name: Azure DevOps
 soft:
   description: |
-    Mir wird gesagt, dass meine Teamfähigkeit hochgeschätzt wird, und dass ich dazu einen positiven Betrag bringe, der die Arbeit des Teams ergänzen. Wenn ich überhaupt Anregungen gebe, sind sie konstruktiv formuliert. Ich bin pragmatisch. Mitarbeit, Paarprogrammierung, Mentoring, Presentätion und (vielleicht auẞergewöhnlich) Dokumentation gefallen mir. Ich habe oft in multinationalen Teams gearbeitet, eine solche Umgebung gefällt mir auch.  
+    Mir wird gesagt, dass meine Teamfähigkeit hochgeschätzt wird, und dass ich dazu einen positiven Beitrag bringe, der die Arbeit des Teams ergänzen. Wenn ich mal Anregungen gebe, sind sie konstruktiv formuliert. Ich bin pragmatisch. Mitarbeit, Paarprogrammierung, Mentoring, Presentätion und (vielleicht auẞergewöhnlich) Dokumentation gefallen mir. Ich habe oft in multinationalen Teams gearbeitet, eine solche Umgebung gefällt mir auch.  
   skills:
     - name: Mitarbeit
     - name: Präsentation
