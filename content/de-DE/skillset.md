@@ -1,16 +1,12 @@
 ---
 title: Kompetenzen
 lead1: >
-  Seitdem ich mit React angefangen habe, arbeite ich lieber mit dem Front End.
-
+  Seit ich angefangen habe, mit React zu arbeiten, habe ich festgestellt, dass ich Frontend‑Arbeit bevorzuge.
 lead2: >
-  Ich bin aber bei der Entwicklung schon lange beteiligt. Seit 2000 beschäftige ich mich schwerpunktmäẞig mit Web Applikationen. Mein Hintergrund is Full Stack. Die Vielfalt der damit verbundenen Sprachen und Techniken, und ihre kontinuierende Weiterentwicklung hält mein Interesse wach, und weckt bei mir immer Neugier. Neue Techniken ermöglichen auch bessere Lösungen für die Benutzer meiner Software.
+  Schon lange bin ich als Entwickler tätig. Seit 2000 beschäftige ich mich schwerpunktmäẞig mit Webapplikationen, wobei mein Hintergrund Full‑Stack-Entwicklungen sind.  Die Vielfalt der damit verbundenen Programmiersprachen und Technologien sowie deren kontinuierliche Weiterentwicklung reizen mich immer wieder aufs Neue. Darüber hinaus ermöglichen neuen Technologien auch bessere Lösungen für die Anwender meiner Software.
 frontEnd:
   description: >
-    Ich fing mit der Web Entwicklung 2000 an. Seitdem ich AJAX entdeckt habe, handelt es sich hauptsächlich um SPAs.
-    Nachher JQuery, Ext.JS, Durandl, AngularJS, und jetzt React, mein Lieblingsframework (strenggenommen kein Framework sondern eine Programmbibliothek!). Ich probiere im Moment auch NextJS, worauf diese Website läuft.
-    Svelte hat neulich auch mein Interesse erregt. Seit 2019 programmiere ich überwiegend mit TypeScript, 
-    was mir sehr gefällt.
+    Ich habe im Jahr 2000 begonnen, Webanwendungen zu programmieren. Seit ich AJAX entdeckt habe, verwende ich JavaScript, um SPAs zu entwickeln. Seitdem habe ich auch JQuery, Ext JS, Durandal, AngularJS und nun auch React angewendet, wobei React mein bevorzugtes Framework ist. Seit 2019 programmiere ich überwiegend mit TypeScript. Seit Kurzem interessiere ich mich auch für Svelte. Derzeit probiere ich NextJS aus, auf dem diese Website basiert. 
   skills:
     - name: ReactJS
     - name: TypeScript
@@ -20,7 +16,7 @@ frontEnd:
     - name: CSS 3
 backEnd:
   description: |
-    Meine Einführung in der Welt der Web Entwicklung fing mit Classic ASP an, dannach mit ASP.Net Core mit C#. Meine Erfahrung mit SQL Server reicht bis zu 2000 zurück. Ich habe aber auch mit NoSQL Datenbanken wie MongoDB und RethinkDB gearbeitet. Als ORM habe ich vorwiegend Entity Framework angewandt aber auch gelegentlich NHibernate oder Dapper.
+    Meine ersten Programmiererfahrungen für das Internet sammelte ich mit Classic ASP, anschließend mit ASP.Net Core mit C#. Schon seit 2000 verwende ich SQL Server, aber ich habe auch mit NoSQL‑Datenbanken wie MongoDB und RethinkDB (Echtzeit‑Datenbank) gearbeitet. Als ORM habe ich vorwiegend Entity Framework verwendet, gelegentlich auch NHibernate und Dapper.
   skills:
     - name: C#
     - name: ASP.Net Core
@@ -40,10 +36,7 @@ tools:
     - name: Octopus
 process:
   description: |
-    Ich bin daran gewöhnt, agil zu arbeiten, mal Scrum, mal Kanban. Bis zu meiner Ankunft in einem Projektteam hat 
-    der Kunde normalerweise die Methode und Werkzeuge des Projektmanagements schon festgelegt. Aus dem Grund sind
-    mir mehrere bekannt. Ich habe TFS / Azure DevOps ab und zu seit 2012 benutzt, Jira mehrmals seit 2014, Shortcut,
-    Target Process, sogar Trello.
+    Ich bin es gewohnt, in einem agilen Umfeld zu arbeiten. Wenn ich in ein Projekt einsteige, hat der Kunde oftmals schon eine Software zum Projektmanagement ausgewählt. Ich bin sowohl mit Scrum als auch Kanban vertraut. Schon seit 2012 verwende ich immer mal wieder Azure DevOps (vormals TFS), und seit 2014 hin und wieder auch Jira. Ich habe auch Shortcut, Target Process und sogar Trello auch zu diesem Zweck benutzt.
   skills:
     - name: Agil
     - name: TDD
@@ -53,11 +46,11 @@ process:
     - name: Azure DevOps
 soft:
   description: |
-    Mir wird gesagt, dass meine Teamfähigkeit hochgeschätzt wird, und dass ich dazu einen positiven Beitrag bringe, der die Arbeit des Teams ergänzen. Wenn ich mal Anregungen gebe, sind sie konstruktiv formuliert. Ich bin pragmatisch. Mitarbeit, Paarprogrammierung, Mentoring, Presentätion und (vielleicht auẞergewöhnlich) Dokumentation gefallen mir. Ich habe oft in multinationalen Teams gearbeitet, eine solche Umgebung gefällt mir auch.  
+    Meine Kunden schätzen an mir, dass ich mich gut in ein Team einfügen und dort einen positiven Beitrag leisten kann, der die Arbeit ihres Teams ergänzt. Wenn ich Verbesserungen vorschlage, dann auf eine konstruktive Weise. Ich bin pragmatisch und genieße es, mit anderen zusammenzuarbeiten: Paarprogrammierung, Mentoring, Presentätionen und Dokumentation gehören zu meinen Stärken. Gerne und häufig habe ich schon in internationalen Teams gearbeitet.  
   skills:
     - name: Mitarbeit
-    - name: Präsentation
-    - name: Kommunication
+    - name: Präsentationen
+    - name: Kommunikation
     - name: Mentoring
     - name: Englisch
     - name: Deutsch
