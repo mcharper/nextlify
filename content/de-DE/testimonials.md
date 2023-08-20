@@ -1,11 +1,9 @@
 ---
-title: Zeugnisse
+title: Referenzen
 lead1: >
-  Feedback von Kunden und Mitarbeitern ist wertvoll, und manche sind so freundlich gewesen, Zeugnisse
-  zu schreiben, darunter diese Auslese in Originalsprache. Eine breitere Auswahl finden Sie auf LinkedIn.
+  Das Feedback von Kunden, Mitarbeitern und Kollegen ist mir wichtig, denn es bezeugt meine Kompetenzen und gewährt Einblicke in meine Projekte. Nachfolgend finden Sie eine Auswahl in Originalsprache. Weitere Referenzen finden Sie auf meinem LinkedIn‑Profil.
 lead2: >
-  Als Contractor ist man oft nicht zu dem Zeitpunkt dabei, wo sein Code gepflegt, geändert oder erweitert wird. 
-  Ich versuche mit vorherigen Kollegen in Kontakt zu bleiben, damit ich weiẞ, wie meine Software ihre Aufgabe auf Dauer verrichtet, was für die Verbesserung meine Fähigkeiten wichtig ist. Ich weiẞ zum Beispiel, dass bei First Direct mein über 20 Jahre alter Code noch immer verwendet wird, was für mich ermutigend ist!
+  Als Entwickler auf Vertragsbasis bekommt man oft nicht mit, ob der erstellte Code langfristig einfach zu pflegen ist. Darum bleibe ich mit ehemaligen Kollegen und Vorgesetzten in Kontakt und bitte um Rückmeldung. So profitieren meine Kunden und auch ich kann meine Arbeit kontinuierlich verbessern. Beispielsweise verwendet einer meiner frühesten Kunden, die Bank First Direct, auch nach mehr als 20 Jahren weiterhin einen Code von mir! Lassen auch Sie sich langfristig von meinen Kompetenzen überzeugen. 
 testimonials:
     - from: IT Development Director
       quote: |

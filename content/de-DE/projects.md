@@ -1,11 +1,10 @@
 ---
 title: Projekte
 lead1: |
-  Hier finden Sie eine Auswahl von den Projekten, mit denen ich mich in den letzten paar Jahren beschäftigt habe.
-  Ich arbeite üblicherweise mit Webapplikationen für betriebsinterne Nutzung, seltener mit öffentlich zugänglichen Websites.
+  Hier finden Sie einige Projekte, an denen ich in den letzten Jahren gearbeitet habe.
+  Ich arbeite vorzugsweise mit Webapplikationen für innerbetriebliche Nutzung, seltener mit öffentlich zugänglichen Websites.
 lead2: |
-  Weitere Einzelheiten meiner vorhergehende Erfahrung finden Sie in meinem LinkedIn Profil. Ich kann auch einen
-  detaillierten Lebenslauf bei Bedarf in PDF Format mitteilen. Sie erreichen mich am besten über LinkedIn.
+  Weitere Einzelheiten über meine vormaligen Projekte finden Sie auf meinem LinkedIn‑Profil. Bei Bedarf lasse ich Ihnen gerne einen detaillierten Lebenslauf im PDF‑Format zukommen. Sie erreichen mich entweder über LinkedIn oder per E‑Mail (mike[at]mcharper.com).
 projects:
   - codeName: zest_abc
     name: Entwicklung einer Webapplikation
@@ -18,7 +17,7 @@ projects:
     contractType: C
     based: R
     synopsis: >
-      Eine leitende Position, um die Konzeption und Entwicklung einer Web Applikation anzuschieben. Das System sorgt für die Verwaltung von Kunden mit Electrofahrzeugen, die das Netzwerk von Ladestellen benutzen, und wurde mit React, TypeScript, OpenAPI, AWS und Azure Dev Ops realisiert.
+      Leitung der Konzeption und Entwicklung einer Webapplikation für die Verwaltung von Daten aus Elektrofahrzeugen. Das Projekt wurde mit React, TypeScript, OpenAPI, AWS und Azure DevOps realisiert.
     duration: 2
     renewals: 0
     skills:
@@ -40,8 +39,7 @@ projects:
     contractType: C
     based: R
     synopsis: >
-      Frontend Mitarbeit mit React und TypeScript, bei der Entwicklung eines Systems für Anleiheemission, das 
-      auf eine Grundlage von Digital Ledger Technology gebaut ist. 
+      Frontend‑Position mit React und TypeScript für die Entwicklung eines Systems für Anleiheemission.
     skills:
       - React
       - Material Design
@@ -49,7 +47,7 @@ projects:
       - JSS
       - Linux
   - codeName: jlr_icreate
-    name: System zur Verwaltung Konstruktionsdaten
+    name: Konstruktionsdatenverwaltungssystem
     organisation: Jaguar Land Rover
     sector: Automotive
     city: Manchester
@@ -61,7 +59,7 @@ projects:
     contractType: C
     based: R
     synopsis: >
-      Anfang 2021 wurde ich von dieser renommierten Firma in einer Frontend Rolle mit React beauftragt. Das Projekt war ein existierendes System für das Verwalten von Konstruktionsdaten. Ich war Mitglied des Teams, das das System erweiteren sollte. Wir haben React mit Hooks in funktionalen Stil angewandt, mit TypeScript und JavaScript. Wir haben zum Testen des Systems React Testing Library und Cypress eingesetzt.
+      Anfang 2021 wurde ich von diesem renommierten Unternehmen in einer React‑Frontend‑Position eingestellt beauftragt, um als Teil eines Teams ein bestehendes System zur Verwaltung von Konstruktionsdaten zu erweitern. Das Frontend wurde mit React mit Hooks in einem funktionalen Stil unter Einsatz von TypeScript und JavaScript erstellt und mittels React Testing Library und Cypress getestet.
     skills:
       - React
       - Material Design
@@ -70,7 +68,7 @@ projects:
       - Cypress
       - Linux
   - codeName: fmg_hetoa 
-    name: Highways England App
+    name: App für Highways England
     organisation: FMG Ltd
     city: Huddersfield
     based: R
@@ -81,7 +79,7 @@ projects:
     sector: Automotive
     contractType: F
     synopsis: >
-      Ein Vertrag von 6 Monaten (verlängert auf 9), indem ich und mein Kollege ein System ganz auf neu gebaut haben.  Das war eine Fahrzeugsverfolgungssystem für Highways England, ein wichtiger Kunde des Firmas. Das System besteht aus einem Frontend, das über ein Tablet lauft, was für Verkehrspolizist:innen gemeint war, und ein Portal für die Verkehrsleitzentrale, die aktuelle Unfälle auf einer Landkarte schildert. 
+      Ein Projekt mit 6‑monatiger Laufzeit, welches auf 9 Monate verlängert wurde. Mit einem Co‑Entwickler habe ich ein System zur Fahrzeugverfolgung von Grund auf entwickelt. Das System besteht einerseits aus einer Frontend‑Anwendung für Tablets, die durch Verkehrsbeamte im Straßenbereitschaftsdienst eingesetzt wird, andererseits aus einem Portal für die Verkehrsleitzentrale, welches Unfälle auf einer Landkarte in Echtzeit abbildet.
     duration: 9
     skills:
       - React
@@ -91,7 +89,7 @@ projects:
       - ASP.Net Core
       - RethinkDB
   - codeName: fmg_ftp
-    name: Finanztransformation
+    name: Webapplikation für Finanzprozesse
     organisation: FMG Ltd
     start: 2017-03-01
     end: 2019-06-30
@@ -101,7 +99,7 @@ projects:
     contractType: C
     based: S
     synopsis: >
-      Eine neue Webapplikation, die interne Finanzprozesse rationalisieren sollte, um Kosten und Umsatzverlust zu senken. Zu diesem Zweck benutzte ich AngularJS (und später Angular) mit JavaScript (später TypeScript). Ich habe das System durch eine API mit anderen betrieblichen Systemen integriert. Ich habe auch an diesen anderen Systemen gearbeitet, um die Produktion von Rechnungen zu optimieren.
+      Neuentwicklung einer Webapplikation zur Rationalisierung interner Finanzprozesse, um Kosten und Umsatzverluste zu senken. Zum Einsatz kamen AngularJS (und später Angular) mit JavaScript (später TypeScript). Das System wurde mit einer API in andere betriebliche Systeme integriert, an welchen ich ebenfalls zur Optimierung für das Erstellen von Rechnungen gearbeitet habe.
     duration: 26
     renewals: 6
     skills:

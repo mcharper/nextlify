@@ -3,18 +3,18 @@ title: Home
 leadParagraphs:
   - header: Zu meiner Person
     body: >
-      Ich bin ein vielseitiger Full Stack Entwickler mit umfangreicher beruflichen Erfahrung, der zurzeit sich mit React und TypeScript beschäftigt.
+      Ich bin ein vielseitiger Full‑Stack‑Entwickler mit umfangreicher beruflichen Erfahrung, und arbeite derzeit mit React und TypeScript.
   - header: Über diese Website
     body: >
-      Diese Website bietet mir die Gelegenheit, mehr Kontext zu vermitteln, als im traditionellen Lebenslauf möglich ist. Vielleicht der Anfang eines produktiven Austausches?
+      Diese Website bietet mir die Gelegenheit, Ihnen mehr über meine Tätigkeiten zu vermitteln, als es in einem traditionellen Lebenslauf möglich ist. Nehmen Sie gerne Kontakt mit mir auf.
   - header: Dienstleistungsangebot
     body: >
-      Ich bin Entwickler weil es mir gefällt, ganz einfach! Besonders am Frontend, aber auch Analyse, Konzeption, das Wählen von passenden Techniken, Besprechungsleitung, Präsentation, Demos vorführen, Mentoring ...
+      Ich bin Entwickler aus Leidenschaft. Derzeit fokussiere ich mich besonders auf den Bereich Frontend, aber auch das Analysieren und Konzeptionieren sowie die Auswahl geeigneter Technologien gehören zu meinen Schwerpunkten. Gerne übernehme ich das Mentoring von Kollegen, führe Präsentationen durch und Anwendung vor. Anhand meiner langjährigen Erfahrung stehe ich Ihnen auch gerne mit umfassender IT‑Kompetenz beratend zur Seite.
 showcasedProjectCodeName: zest_abc
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    Im Moment mache ich für einige Wochen Pause. Aber normalerweise umfasst meine Arbeit hauptsächlich React und TypeScript. Ich bleibe zur Zeit im Frontend Bereich, weil es mir gut gefällt.
+    Momentan mache ich für einige Wochen Pause. Schwerpunktmäßig befasse ich mich mit React und TypeScript und möchte mich auf den Frontend‑Bereich fokussieren.
   contractEndDate: 2023-06-06
   availabilityDate: 2023-07-01
   currentClient: N/A
@@ -32,16 +32,16 @@ status:
 
 ## Meine Rolle in ihrem Team
 
-Brauchen Sie einen gewissenhaften Entwickler, der vom Anfang Mehrwert bringen kann? Der sich leicht in Ihr Team anpassen kann? Bitte schauen Sie meine <a href="./testimonials">Zeugnisse</a> an!
+Sie benötigen einen gewissenhaften Entwickler, der Ihnen bzw. Ihrem Unternehmen schnell einen Mehrwert schaffen kann und sich leicht in Ihr Team einfügt? Lassen Sie sich durch meine <a href="./testimonials">Referenzen</a> überzeugen!
 
-Wenn dieser nicht genau der richtige Zeitpunkt ist, könnte Sie mir auf <a href="https://twitter.com/mcharper" target="blank">Twitter</a> folgen, wo ich ab und zu Nachrichten über meine Verfügbarkeit poste.
+Falls gerade nicht der richtige Zeitpunkt für eine Zusammenarbeit ist, folgen Sie mir auf <a href="https://twitter.com/mcharper" target="blank">Twitter</a>, wo ich über meine Verfügbarkeit poste.
 
 ## Meine Arbeitsmethode
 
-Ich arbeite als IT Contractor seit 25 Jahren. Die Vielfalt der Arbeit, und die Flexibilität gefallen mir. Ich arbeite normalerweise auf Basis eines Tagessatzes.
+Seit nunmehr 25 Jahren arbeite ich als IT‑Entwickler auf Vertragsbasis. Ich mag diese Arbeitsweise, denn sie ist sowohl abwechslungsreich als auch flexibel. In der Regel arbeite ich auf Basis eines Tagessatzes.
 
 ## Meine Heimat
 
-Mein Sitz ist im Huddersfield, West Yorkshire. Seit 2007 arbeite ich oft von zu Hause aus, seit März 2020 ausschließlich so.
+Ich lebe in Huddersfield, West Yorkshire (Großbritannien). Schon seit 2007 arbeite ich oft von zu Hause aus, und seit März 2020 ausschließlich aus dem Homeoffice.
 
-Sind Sie im deutschen Sprachraum ansässig? Ich kann auch fließend Deutsch (C2 - annähernd muttersprachliche Kenntnisse). Es würde mich freuen, ab und zu mal die Gelegenheit meine Sprachkenntnisse bei der Arbeit anzuwenden.
+Sie sind im deutschen Sprachraum ansässig? Ich kann auch fließend Deutsch (Goethe‑Zertifikat C2 - exzellente Kenntnisse). Es würde mich freuen, meine deutschen Sprachkenntnisse auch bei Ihren Projekten anzuwenden.
