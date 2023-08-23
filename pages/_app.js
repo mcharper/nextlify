@@ -52,7 +52,8 @@ export default function MyApp({ Component, pageProps }) {
         testimonials: {
             metadata: language === "en-GB" ? testimonialsMetadataEnGB : testimonialsMetadataDeDE,
             content: language === "en-GB" ? testimonialsContentEnGB : testimonialsContentDeDE
-        }
+        },
+        toggleLanguage: toggleLanguage
     }
 
     return (
@@ -66,8 +67,7 @@ export default function MyApp({ Component, pageProps }) {
                 <link rel="manifest" href="/site.webmanifest" />
             </Head>
             <LanguageContext.Provider value={contentModel}>
-                <Layout>
-                    <button onClick={() => toggleLanguage()} style={{ width: '10em', height: '3em', opacity: 0.005, float: 'right' }}>&nbsp;</button>
+                <Layout {...pageProps}>
                     <Component {...pageProps} />
                 </Layout>
             </LanguageContext.Provider>

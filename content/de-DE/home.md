@@ -9,12 +9,12 @@ leadParagraphs:
       Diese Website bietet mir die Gelegenheit, Ihnen mehr über meine Tätigkeiten zu vermitteln, als es in einem traditionellen Lebenslauf möglich ist. Nehmen Sie gerne Kontakt mit mir auf.
   - header: Dienstleistungsangebot
     body: >
-      Ich bin Entwickler aus Leidenschaft. Derzeit fokussiere ich mich besonders auf den Bereich Frontend, aber auch das Analysieren und Konzeptionieren sowie die Auswahl geeigneter Technologien gehören zu meinen Schwerpunkten. Gerne übernehme ich das Mentoring von Kollegen, führe Präsentationen durch und Anwendung vor. Anhand meiner langjährigen Erfahrung stehe ich Ihnen auch gerne mit umfassender IT‑Kompetenz beratend zur Seite.
+      Ich bin Entwickler aus Leidenschaft. Derzeit fokussiere ich mich besonders auf den Bereich Frontend, aber auch das Analysieren und Konzeptionieren sowie die Auswahl geeigneter Technologien gehören zu meinen Schwerpunkten. Gerne übernehme ich das Mentoring von Kollegen. 
 showcasedProjectCodeName: zest_abc
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    Momentan mache ich für einige Wochen Pause. Schwerpunktmäßig befasse ich mich mit React und TypeScript und möchte mich auf den Frontend‑Bereich fokussieren.
+    Momentan mache ich für einige Wochen Pause. Schwerpunktmäßig befasse ich mich mit React und TypeScript und möchte mich auf den Frontend‑Bereich fokussieren. Anhand meiner langjährigen Erfahrung stehe ich Ihnen auch gerne mit umfassender IT‑Kompetenz beratend zur Seite.
   contractEndDate: 2023-06-06
   availabilityDate: 2023-07-01
   currentClient: N/A

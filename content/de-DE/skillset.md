@@ -3,7 +3,7 @@ title: Kompetenzen
 lead1: >
   Seit ich angefangen habe, mit React zu arbeiten, habe ich festgestellt, dass ich Frontend‑Arbeit bevorzuge.
 lead2: >
-  Schon lange bin ich als Entwickler tätig. Seit 2000 beschäftige ich mich schwerpunktmäẞig mit Webapplikationen, wobei mein Hintergrund Full‑Stack-Entwicklungen sind.  Die Vielfalt der damit verbundenen Programmiersprachen und Technologien sowie deren kontinuierliche Weiterentwicklung reizen mich immer wieder aufs Neue. Darüber hinaus ermöglichen neuen Technologien auch bessere Lösungen für die Anwender meiner Software.
+  Schon lange bin ich als Entwickler tätig. Seit 2000 beschäftige ich mich schwerpunktmäßig mit Webapplikationen, wobei mein Hintergrund Full‑Stack-Entwicklungen sind.  Die Vielfalt der damit verbundenen Programmiersprachen und Technologien sowie deren kontinuierliche Weiterentwicklung reizen mich immer wieder aufs Neue. Darüber hinaus ermöglichen neuen Technologien auch bessere Lösungen für die Anwender meiner Software.
 frontEnd:
   description: >
     Ich habe im Jahr 2000 begonnen, Webanwendungen zu programmieren. Seit ich AJAX entdeckt habe, verwende ich JavaScript, um SPAs zu entwickeln. Seitdem habe ich auch JQuery, Ext JS, Durandal, AngularJS und nun auch React angewendet, wobei React mein bevorzugtes Framework ist. Seit 2019 programmiere ich überwiegend mit TypeScript. Seit Kurzem interessiere ich mich auch für Svelte. Derzeit probiere ich NextJS aus, auf dem diese Website basiert. 

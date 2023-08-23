@@ -1,5 +1,5 @@
-import Link from 'next/link'; 
-import { faGithub, faLinkedinIn, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";
+import Link from 'next/link';
+import { faGithub, faLinkedinIn, faXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import styles from './footer.module.css';
@@ -26,7 +26,7 @@ export default function Footer() {
         <li>
           <Link passHref={true} href="https://twitter.com/mcharper">
             <a target="_blank" >
-              <FontAwesomeIcon icon={faTwitterSquare} />
+              <FontAwesomeIcon icon={faXTwitter} />
               <span className={styles.linkText}>Twitter</span>
             </a>
           </Link>

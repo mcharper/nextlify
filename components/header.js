@@ -61,6 +61,9 @@ export default function Header() {
                 </Link>
               </li>
             ))}
+            <li role="button" onClick={() => languageContext.toggleLanguage()} style={{ fontWeight: "bold", textTransform: "uppercase", cursor: "pointer", color: "darkgray" }}>
+              {languageContext.language === "en-GB" ? "Deutsch" : "English"}
+            </li>
           </ul>
         </div>
       }
@@ -70,6 +73,7 @@ export default function Header() {
           <img id={styles.largeLogo} src="/img/logo.png" alt="Large McHarper logo" />
         </Link>
       }
+
     </header>
   )
 }

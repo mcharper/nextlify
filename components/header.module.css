@@ -86,6 +86,10 @@
     text-decoration: none;
 }
 
+#languageSelector {
+    float: right
+}
+
 @media (min-width: 70em) {
     #root {
         align-items: flex-end;
