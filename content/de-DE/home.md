@@ -14,9 +14,9 @@ showcasedProjectCodeName: zest_abc
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    Momentan mache ich für einige Wochen Pause. Schwerpunktmäßig befasse ich mich mit React und TypeScript und möchte mich auf den Frontend‑Bereich fokussieren. Anhand meiner langjährigen Erfahrung stehe ich Ihnen auch gerne mit umfassender IT‑Kompetenz beratend zur Seite.
-  contractEndDate: 2023-06-06
-  availabilityDate: 2023-07-01
+    Schwerpunktmäßig befasse ich mich mit React und TypeScript und möchte mich auf den Frontend‑Bereich fokussieren. Anhand meiner langjährigen Erfahrung stehe ich Ihnen auch gerne mit umfassender IT‑Kompetenz beratend zur Seite.
+  contractEndDate: 2023-12-22
+  availabilityDate: 2024-01-04
   currentClient: N/A
   preferredStackType: frontEnd
   preferredSkills:
