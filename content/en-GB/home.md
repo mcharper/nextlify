@@ -15,9 +15,9 @@ showcasedProjectCodeName: zest_abc
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    I'm taking a break for a few weeks at the moment. But when I am working nowadays it's mainly with React and TypeScript. I'm sticking with front-end focused work for now as I really enjoy it.
-  contractEndDate: 2023-06-06
-  availabilityDate: 2023-07-01
+    I work nowadays mainly with React and TypeScript. I'm sticking with front-end focused work for now as I really enjoy it.
+  contractEndDate: 2023-12-22
+  availabilityDate: 2024-01-04
   currentClient: N/A
   preferredStackType: frontEnd
   preferredSkills:
