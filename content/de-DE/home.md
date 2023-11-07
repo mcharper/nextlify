@@ -10,7 +10,7 @@ leadParagraphs:
   - header: Dienstleistungsangebot
     body: >
       Ich bin Entwickler aus Leidenschaft. Derzeit fokussiere ich mich besonders auf den Bereich Frontend, aber auch das Analysieren und Konzeptionieren sowie die Auswahl geeigneter Technologien gehören zu meinen Schwerpunkten. Gerne übernehme ich das Mentoring von Kollegen. 
-showcasedProjectCodeName: zest_abc
+showcasedProjectCodeName: hex_apq
 showcasedTestimonialClientName: fmg
 status:
   description: >
