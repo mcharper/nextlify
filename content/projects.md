@@ -8,6 +8,25 @@ lead2: |
   You can find about my experience further back on my LinkedIn profile. I can also supply a
   comprehensive CV in PDF format if required. The best way to contact me for this is via LinkedIn.
 projects:
+  - codeName: hex_apq
+    name: Web Application Development
+    organisation: Hexcel Composites Ltd
+    start: 2023-09-25
+    end: 2023-12-22
+    stackType: Full Stack
+    sector: Manufacturing
+    city: Duxford
+    contractType: C
+    based: R
+    synopsis: >
+      Working with React, TypeScript, C# and ASP.Net Core to enhance an existing application used by project managers.
+    duration: 3
+    renewals: 0
+    skills:
+      - React
+      - TypeScript
+      - C#
+      - ASP.Net
   - codeName: zest_abc
     name: Web Application Development
     organisation: Zest Eco Ltd
