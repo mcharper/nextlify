@@ -1,7 +1,7 @@
 ---
 title: Skillset
 lead1: >
-  Since starting to use React I've found I really enjoy working at the front end and I am focused on that for the time being.
+  Since starting to use React I've found myself working increasingly at the front end, though currently I'm also working with C# and ASP.Net again.
 
 lead2: >
   I've had a long career in development though. Since 2000 I've focused on web applications. My background is full stack.
