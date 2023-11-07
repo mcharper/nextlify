@@ -7,7 +7,7 @@ lead2: |
   Weitere Einzelheiten über meine vormaligen Projekte finden Sie auf meinem LinkedIn‑Profil. Bei Bedarf lasse ich Ihnen gerne einen detaillierten Lebenslauf im PDF‑Format zukommen. Sie erreichen mich entweder über LinkedIn oder per E‑Mail (mike[at]mcharper.com).
 projects:
   - codeName: hex_apq
-    name: Erweiterungen für eine Webapplikation
+    name: Erweiterung einer Webapplikation
     organisation: Hexcel Composites Ltd
     start: 2023-09-25
     end: 2023-12-22
