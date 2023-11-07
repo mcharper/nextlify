@@ -15,7 +15,7 @@ showcasedProjectCodeName: zest_abc
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    I work nowadays mainly with React and TypeScript. I'm sticking with front-end focused work for now as I really enjoy it.
+    I work as a full-stack developer, though nowadays I lean towards React and TypeScript, because I enjoy using them.
   contractEndDate: 2023-12-22
   availabilityDate: 2024-01-04
   currentClient: N/A
@@ -24,11 +24,12 @@ status:
     - React
     - TypeScript
     - JavaScript
+    - C#
   skills:
     - React
     - TypeScript
-    - Redux
-    - CSS
+    - C#
+    - ASP.Net
 ---
 
 ## Why should I hire you?
