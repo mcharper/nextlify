@@ -1,7 +1,7 @@
 ---
 title: Kompetenzen
 lead1: >
-  Seit ich angefangen habe, mit React zu arbeiten, habe ich festgestellt, dass ich Frontend‑Arbeit bevorzuge.
+  Seit ich angefangen habe, mit React zu arbeiten, mache ich zunehmend Frontend‑Arbeit, obwohl ich zur Zeit auch mit C# und ASP.Net Core arbeite.
 lead2: >
   Schon lange bin ich als Entwickler tätig. Seit 2000 beschäftige ich mich schwerpunktmäßig mit Webapplikationen, wobei mein Hintergrund Full‑Stack-Entwicklungen sind.  Die Vielfalt der damit verbundenen Programmiersprachen und Technologien sowie deren kontinuierliche Weiterentwicklung reizen mich immer wieder aufs Neue. Darüber hinaus ermöglichen neuen Technologien auch bessere Lösungen für die Anwender meiner Software.
 frontEnd:
