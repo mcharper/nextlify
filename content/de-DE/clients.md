@@ -1,6 +1,8 @@
 ---
 title: Clients
 clients:
+  - codeName: hex
+    organisation: Hexcel Composites Ltd
   - codeName: zest
     organisation: Zest Eco Ltd
   - codeName: agr
