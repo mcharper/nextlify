@@ -27,7 +27,7 @@ export default function Footer() {
           <Link passHref={true} href="https://twitter.com/mcharper">
             <a target="_blank" >
               <FontAwesomeIcon icon={faXTwitter} />
-              <span className={styles.linkText}>Twitter</span>
+              <span className={styles.linkText}>X</span>
             </a>
           </Link>
         </li>
