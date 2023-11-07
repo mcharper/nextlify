@@ -35,7 +35,7 @@ status:
 
 Sie benötigen einen gewissenhaften Entwickler, der Ihnen bzw. Ihrem Unternehmen schnell einen Mehrwert schaffen kann und sich leicht in Ihr Team einfügt? Lassen Sie sich durch meine <a href="./testimonials">Referenzen</a> überzeugen!
 
-Falls gerade nicht der richtige Zeitpunkt für eine Zusammenarbeit ist, folgen Sie mir auf <a href="https://twitter.com/mcharper" target="blank">Twitter</a>, wo ich über meine Verfügbarkeit poste.
+Falls gerade nicht der richtige Zeitpunkt für eine Zusammenarbeit ist, folgen Sie mir auf <a href="https://twitter.com/mcharper" target="blank">X</a>, wo ich über meine Verfügbarkeit poste.
 
 ## Meine Arbeitsmethode
 
