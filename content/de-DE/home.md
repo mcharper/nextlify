@@ -3,7 +3,7 @@ title: Home
 leadParagraphs:
   - header: Zu meiner Person
     body: >
-      Ich bin ein vielseitiger Full‑Stack‑Entwickler mit umfangreicher beruflichen Erfahrung, und arbeite derzeit mit React und TypeScript.
+      Ich bin ein vielseitiger Full‑Stack‑Entwickler mit umfangreicher beruflichen Erfahrung, und arbeite derzeit mit React, TypeScript, C# und ASP.Net Core.
   - header: Über diese Website
     body: >
       Diese Website bietet mir die Gelegenheit, Ihnen mehr über meine Tätigkeiten zu vermitteln, als es in einem traditionellen Lebenslauf möglich ist. Nehmen Sie gerne Kontakt mit mir auf.
@@ -14,7 +14,7 @@ showcasedProjectCodeName: zest_abc
 showcasedTestimonialClientName: fmg
 status:
   description: >
-    Schwerpunktmäßig befasse ich mich mit React und TypeScript und möchte mich auf den Frontend‑Bereich fokussieren. Anhand meiner langjährigen Erfahrung stehe ich Ihnen auch gerne mit umfassender IT‑Kompetenz beratend zur Seite.
+    Ich bin von der Erfahrung her Voll-Stack Entwickler, aber ich befasse mich zunehmend mit React und TypeScript. Anhand meiner langjährigen Erfahrung stehe ich Ihnen auch gerne mit umfassender IT‑Kompetenz beratend zur Seite.
   contractEndDate: 2023-12-22
   availabilityDate: 2024-01-04
   currentClient: N/A
@@ -23,11 +23,12 @@ status:
     - React
     - TypeScript
     - JavaScript
+    - C# 
   skills:
     - React
     - TypeScript
-    - Redux
-    - CSS
+    - C#
+    - ASP.Net
 ---
 
 ## Meine Rolle in ihrem Team
