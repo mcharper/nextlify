@@ -36,8 +36,6 @@ status:
 
 Do you need a conscientious dev who can add value quickly? Who can fit smoothly into your project team? You might want to look at my <a href="/testimonials">Testimonials</a>.
 
-If now isn’t the right time you could subscribe to my <a href="https://twitter.com/mcharper" target="blank">X</a> account for updates.
-
 ## Do you only do contract work?
 
 Yes. I've been a contractor for over 25 years. I like the variety and flexibility. Typically I work on a day rate basis.
