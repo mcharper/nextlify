@@ -35,8 +35,6 @@ status:
 
 Sie benötigen einen gewissenhaften Entwickler, der Ihnen bzw. Ihrem Unternehmen schnell einen Mehrwert schaffen kann und sich leicht in Ihr Team einfügt? Lassen Sie sich durch meine <a href="./testimonials">Referenzen</a> überzeugen!
 
-Falls gerade nicht der richtige Zeitpunkt für eine Zusammenarbeit ist, folgen Sie mir auf <a href="https://twitter.com/mcharper" target="blank">X</a>, wo ich über meine Verfügbarkeit poste.
-
 ## Meine Arbeitsmethode
 
 Seit nunmehr 25 Jahren arbeite ich als IT‑Entwickler auf Vertragsbasis. Ich mag diese Arbeitsweise, denn sie ist sowohl abwechslungsreich als auch flexibel. In der Regel arbeite ich auf Basis eines Tagessatzes.
