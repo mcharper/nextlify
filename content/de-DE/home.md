@@ -16,7 +16,7 @@ status:
   description: >
     Ich bin von der Erfahrung her Voll-Stack Entwickler, aber ich befasse mich zunehmend mit React und TypeScript. Anhand meiner langjährigen Erfahrung stehe ich Ihnen auch gerne mit umfassender IT‑Kompetenz beratend zur Seite.
   contractEndDate: 2023-12-22
-  availabilityDate: 2024-01-04
+  availabilityDate: 2024-01-15
   currentClient: N/A
   preferredStackType: frontEnd
   preferredSkills:
