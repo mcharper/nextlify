@@ -17,7 +17,7 @@ status:
   description: >
     I work as a full-stack developer, though nowadays I lean towards React and TypeScript, because I enjoy using them.
   contractEndDate: 2023-12-22
-  availabilityDate: 2024-01-04
+  availabilityDate: 2024-01-15
   currentClient: N/A
   preferredStackType: frontEnd
   preferredSkills:
