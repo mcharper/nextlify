@@ -16,7 +16,7 @@ export function ConsentBanner() {
       description: consentMessage,
       decline: { hidden: true },
       approve: { label: approve },
-      approveAll: { hidden: true }
+      approveAll: { label: approveAll }
     }
   };
 

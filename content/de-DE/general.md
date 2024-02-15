@@ -1,7 +1,7 @@
 ---
 analyticalPurpose: Analytik
 approve: Auswahl Speichern
-approveAll: Alle Annehmen
+approveAll: Annehmen
 consentDetails: Mehr Info
 consentMessage: Wir verwenden Cookies, um Ihnen die optimale Nutzung unserer Webseite zu ermöglichen. Es werden für den Betrieb der Seite notwendige Cookies gesetzt. Darüber hinaus können Sie Cookies für Statistikzwecke zulassen.
 consentModalTitle: Cookie-Einstellungen
