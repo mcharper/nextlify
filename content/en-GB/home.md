@@ -3,7 +3,7 @@ title: Home
 leadParagraphs:
   - header: Who are you?
     body: >
-      A versatile full-stack developer with extensive industry experience, currently working with React, TypeScript, C# and ASP.Net Core.
+      A versatile full-stack developer with extensive industry experience. Over time I've gravitated more to the front end, preferring React and TypeScript.
   - header: What's this?
     body: >
       A chance for me to elaborate on the traditional CV you might have in your hand, to add some colour and context.

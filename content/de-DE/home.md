@@ -3,7 +3,7 @@ title: Home
 leadParagraphs:
   - header: Zu meiner Person
     body: >
-      Ich bin ein vielseitiger Full-Stack-Entwickler mit umfangreicher beruflichen Erfahrung, und arbeite derzeit mit React, TypeScript, C# und ASP.Net Core.
+      Ich bin ein vielseitiger Full-Stack-Entwickler mit umfangreicher beruflichen Erfahrung. Heutzutage arbeite ich lieber mit dem Frontend und hauptsächlich mit React mit TypeScript.
   - header: Über diese Website
     body: >
       Diese Website bietet mir die Gelegenheit, Ihnen mehr über meine Tätigkeiten zu vermitteln, als es in einem traditionellen Lebenslauf möglich ist. Nehmen Sie gerne Kontakt mit mir auf.
