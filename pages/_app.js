@@ -1,11 +1,12 @@
 import Head from "next/head"
 import { useState } from "react"
-import '@fortawesome/fontawesome-svg-core/styles.css'
-import { config } from '@fortawesome/fontawesome-svg-core'
 
 import { LanguageContext } from '../LanguageContext'
 import Layout from '../components/layout'
+import { ConsentProvider } from '../contexts/consentProvider';
 
+import { attributes as generalMetadataEnGB } from '../content/en-GB/general.md'
+import { attributes as generalMetadataDeDE } from '../content/de-DE/general.md'
 import { attributes as headerMetadataEnGB, react as headerContentEnGB } from '../content/en-GB/header.md'
 import { attributes as headerMetadataDeDE, react as headerContentDeDE } from '../content/de-DE/header.md'
 import { attributes as homeMetadataEnGB, react as homeContentEnGB } from '../content/en-GB/home.md'
@@ -19,7 +20,10 @@ import { attributes as skillsetMetadataDeDE, react as skillsetContentDeDE } from
 import { attributes as testimonialsMetadataEnGB, react as testimonialsContentEnGB } from '../content/en-GB/testimonials.md';
 import { attributes as testimonialsMetadataDeDE, react as testimonialsContentDeDE } from '../content/de-DE/testimonials.md';
 
+import '@fortawesome/fontawesome-svg-core/styles.css'
+import { config } from '@fortawesome/fontawesome-svg-core'
 import '../styles.css'
+import 'react-hook-consent/dist/styles/style.css';
 
 config.autoAddCss = false
 
@@ -30,6 +34,9 @@ export default function MyApp({ Component, pageProps }) {
 
     const contentModel = {
         language: language,
+        general: {
+            metadata: language === "en-GB" ? generalMetadataEnGB : generalMetadataDeDE,
+        },
         header: {
             metadata: language === "en-GB" ? headerMetadataEnGB : headerMetadataDeDE
         },
@@ -54,7 +61,7 @@ export default function MyApp({ Component, pageProps }) {
             content: language === "en-GB" ? testimonialsContentEnGB : testimonialsContentDeDE
         },
         toggleLanguage: toggleLanguage
-    }
+    };
 
     return (
         <>
@@ -67,9 +74,11 @@ export default function MyApp({ Component, pageProps }) {
                 <link rel="manifest" href="/site.webmanifest" />
             </Head>
             <LanguageContext.Provider value={contentModel}>
-                <Layout {...pageProps}>
-                    <Component {...pageProps} />
-                </Layout>
+                <ConsentProvider>
+                    <Layout {...pageProps}>
+                        <Component {...pageProps} />
+                    </Layout>
+                </ConsentProvider>
             </LanguageContext.Provider>
         </>
     )
