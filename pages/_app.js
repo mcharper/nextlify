@@ -72,6 +72,18 @@ export default function MyApp({ Component, pageProps }) {
                 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
                 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
                 <link rel="manifest" href="/site.webmanifest" />
+
+                <script async src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`} />
+                <script dangerouslySetInnerHTML={{
+                    __html: `
+                    if(localStorage.getItem("react-hook-consent")?.indexOf("analyticalCookies") > -1) {
+                        window.dataLayer = window.dataLayer || [];
+                        function gtag(){dataLayer.push(arguments);}
+                        gtag('js', new Date());
+                        gtag('config', '${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}');
+                    };
+                    `,
+                }} />
             </Head>
             <LanguageContext.Provider value={contentModel}>
                 <ConsentProvider>
