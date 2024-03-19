@@ -5,7 +5,7 @@ leadParagraphs:
     body: >
       Ich bin ein vielseitiger Full-Stack-Entwickler mit
       einer großen Erfolgsgeschichte in der Privatwirtschaft, von Start-up-Unternehmen bis auf vertrauten Namen wie Jaguar Land Rover, Jet2, 
-      Highways England (via FMG), Capita, and First Direct, und auch umfangreicher internationalen Erfahrung.
+      Highways England (durch FMG), Capita, and First Direct, und auch umfangreicher internationalen Erfahrung.
   - header: Dienstleistungsangebot
     body: >
       Ich bin Entwickler aus Leidenschaft. Derzeit fokussiere ich mich besonders auf den Bereich Frontend. Meine Kommunikations- und Kooperations-kompetenzen helfen im Dialog mit Stakeholder, und wenn ich das Mentoring von Kollegen übernehme. 
