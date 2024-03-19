@@ -3,14 +3,10 @@ title: Home
 leadParagraphs:
   - header: Who are you?
     body: >
-      A versatile full-stack developer with extensive industry experience. Over time I've gravitated more to the front end, preferring React and TypeScript.
-  - header: What's this?
-    body: >
-      A chance for me to elaborate on the traditional CV you might have in your hand, to add some colour and context.
-      Maybe the start of a conversation?
+      I'm a versatile full-stack developer with a proven record of excellence in the private sector, from startups to household names such as Jaguar Land Rover, Jet2, Highways England (via FMG), Capita, and First Direct, as well as considerable international experience.
   - header: What do you do?
     body: >
-      Development because I enjoy it! Particularly front-end now. But also analysis, design, helping choose technologies, running meetings, presentations, demos, mentoring ...
+      Development because I enjoy it! Over time I've gravitated more to the front end, preferring React and TypeScript. My collaboration and communication skills also help when dealing with stakeholders and  mentoring others.
 showcasedProjectCodeName: hex_apq
 showcasedTestimonialClientName: fmg
 status:

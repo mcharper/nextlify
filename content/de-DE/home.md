@@ -3,13 +3,12 @@ title: Home
 leadParagraphs:
   - header: Zu meiner Person
     body: >
-      Ich bin ein vielseitiger Full-Stack-Entwickler mit umfangreicher beruflichen Erfahrung. Heutzutage arbeite ich lieber mit dem Frontend und hauptsächlich mit React mit TypeScript.
-  - header: Über diese Website
-    body: >
-      Diese Website bietet mir die Gelegenheit, Ihnen mehr über meine Tätigkeiten zu vermitteln, als es in einem traditionellen Lebenslauf möglich ist. Nehmen Sie gerne Kontakt mit mir auf.
+      Ich bin ein vielseitiger Full-Stack-Entwickler mit
+      einer großen Erfolgsgeschichte in der Privatwirtschaft, von Start-up-Unternehmen bis auf vertrauten Namen wie Jaguar Land Rover, Jet2, 
+      Highways England (via FMG), Capita, and First Direct, und auch umfangreicher internationalen Erfahrung.
   - header: Dienstleistungsangebot
     body: >
-      Ich bin Entwickler aus Leidenschaft. Derzeit fokussiere ich mich besonders auf den Bereich Frontend, aber auch das Analysieren und Konzeptionieren sowie die Auswahl geeigneter Technologien gehören zu meinen Schwerpunkten. Gerne übernehme ich das Mentoring von Kollegen. 
+      Ich bin Entwickler aus Leidenschaft. Derzeit fokussiere ich mich besonders auf den Bereich Frontend. Meine Kommunikations- und Kooperations-kompetenzen helfen im Dialog mit Stakeholder, und wenn ich das Mentoring von Kollegen übernehme. 
 showcasedProjectCodeName: hex_apq
 showcasedTestimonialClientName: fmg
 status:
