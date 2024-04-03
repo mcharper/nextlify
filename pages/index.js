@@ -22,7 +22,6 @@ export default function Home() {
   return (
     <div className={"page"}>
       <Head>
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
 
       <div className={"grid_focus_five"}>
